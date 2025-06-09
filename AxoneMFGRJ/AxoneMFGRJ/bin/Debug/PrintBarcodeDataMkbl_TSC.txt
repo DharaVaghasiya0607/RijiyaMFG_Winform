@@ -1,0 +1,210 @@
+<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm
+GAP 3.9 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>SET TEAR ON
+CLS
+CODEPAGE 1252
+TEXT 418,80,"3",180,1,1,"DC.39.1"
+BARCODE 324,75,"128M",49,0,180,3,6,"!105220100000011"
+TEXT 414,17,"2",180,1,1,"232"
+TEXT 73,17,"2",180,1,1,"1A"
+TEXT 414,49,"3",180,1,1,"1"
+TEXT 325,94,"2",180,1,1,"R-0.130-0.121"
+TEXT 73,94,"2",180,1,1,"25-11"
+TEXT 325,18,"2",180,1,1,"G-SI1-EX-N-40.000"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>
+<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm
+GAP 3.9 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>SET TEAR ON
+CLS
+CODEPAGE 1252
+TEXT 418,80,"3",180,1,1,"DC.39.1"
+BARCODE 324,75,"128M",49,0,180,3,6,"!105220200000003"
+TEXT 414,17,"2",180,1,1,"232"
+TEXT 73,17,"2",180,1,1,"2A"
+TEXT 414,49,"3",180,1,1,"2"
+TEXT 325,94,"2",180,1,1,"R-0.124-0.220"
+TEXT 73,94,"2",180,1,1,"25-11"
+TEXT 325,18,"2",180,1,1,"H-SI1-VG-N-37.000"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>
+<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm
+GAP 3.9 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>SET TEAR ON
+CLS
+CODEPAGE 1252
+TEXT 418,80,"3",180,1,1,"DC.39.1"
+BARCODE 324,75,"128M",49,0,180,3,6,"!105220200000004"
+TEXT 414,17,"2",180,1,1,"232"
+TEXT 73,17,"2",180,1,1,"3A"
+TEXT 414,49,"3",180,1,1,"3"
+TEXT 325,94,"2",180,1,1,"R-0.129-0.226"
+TEXT 73,94,"2",180,1,1,"25-11"
+TEXT 325,18,"2",180,1,1,"G-VS2-EX-N-43.000"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>
+<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm
+GAP 3.9 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>SET TEAR ON
+CLS
+CODEPAGE 1252
+TEXT 418,80,"3",180,1,1,"DC.39.1"
+BARCODE 324,75,"128M",49,0,180,3,6,"!105220200000005"
+TEXT 414,17,"2",180,1,1,"232"
+TEXT 73,17,"2",180,1,1,"4A"
+TEXT 414,49,"3",180,1,1,"4"
+TEXT 325,94,"2",180,1,1,"R-0.110-0.179"
+TEXT 73,94,"2",180,1,1,"25-11"
+TEXT 325,18,"2",180,1,1,"G-SI1-VG-N-34.000"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>
+<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm
+GAP 3.9 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>SET TEAR ON
+CLS
+CODEPAGE 1252
+TEXT 418,80,"3",180,1,1,"DC.39.1"
+BARCODE 324,75,"128M",49,0,180,3,6,"!105220200000006"
+TEXT 414,17,"2",180,1,1,"232"
+TEXT 73,17,"2",180,1,1,"5A"
+TEXT 414,49,"3",180,1,1,"8"
+TEXT 325,94,"2",180,1,1,"R-0.131-0.232"
+TEXT 73,94,"2",180,1,1,"25-11"
+TEXT 325,18,"2",180,1,1,"G-VS2-EX-N-43.000"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>
+<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm
+GAP 3.9 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>SET TEAR ON
+CLS
+CODEPAGE 1252
+TEXT 418,80,"3",180,1,1,"DC.39.1"
+BARCODE 324,75,"128M",49,0,180,3,6,"!105220200000007"
+TEXT 414,17,"2",180,1,1,"232"
+TEXT 73,17,"2",180,1,1,"6A"
+TEXT 414,49,"3",180,1,1,"9"
+TEXT 325,94,"2",180,1,1,"R-0.104-0.190"
+TEXT 73,94,"2",180,1,1,"25-11"
+TEXT 325,18,"2",180,1,1,"G-VS2-EX-N-35.000"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>
+<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm
+GAP 3.9 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>SET TEAR ON
+CLS
+CODEPAGE 1252
+TEXT 418,80,"3",180,1,1,"DC.39.1"
+BARCODE 324,75,"128M",49,0,180,3,6,"!105220200000008"
+TEXT 414,17,"2",180,1,1,"232"
+TEXT 73,17,"2",180,1,1,"7A"
+TEXT 414,49,"3",180,1,1,"10"
+TEXT 325,94,"2",180,1,1,"R-0.146-0.265"
+TEXT 73,94,"2",180,1,1,"25-11"
+TEXT 325,18,"2",180,1,1,"G-SI1-VG-N-45.000"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>
+<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm
+GAP 3.9 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>SET TEAR ON
+CLS
+CODEPAGE 1252
+TEXT 418,80,"3",180,1,1,"DC.39.1"
+BARCODE 324,75,"128M",49,0,180,3,6,"!105220200000009"
+TEXT 414,17,"2",180,1,1,"232"
+TEXT 73,17,"2",180,1,1,"8A"
+TEXT 414,49,"3",180,1,1,"11"
+TEXT 325,94,"2",180,1,1,"R-0.125-0.251"
+TEXT 73,94,"2",180,1,1,"25-11"
+TEXT 325,18,"2",180,1,1,"G-FL-EX-N-58.000"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>
+<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm
+GAP 3.9 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>SET TEAR ON
+CLS
+CODEPAGE 1252
+TEXT 418,80,"3",180,1,1,"DC.39.1"
+BARCODE 324,75,"128M",49,0,180,3,6,"!105220200000010"
+TEXT 414,17,"2",180,1,1,"232"
+TEXT 73,17,"2",180,1,1,"9A"
+TEXT 414,49,"3",180,1,1,"12"
+TEXT 325,94,"2",180,1,1,"R-0.102-0.222"
+TEXT 73,94,"2",180,1,1,"25-11"
+TEXT 325,18,"2",180,1,1,"G-VS2-EX-N-34.000"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>
+<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm
+GAP 3.9 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>SET TEAR ON
+CLS
+CODEPAGE 1252
+TEXT 418,80,"3",180,1,1,"DC.39.1"
+BARCODE 324,75,"128M",49,0,180,3,6,"!105220200000011"
+TEXT 414,17,"2",180,1,1,"232"
+TEXT 73,17,"2",180,1,1,"10A"
+TEXT 414,49,"3",180,1,1,"13"
+TEXT 325,94,"2",180,1,1,"R-0.139-0.278"
+TEXT 73,94,"2",180,1,1,"25-11"
+TEXT 325,18,"2",180,1,1,"H-VS2-VG-N-45.000"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>

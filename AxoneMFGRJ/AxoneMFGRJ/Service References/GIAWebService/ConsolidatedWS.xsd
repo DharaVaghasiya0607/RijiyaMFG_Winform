@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://service.consws.model.ngs.com/" targetNamespace="http://service.consws.model.ngs.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="addServiceRequest" type="tns:addServiceRequest" />
+  <xs:element name="addServiceRequestResponse" type="tns:addServiceRequestResponse" />
+  <xs:element name="createJob" type="tns:createJob" />
+  <xs:element name="createJobResponse" type="tns:createJobResponse" />
+  <xs:element name="createPrintRequest" type="tns:createPrintRequest" />
+  <xs:element name="createPrintRequestResponse" type="tns:createPrintRequestResponse" />
+  <xs:element name="createSleevePrintRequest" type="tns:createSleevePrintRequest" />
+  <xs:element name="createSleevePrintRequestResponse" type="tns:createSleevePrintRequestResponse" />
+  <xs:element name="getCrownHeight" type="tns:getCrownHeight" />
+  <xs:element name="getCrownHeightResponse" type="tns:getCrownHeightResponse" />
+  <xs:element name="getFees" type="tns:getFees" />
+  <xs:element name="getFeesResponse" type="tns:getFeesResponse" />
+  <xs:element name="getFinalResults1" type="tns:getFinalResults1" />
+  <xs:element name="getFinalResults1Response" type="tns:getFinalResults1Response" />
+  <xs:element name="getFinalResults2" type="tns:getFinalResults2" />
+  <xs:element name="getFinalResults2Response" type="tns:getFinalResults2Response" />
+  <xs:element name="getFinalResults3" type="tns:getFinalResults3" />
+  <xs:element name="getFinalResults3Response" type="tns:getFinalResults3Response" />
+  <xs:element name="getInscription_DiamondType_DigitalImage" type="tns:getInscription_DiamondType_DigitalImage" />
+  <xs:element name="getInscription_DiamondType_DigitalImageResponse" type="tns:getInscription_DiamondType_DigitalImageResponse" />
+  <xs:element name="getItemStatus" type="tns:getItemStatus" />
+  <xs:element name="getItemStatusResponse" type="tns:getItemStatusResponse" />
+  <xs:element name="getItemsReceived" type="tns:getItemsReceived" />
+  <xs:element name="getItemsReceivedResponse" type="tns:getItemsReceivedResponse" />
+  <xs:element name="getItemsReturned" type="tns:getItemsReturned" />
+  <xs:element name="getItemsReturnedResponse" type="tns:getItemsReturnedResponse" />
+  <xs:element name="getItemsReturnedResults" type="tns:getItemsReturnedResults" />
+  <xs:element name="getItemsReturnedResultsResponse" type="tns:getItemsReturnedResultsResponse" />
+  <xs:element name="getPortalActivity" type="tns:getPortalActivity" />
+  <xs:element name="getPortalActivityResponse" type="tns:getPortalActivityResponse" />
+  <xs:element name="getPrimaryResults1" type="tns:getPrimaryResults1" />
+  <xs:element name="getPrimaryResults1Response" type="tns:getPrimaryResults1Response" />
+  <xs:element name="getPrimaryResults2" type="tns:getPrimaryResults2" />
+  <xs:element name="getPrimaryResults2Response" type="tns:getPrimaryResults2Response" />
+  <xs:element name="getPrimaryResults3" type="tns:getPrimaryResults3" />
+  <xs:element name="getPrimaryResults3Response" type="tns:getPrimaryResults3Response" />
+  <xs:element name="getPrimaryResults4" type="tns:getPrimaryResults4" />
+  <xs:element name="getPrimaryResults4Response" type="tns:getPrimaryResults4Response" />
+  <xs:element name="getRecheckResults1" type="tns:getRecheckResults1" />
+  <xs:element name="getRecheckResults1Response" type="tns:getRecheckResults1Response" />
+  <xs:element name="getRecheckResults2" type="tns:getRecheckResults2" />
+  <xs:element name="getRecheckResults2Response" type="tns:getRecheckResults2Response" />
+  <xs:element name="getRecheckResults3" type="tns:getRecheckResults3" />
+  <xs:element name="getRecheckResults3Response" type="tns:getRecheckResults3Response" />
+  <xs:element name="getRecheckResults4" type="tns:getRecheckResults4" />
+  <xs:element name="getRecheckResults4Response" type="tns:getRecheckResults4Response" />
+  <xs:element name="getReportDtSecServiceRCStones" type="tns:getReportDtSecServiceRCStones" />
+  <xs:element name="getReportDtSecServiceRCStonesResponse" type="tns:getReportDtSecServiceRCStonesResponse" />
+  <xs:element name="getServiceCompletedControlNumbers" type="tns:getServiceCompletedControlNumbers" />
+  <xs:element name="getServiceCompletedControlNumbersResponse" type="tns:getServiceCompletedControlNumbersResponse" />
+  <xs:element name="getStoneOnHold" type="tns:getStoneOnHold" />
+  <xs:element name="getStoneOnHoldResponse" type="tns:getStoneOnHoldResponse" />
+  <xs:element name="getStones" type="tns:getStones" />
+  <xs:element name="getStonesResponse" type="tns:getStonesResponse" />
+  <xs:element name="inscribeAndPrintRequest" type="tns:inscribeAndPrintRequest" />
+  <xs:element name="inscribeAndPrintRequestResponse" type="tns:inscribeAndPrintRequestResponse" />
+  <xs:element name="putStoneOnHold" type="tns:putStoneOnHold" />
+  <xs:element name="putStoneOnHoldResponse" type="tns:putStoneOnHoldResponse" />
+  <xs:element name="requestSealingAndPrint" type="tns:requestSealingAndPrint" />
+  <xs:element name="requestSealingAndPrintResponse" type="tns:requestSealingAndPrintResponse" />
+  <xs:complexType name="inscribeAndPrintRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="inscribeAndPrintRequestResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPortalActivity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPortalActivityResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getInscription_DiamondType_DigitalImage">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getInscription_DiamondType_DigitalImageResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getItemStatus">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getItemStatusResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getFees">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getFeesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getReportDtSecServiceRCStones">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getReportDtSecServiceRCStonesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="createJob">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="createJobResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPrimaryResults2">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPrimaryResults2Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPrimaryResults3">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPrimaryResults3Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPrimaryResults4">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPrimaryResults4Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPrimaryResults1">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getPrimaryResults1Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="createSleevePrintRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="createSleevePrintRequestResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="requestSealingAndPrint">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="requestSealingAndPrintResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="createPrintRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="createPrintRequestResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getStones">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getStonesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getItemsReturned">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getItemsReturnedResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getFinalResults1">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getFinalResults1Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getItemsReturnedResults">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getItemsReturnedResultsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getStoneOnHold">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getStoneOnHoldResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getFinalResults3">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getFinalResults3Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCrownHeight">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCrownHeightResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getFinalResults2">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getFinalResults2Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRecheckResults2">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRecheckResults2Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRecheckResults1">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRecheckResults1Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRecheckResults4">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRecheckResults4Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRecheckResults3">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getRecheckResults3Response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="addServiceRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="addServiceRequestResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="putStoneOnHold">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="putStoneOnHoldResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getItemsReceived">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getItemsReceivedResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getServiceCompletedControlNumbers">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getServiceCompletedControlNumbersResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

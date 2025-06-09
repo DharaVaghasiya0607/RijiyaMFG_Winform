@@ -1,0 +1,13 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg x="0px" y="0px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="Слой_1">
+  <g id="Слой_2">
+    <path d="M24,16V6H2v18h14v2H0V4h26v12H24z" fill="#727272" class="Black" />
+    <g opacity="0.6" class="st0">
+      <rect x="4" y="8" width="4" height="14" rx="0" ry="0" fill="#727272" opacity="0.6" class="Black" />
+      <polygon points="18,8 18,19 22,16 22,8   " fill="#727272" opacity="0.6" class="Black" />
+    </g>
+    <path d="M25,18c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S21.1,18,25,18z" fill="#039C23" class="Green" />
+    <path d="M10,2h6v26h-6V2z" fill="#039C23" class="Green" />
+    <path d="M30,26h-4v4h-2v-4h-4v-2h4v-4h2v4h4V26z" fill="#FFFFFF" class="White" />
+  </g>
+</svg>

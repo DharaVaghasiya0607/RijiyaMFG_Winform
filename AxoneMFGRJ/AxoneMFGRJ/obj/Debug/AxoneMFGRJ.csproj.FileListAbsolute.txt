@@ -1,0 +1,1323 @@
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.csprojResolveAssemblyReference.cache
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.csproj.ResolveComReference.cache
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmBillWiseEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmAtdCaptureDetail.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Attendance.FrmLeaveApproval.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Attendance.FrmLeaveEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAttendanceEntryNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAttendanceRegister.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSalaryEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAttendanceEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.CustomeControl.GroupByBox.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmEventBox.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketGradingEntryOld.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPridictionViewForGrading.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSaleEntryFromDiasales.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketGradingEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmLabReCheckConfirm.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketLabPricingEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FormQCPenalty.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmDepartmentWiseProcessLock.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLabExpense.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmGalaxyScanMaster.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmParaReportCriteria.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmProcessWiseLossPer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmReportMasterNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSubject.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHeliumPrintLimitSetting.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAgingKapanWiseSetting.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAgingProcessSetting.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmExcRateMaster.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHeliumMaster.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHolidayListMaster.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Master.FrmSettingMaster.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmShiftMaster.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmYearMaster.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMakablePacketCreate.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMakebalPacketCreateNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMixPacketCreate.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPacketHistoryView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelGoodsTransfer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelPacketConfirmation.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelPacketLiveStock.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelTransactionView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPartyIssueWithPacket.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPolishTransactionView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPolishGoodsTransfer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Polish.FrmPolishIssueWithPackets.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Polish.FrmPolishPacketLiveStock.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourPer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourQuickUpload.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourPriceDetail.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourUpload.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFindRap.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFindRapNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmSalaryTypePer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmTensionSakhatLabourPer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.Frm4PWisePolishReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.Frm4POKReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmKapanFactoryWisePolishReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmArtistWisePendingReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmArtistWisePolishReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmEmpWiseSplitReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmGradingAnalysis.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmKapanDetailReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmManagerWisePendingReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboardCurrent.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMfgPrdComp.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPrdViewForProcessPktDetailSimple.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmProductionReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmRoughCostAnalysis.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSaleDemandEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysisOtherSummary.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysisOther.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmBreakingDiffProcessPredictionView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboardNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmGIAAdvanceField.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmGradingComparisionView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmGradingReportView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPolishCheckerComparisionView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysisSummary.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHeliumDataView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLabPridictionView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPrdViewFinalChecker.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysis.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmMarkerVariationReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSinglePrdMakLog.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmUnPlanningReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmWorkerDashboard.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboardOld.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmMarkerProcessPredictionView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboard.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparisionPopupDetailWithPivotBox.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparisionWithLatestGrd.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparision.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparisionPopupDetail.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPCNPacketsView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdViewMarkerSimple.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmFilterPuchaseStockReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmFilterStockReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmGridReportViewerWithBand.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmPivotReportViewer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.StimulsoftViewer.RepShowForm.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmQCPenaltyReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryView4pLabourReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForProcessWise.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForBlockingChecker.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryProcessDetailWithZero.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForChiefArtist.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForDharAndMaxi.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmJobWorkPurchaseMasterDetail.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmJobWorkPurchaseView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmQCRejectionCheck.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRepairingEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketConfirmationOld.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmKapanValuation.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmManualEntryLiveStock.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmNonQCLiveStock.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsReturnLiveStock.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsReturnWithSplitNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransferNewOLD.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmCrapsIssueReturn.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughAllotmentEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughSaleMasterDetail.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseMixSplitView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseMixSplit.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAgingPacketUnlockEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPacketControlNoMapping.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPolishOkPacketUpdate.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseMasterDetail.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransferLossUpdate.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransferNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePolishOKTransfer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePrdArtistLowerPlanTick.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmDiscountBreakup.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmEmpBehaviourPoint.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmMumbaiBarcodePrint.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPredictionCopyModule.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseRolling.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSerialNoGenerate.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleBreakingPacketList.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleBreakingPacketEntryDetail.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPacketUnlockEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmKapanProcessSetting.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmItem.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.MDI.FrmAdminDashboard.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDiscountDiff.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmComparisionViewAdmin.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmGradingBarcodePrint.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleBreakingEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsFinalReturn.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketAutoIssue.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleRepairingLabour.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmParameterDiscount.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourProcess.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmEmployeeMasterNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSize.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmEmployeeRights.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdType.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLabourRate.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmEmployee.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmFixedExpenseEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmParameter.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmAboutUs.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.PacketTreeDrawing.FrmPacketLookup.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPriceRevised.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourPriceHeadDetailNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourPcs.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSingleFileUpload.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourQuickUpload.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFileTransferOld.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFindRapNewNewBackup.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFetchPreviousPlan.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmCutPolSym.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmComparisionViewMarker.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmArtistPredictionList.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMISAnalysisMakPolGrd.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmProductionAnalysis.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmComparisionViewMarkerOld.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmFullKapanAnalysis.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdViewMarker.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdViewManagement.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmComparisionView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmReportViewerOld.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFileTransfer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketPolishChkGradingEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPenaltyIncentive.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsFinalIssue.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmBarcodePrint.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleRejectionTransfer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleTransactionUpdate.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmStockTally.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmTenderEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmExpGoalPopUp.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmSearchBoxForRapCalc.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmChangePassword.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmDepartmentIssueReturnLock.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmSearchPopupBoxMultipleSelect.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmTransactionLock.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmGetFilesFromFTP.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmInputBox.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRoughWiseValueReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmUserConfig.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRoughCostingReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRoughStockReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmKapanWiseRollingReportNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossitionParcel.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmShapeWisePrdReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmStockPrintReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmPlaningReportAssorterWise.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmProcessWiseReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmGalaxyReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBombayTransLabWiseReportMIX.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBombayTransLabWiseReportGIA.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBreakingDiffrenceDetailReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBreakingDifferenceReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmKapanRollingReportNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmHeliumPacketPrintDetail.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmMyAgingReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmPolishChkGradingAnalysis.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBlockingSalaryView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossitionDepartmentWise.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForWorker.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBlockingLabourPlusMinusReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmSawingSplitReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmKapanRollingReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewDetailEmployeeWise.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryManagerProductionReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmEmployeeOverDueReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryAgingReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmStockPrintReportKapanWise.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmWorkerRollingReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmMarkerLabourPlusMinusReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmMarkerRollingReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmOtherProcessProduction.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryLabourWorker.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryLabourNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryLabourDetail.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmSingleTransactionView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsReturnWithSplit.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketConfirmation.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransfer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketLiveStock.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleKapanDashboard.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmReportViewer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketCreate.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPacketUpdate.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRejectionTransfer.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmKapanDashboard.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPacketReturn.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmKapanCreation.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.UserControl.ListviewCustom.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.UserControl.ReportMultiSelectNew.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmPopupGrid.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmPolishOKReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossitionPopupDetail.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmAsOnDateStockReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossition.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmRejectionView.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmLedgerReport.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmPaymentEntry.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmRojMel.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Activation.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLedger.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHome.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.MDI.FrmMDI.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Properties.Resources.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmSearchPopupBox.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmLogin.resources
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.csproj.GenerateResource.Cache
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.exe.licenses
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.exe.config
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.exe.manifest
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.application
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.exe
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.pdb
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\BusLib.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\CrystalDecisions.Shared.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\FlashControlV71.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.VisualBasic.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Configuration.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Data.DataSetExtensions.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Data.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Deployment.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Design.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Drawing.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Runtime.Serialization.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Runtime.Serialization.Formatters.Soap.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.ServiceModel.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Web.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Web.Services.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Windows.Forms.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Xml.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Xml.Linq.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\BusLib.pdb
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.exe.manifest
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.application
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.exe
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.pdb
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.exe.config
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.exe.manifest
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.application
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.exe
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.pdb
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\BusLib.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.VisualBasic.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Configuration.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Data.DataSetExtensions.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Data.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Deployment.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Design.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Drawing.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Runtime.Serialization.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Runtime.Serialization.Formatters.Soap.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.ServiceModel.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Web.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Web.Services.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Windows.Forms.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Xml.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Xml.Linq.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\BusLib.pdb
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.csprojResolveAssemblyReference.cache
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.csproj.ResolveComReference.cache
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmBillWiseEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmAtdCaptureDetail.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Attendance.FrmLeaveApproval.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Attendance.FrmLeaveEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAttendanceEntryNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAttendanceRegister.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSalaryEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAttendanceEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.CustomeControl.GroupByBox.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmEventBox.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketGradingEntryOld.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPridictionViewForGrading.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSaleEntryFromDiasales.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketGradingEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmLabReCheckConfirm.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketLabPricingEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FormQCPenalty.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmDepartmentWiseProcessLock.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLabExpense.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmGalaxyScanMaster.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmParaReportCriteria.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmProcessWiseLossPer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmReportMasterNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSubject.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHeliumPrintLimitSetting.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAgingKapanWiseSetting.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAgingProcessSetting.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmExcRateMaster.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHeliumMaster.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHolidayListMaster.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Master.FrmSettingMaster.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmShiftMaster.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmYearMaster.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMakablePacketCreate.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMakebalPacketCreateNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMixPacketCreate.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPacketHistoryView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelGoodsTransfer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelPacketConfirmation.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelPacketLiveStock.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelTransactionView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPartyIssueWithPacket.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPolishTransactionView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPolishGoodsTransfer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Polish.FrmPolishIssueWithPackets.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Polish.FrmPolishPacketLiveStock.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourPer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourQuickUpload.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourPriceDetail.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourUpload.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFindRap.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFindRapNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmSalaryTypePer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmTensionSakhatLabourPer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.Frm4PWisePolishReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.Frm4POKReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmKapanFactoryWisePolishReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmArtistWisePendingReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmArtistWisePolishReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmEmpWiseSplitReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmGradingAnalysis.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmKapanDetailReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmManagerWisePendingReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboardCurrent.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMfgPrdComp.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPrdViewForProcessPktDetailSimple.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmProductionReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmRoughCostAnalysis.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSaleDemandEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysisOtherSummary.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysisOther.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmBreakingDiffProcessPredictionView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboardNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmGIAAdvanceField.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmGradingComparisionView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmGradingReportView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPolishCheckerComparisionView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysisSummary.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHeliumDataView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLabPridictionView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPrdViewFinalChecker.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysis.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmMarkerVariationReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSinglePrdMakLog.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmUnPlanningReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmWorkerDashboard.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboardOld.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmMarkerProcessPredictionView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboard.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparisionPopupDetailWithPivotBox.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparisionWithLatestGrd.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparision.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparisionPopupDetail.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPCNPacketsView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdViewMarkerSimple.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmFilterPuchaseStockReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmFilterStockReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmGridReportViewerWithBand.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmPivotReportViewer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.StimulsoftViewer.RepShowForm.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmQCPenaltyReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryView4pLabourReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForProcessWise.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForBlockingChecker.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryProcessDetailWithZero.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForChiefArtist.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForDharAndMaxi.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmJobWorkPurchaseMasterDetail.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmJobWorkPurchaseView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmQCRejectionCheck.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRepairingEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketConfirmationOld.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmKapanValuation.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmManualEntryLiveStock.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmNonQCLiveStock.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsReturnLiveStock.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsReturnWithSplitNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransferNewOLD.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmCrapsIssueReturn.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughAllotmentEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughSaleMasterDetail.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseMixSplitView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseMixSplit.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAgingPacketUnlockEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPacketControlNoMapping.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPolishOkPacketUpdate.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseMasterDetail.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransferLossUpdate.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransferNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePolishOKTransfer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePrdArtistLowerPlanTick.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmDiscountBreakup.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmEmpBehaviourPoint.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmMumbaiBarcodePrint.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPredictionCopyModule.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseRolling.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSerialNoGenerate.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleBreakingPacketList.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleBreakingPacketEntryDetail.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPacketUnlockEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmKapanProcessSetting.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmItem.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.MDI.FrmAdminDashboard.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDiscountDiff.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmComparisionViewAdmin.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmGradingBarcodePrint.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleBreakingEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsFinalReturn.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketAutoIssue.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleRepairingLabour.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmParameterDiscount.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourProcess.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmEmployeeMasterNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSize.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmEmployeeRights.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdType.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLabourRate.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmEmployee.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmFixedExpenseEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmParameter.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmAboutUs.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.PacketTreeDrawing.FrmPacketLookup.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPriceRevised.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourPriceHeadDetailNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourPcs.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSingleFileUpload.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourQuickUpload.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFileTransferOld.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFindRapNewNewBackup.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFetchPreviousPlan.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmCutPolSym.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmComparisionViewMarker.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmArtistPredictionList.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMISAnalysisMakPolGrd.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmProductionAnalysis.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmComparisionViewMarkerOld.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmFullKapanAnalysis.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdViewMarker.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdViewManagement.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmComparisionView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmReportViewerOld.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFileTransfer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketPolishChkGradingEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPenaltyIncentive.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsFinalIssue.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmBarcodePrint.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleRejectionTransfer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleTransactionUpdate.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmStockTally.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmTenderEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmExpGoalPopUp.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmSearchBoxForRapCalc.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmChangePassword.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmDepartmentIssueReturnLock.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmSearchPopupBoxMultipleSelect.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmTransactionLock.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmGetFilesFromFTP.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmInputBox.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRoughWiseValueReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmUserConfig.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRoughCostingReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRoughStockReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmKapanWiseRollingReportNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossitionParcel.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmShapeWisePrdReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmStockPrintReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmPlaningReportAssorterWise.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmProcessWiseReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmGalaxyReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBombayTransLabWiseReportMIX.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBombayTransLabWiseReportGIA.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBreakingDiffrenceDetailReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBreakingDifferenceReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmKapanRollingReportNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmHeliumPacketPrintDetail.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmMyAgingReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmPolishChkGradingAnalysis.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBlockingSalaryView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossitionDepartmentWise.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForWorker.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBlockingLabourPlusMinusReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmSawingSplitReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmKapanRollingReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewDetailEmployeeWise.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryManagerProductionReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmEmployeeOverDueReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryAgingReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmStockPrintReportKapanWise.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmWorkerRollingReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmMarkerLabourPlusMinusReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmMarkerRollingReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmOtherProcessProduction.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryLabourWorker.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryLabourNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryLabourDetail.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmSingleTransactionView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsReturnWithSplit.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketConfirmation.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransfer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketLiveStock.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleKapanDashboard.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmReportViewer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketCreate.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPacketUpdate.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRejectionTransfer.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmKapanDashboard.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPacketReturn.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmKapanCreation.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.UserControl.ListviewCustom.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.UserControl.ReportMultiSelectNew.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmPopupGrid.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmPolishOKReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossitionPopupDetail.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmAsOnDateStockReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossition.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmRejectionView.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmLedgerReport.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmPaymentEntry.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmRojMel.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Activation.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLedger.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHome.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.MDI.FrmMDI.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Properties.Resources.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmSearchPopupBox.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmLogin.resources
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.csproj.GenerateResource.Cache
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.exe.licenses
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.exe.manifest
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.application
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.exe
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.pdb
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.exe.config
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.exe.manifest
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.application
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.exe
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.pdb
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\BusLib.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\CrystalDecisions.Shared.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\FlashControlV71.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.VisualBasic.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Configuration.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Data.DataSetExtensions.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Data.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Deployment.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Design.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Drawing.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Runtime.Serialization.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Runtime.Serialization.Formatters.Soap.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.ServiceModel.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Web.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Web.Services.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Windows.Forms.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Xml.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Xml.Linq.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\BusLib.pdb
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.csprojResolveAssemblyReference.cache
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.csproj.ResolveComReference.cache
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmBillWiseEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmAtdCaptureDetail.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Attendance.FrmLeaveApproval.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Attendance.FrmLeaveEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAttendanceEntryNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAttendanceRegister.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSalaryEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAttendanceEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.CustomeControl.GroupByBox.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmEventBox.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketGradingEntryOld.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPridictionViewForGrading.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSaleEntryFromDiasales.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketGradingEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmLabReCheckConfirm.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketLabPricingEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FormQCPenalty.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmDepartmentWiseProcessLock.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLabExpense.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmGalaxyScanMaster.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmMixSize.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmParaReportCriteria.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPenultyPoint.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPriceDateMaster.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmProcessWiseLossPer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmReportMasterNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSubject.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHeliumPrintLimitSetting.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAgingKapanWiseSetting.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAgingProcessSetting.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmExcRateMaster.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHeliumMaster.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHolidayListMaster.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Master.FrmSettingMaster.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmShiftMaster.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmYearMaster.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.MDI.FrmRibbonMDI.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmClarityAssortment.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmClarityAssortmentView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmKapanInward.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmKapanInwardView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMakablePacketCreate.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMakebalPacketCreateNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMakebalPacketCreateTest.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMixPacketCreate.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMixPriceChart.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPacketHistoryView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelGoodsTransfer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelPacketConfirmation.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelPacketLiveStock.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelTransactionView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPartyIssueWithPacket.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmSizeAssortment.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Polish.FrmIsAdditionalAssortment.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmOutwardKapan.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPolishPacketHistory.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPolishTransactionView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPolishGoodsTransfer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Polish.FrmPolishIssueWithPackets.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Polish.FrmPolishPacketLiveStock.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourPer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourQuickUpload.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourPriceDetail.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourUpload.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFindRap.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFindRapNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmSalaryTypePer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmTensionSakhatLabourPer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.Frm4PWisePolishReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.Frm4POKReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmKapanFactoryWisePolishReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmArtistWisePendingReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmArtistWisePolishReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmEmpWiseSplitReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmGradingAnalysis.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmKapanDetailReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmManagerWisePendingReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboardCurrent.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMfgPrdComp.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPrdViewForProcessPktDetailSimple.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmProductionReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmRoughCostAnalysis.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSaleDemandEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysisOtherSummary.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysisOther.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmBreakingDiffProcessPredictionView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboardNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmGIAAdvanceField.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmGradingComparisionView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmGradingReportView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPolishCheckerComparisionView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysisSummary.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHeliumDataView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLabPridictionView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPrdViewFinalChecker.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysis.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmMarkerVariationReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSinglePrdMakLog.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmUnPlanningReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmWorkerDashboard.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboardOld.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmMarkerProcessPredictionView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboard.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparisionPopupDetailWithPivotBox.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparisionWithLatestGrd.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparision.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparisionPopupDetail.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPCNPacketsView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdViewMarkerSimple.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmFilterPuchaseStockReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmFilterStockReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmGridReportViewerWithBand.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmPivotReportViewer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.StimulsoftViewer.RepShowForm.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmQCPenaltyReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryProcessDetailWithZero.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryView4pLabourReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewDetailEmployeeWise.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForBlockingChecker.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForChiefArtist.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForDharAndMaxi.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForProcessWise.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForWorker.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmJobWorkPurchaseMasterDetail.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmJobWorkPurchaseView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmKapanEstimentEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmQCRejectionCheck.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmQCTransfer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRepairingEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketConfirmationOld.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmKapanValuation.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmManualEntryLiveStock.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmNonQCLiveStock.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsReturnLiveStock.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsReturnWithSplitNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransferNewOLD.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmCrapsIssueReturn.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughAllotmentEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughSaleMasterDetail.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseMixSplitView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseMixSplit.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAgingPacketUnlockEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPacketControlNoMapping.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPolishOkPacketUpdate.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseMasterDetail.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransferLossUpdate.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransferNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePolishOKTransfer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePrdArtistLowerPlanTick.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmDiscountBreakup.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmEmpBehaviourPoint.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmMumbaiBarcodePrint.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPredictionCopyModule.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseRolling.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSerialNoGenerate.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleBreakingPacketList.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleBreakingPacketEntryDetail.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPacketUnlockEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmKapanProcessSetting.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmItem.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.MDI.FrmAdminDashboard.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDiscountDiff.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmComparisionViewAdmin.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmGradingBarcodePrint.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleBreakingEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsFinalReturn.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketAutoIssue.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleRepairingLabour.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmParameterDiscount.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourProcess.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmEmployeeMasterNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSize.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmEmployeeRights.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdType.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLabourRate.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmEmployee.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmFixedExpenseEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmParameter.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmAboutUs.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.PacketTreeDrawing.FrmPacketLookup.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPriceRevised.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourPriceHeadDetailNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourPcs.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSingleFileUpload.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourQuickUpload.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFileTransferOld.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFindRapNewNewBackup.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFetchPreviousPlan.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmCutPolSym.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmComparisionViewMarker.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmArtistPredictionList.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMISAnalysisMakPolGrd.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmProductionAnalysis.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmComparisionViewMarkerOld.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmFullKapanAnalysis.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdViewMarker.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdViewManagement.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmComparisionView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmReportViewerOld.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFileTransfer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketPolishChkGradingEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPenaltyIncentive.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsFinalIssue.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmBarcodePrint.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleRejectionTransfer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleTransactionUpdate.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmStockTally.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmStockTallyNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmTenderEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmExpGoalPopUp.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmPacketDollarUnloock.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmPassword.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmSearchBoxForRapCalc.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmChangePassword.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmDepartmentIssueReturnLock.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmSearchPopupBoxMultipleSelect.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmTransactionLock.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmGetFilesFromFTP.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmInputBox.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRoughWiseValueReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmUserConfig.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRoughCostingReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRoughStockReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmKapanWiseRollingReportNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossitionParcel.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmShapeWisePrdReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmStockPrintReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmPlaningReportAssorterWise.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmProcessWiseReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmGalaxyReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBombayTransLabWiseReportMIX.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBombayTransLabWiseReportGIA.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBreakingDiffrenceDetailReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBreakingDifferenceReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmKapanRollingReportNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmHeliumPacketPrintDetail.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmMyAgingReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmPolishChkGradingAnalysis.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBlockingSalaryView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossitionDepartmentWise.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBlockingLabourPlusMinusReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmSawingSplitReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmKapanRollingReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryManagerProductionReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmEmployeeOverDueReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryAgingReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmStockPrintReportKapanWise.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmWorkerRollingReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmMarkerLabourPlusMinusReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmMarkerRollingReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmOtherProcessProduction.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryLabourWorker.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryLabourNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryLabourDetail.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmSingleTransactionView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsReturnWithSplit.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketConfirmation.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransfer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketLiveStock.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleKapanDashboard.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmReportViewer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketCreate.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPacketUpdate.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRejectionTransfer.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmKapanDashboard.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPacketReturn.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmKapanCreation.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.UserControl.ListviewCustom.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.UserControl.ReportMultiSelectNew.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmPopupGrid.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmPolishOKReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossitionPopupDetail.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmAsOnDateStockReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossition.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmRejectionView.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmLedgerReport.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmPaymentEntry.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmRojMel.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Activation.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLedger.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHome.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.MDI.FrmMDI.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Properties.Resources.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmSearchPopupBox.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmLogin.resources
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.csproj.GenerateResource.Cache
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.exe.licenses
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.exe.manifest
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.application
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.exe
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.pdb
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmKapanTransfer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.csprojResolveAssemblyReference.cache
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.csproj.ResolveComReference.cache
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmBillWiseEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmAtdCaptureDetail.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Attendance.FrmLeaveApproval.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Attendance.FrmLeaveEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAttendanceEntryNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAttendanceRegister.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSalaryEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAttendanceEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.CustomeControl.GroupByBox.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmEventBox.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketGradingEntryOld.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPridictionViewForGrading.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSaleEntryFromDiasales.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketGradingEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmLabReCheckConfirm.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketLabPricingEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FormQCPenalty.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmDepartmentWiseProcessLock.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLabExpense.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmGalaxyScanMaster.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmMixSize.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmParaReportCriteria.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPenultyPoint.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPriceDateMaster.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmProcessWiseLossPer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmReportMasterNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSubject.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHeliumPrintLimitSetting.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAgingKapanWiseSetting.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAgingProcessSetting.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmExcRateMaster.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHeliumMaster.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHolidayListMaster.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Master.FrmSettingMaster.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmShiftMaster.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmYearMaster.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.MDI.FrmRibbonMDI.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmClarityAssortment.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmClarityAssortmentView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmKapanInward.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmKapanInwardView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMakablePacketCreate.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMakebalPacketCreateNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMakebalPacketCreateTest.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMixPacketCreate.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmMixPriceChart.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPacketHistoryView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelGoodsTransfer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelPacketConfirmation.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelPacketLiveStock.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmParcelTransactionView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPartyIssueWithPacket.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmSizeAssortment.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Polish.FrmIsAdditionalAssortment.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmOutwardKapan.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPolishPacketHistory.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPolishTransactionView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Parcel.FrmPolishGoodsTransfer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Polish.FrmPolishIssueWithPackets.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Polish.FrmPolishPacketLiveStock.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourPer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourQuickUpload.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourPriceDetail.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDollarLabourUpload.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFindRap.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFindRapNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmSalaryTypePer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmTensionSakhatLabourPer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.Frm4PWisePolishReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.Frm4POKReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmKapanFactoryWisePolishReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmArtistWisePendingReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmArtistWisePolishReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmEmpWiseSplitReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmGradingAnalysis.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmKapanDetailReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmManagerWisePendingReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboardCurrent.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMfgPrdComp.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPrdViewForProcessPktDetailSimple.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmProductionReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmRoughCostAnalysis.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSaleDemandEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysisOtherSummary.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysisOther.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmBreakingDiffProcessPredictionView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboardNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmGIAAdvanceField.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmGradingComparisionView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmGradingReportView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPolishCheckerComparisionView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysisSummary.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHeliumDataView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLabPridictionView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPrdViewFinalChecker.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmSingleMemoAnalysis.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmMarkerVariationReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSinglePrdMakLog.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmUnPlanningReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmWorkerDashboard.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboardOld.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmMarkerProcessPredictionView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerDashboard.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparisionPopupDetailWithPivotBox.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparisionWithLatestGrd.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparision.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMarkerGradingComparisionPopupDetail.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmPCNPacketsView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdViewMarkerSimple.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmFilterPuchaseStockReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmFilterStockReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmGridReportViewerWithBand.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmPivotReportViewer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.StimulsoftViewer.RepShowForm.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmQCPenaltyReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryProcessDetailWithZero.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryView4pLabourReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewDetailEmployeeWise.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForBlockingChecker.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForChiefArtist.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForDharAndMaxi.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForProcessWise.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Salary.FrmSalaryViewForWorker.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmJobWorkPurchaseMasterDetail.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmJobWorkPurchaseView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmKapanEstimentEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmQCRejectionCheck.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmQCTransfer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRepairingEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketConfirmationOld.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmKapanValuation.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmManualEntryLiveStock.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmNonQCLiveStock.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsReturnLiveStock.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsReturnWithSplitNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransferNewOLD.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmCrapsIssueReturn.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughAllotmentEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughSaleMasterDetail.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseMixSplitView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseMixSplit.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmAgingPacketUnlockEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPacketControlNoMapping.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPolishOkPacketUpdate.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseMasterDetail.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransferLossUpdate.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransferNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePolishOKTransfer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePrdArtistLowerPlanTick.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmDiscountBreakup.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmEmpBehaviourPoint.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmMumbaiBarcodePrint.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPredictionCopyModule.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseRolling.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRoughPurchaseView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSerialNoGenerate.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleBreakingPacketList.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleBreakingPacketEntryDetail.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPacketUnlockEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmKapanProcessSetting.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmItem.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.MDI.FrmAdminDashboard.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmDiscountDiff.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmComparisionViewAdmin.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmGradingBarcodePrint.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleBreakingEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsFinalReturn.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketAutoIssue.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleRepairingLabour.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmParameterDiscount.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourProcess.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmEmployeeMasterNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmSize.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmEmployeeRights.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdType.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLabourRate.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmEmployee.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmFixedExpenseEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmParameter.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmAboutUs.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.PacketTreeDrawing.FrmPacketLookup.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPriceRevised.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourPriceHeadDetailNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourPcs.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSingleFileUpload.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmLabourQuickUpload.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFileTransferOld.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFindRapNewNewBackup.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFetchPreviousPlan.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmCutPolSym.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmComparisionViewMarker.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmArtistPredictionList.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmMISAnalysisMakPolGrd.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmProductionAnalysis.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmComparisionViewMarkerOld.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmFullKapanAnalysis.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdViewMarker.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmPrdViewManagement.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.ReportGrid.FrmComparisionView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmReportViewerOld.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Rapaport.FrmFileTransfer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Grading.FrmSinglePacketPolishChkGradingEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPenaltyIncentive.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsFinalIssue.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmBarcodePrint.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleRejectionTransfer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleTransactionUpdate.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmStockTally.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmStockTallyNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmTenderEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmExpGoalPopUp.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmKapanTransfer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmPacketDollarUnloock.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmPassword.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmSearchBoxForRapCalc.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmChangePassword.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmDepartmentIssueReturnLock.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmSearchPopupBoxMultipleSelect.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmTransactionLock.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmGetFilesFromFTP.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmInputBox.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRoughWiseValueReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmUserConfig.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRoughCostingReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRoughStockReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmKapanWiseRollingReportNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossitionParcel.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmShapeWisePrdReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmStockPrintReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmPlaningReportAssorterWise.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmProcessWiseReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmGalaxyReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBombayTransLabWiseReportMIX.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBombayTransLabWiseReportGIA.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBreakingDiffrenceDetailReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBreakingDifferenceReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmKapanRollingReportNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmHeliumPacketPrintDetail.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmMyAgingReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmPolishChkGradingAnalysis.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBlockingSalaryView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossitionDepartmentWise.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmBlockingLabourPlusMinusReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmSawingSplitReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmKapanRollingReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryManagerProductionReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmEmployeeOverDueReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryAgingReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmStockPrintReportKapanWise.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmWorkerRollingReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmMarkerLabourPlusMinusReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmMarkerRollingReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmOtherProcessProduction.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryLabourWorker.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryLabourNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmFactoryLabourDetail.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmSingleTransactionView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsReturnWithSplit.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketConfirmation.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleGoodsTransfer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketLiveStock.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSingleKapanDashboard.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Report.FrmReportViewer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmSinglePacketCreate.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPacketUpdate.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmRejectionTransfer.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmKapanDashboard.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmPacketReturn.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Transaction.FrmKapanCreation.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.UserControl.ListviewCustom.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.UserControl.ReportMultiSelectNew.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmPopupGrid.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmPolishOKReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossitionPopupDetail.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmAsOnDateStockReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.View.FrmRunningPossition.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmRejectionView.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmLedgerReport.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmPaymentEntry.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Account.FrmRojMel.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Activation.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmLedger.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Masters.FrmHome.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.MDI.FrmMDI.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Properties.Resources.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.FrmSearchPopupBox.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.Utility.FrmLogin.resources
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.csproj.GenerateResource.Cache
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.exe
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.pdb
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.exe.config
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.exe.manifest
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.application
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.exe
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\AxoneMFGRJ.pdb
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\BusLib.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\CrystalDecisions.Shared.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\FlashControlV71.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.VisualBasic.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Configuration.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Data.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Deployment.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Design.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Drawing.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Runtime.Serialization.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Runtime.Serialization.Formatters.Soap.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.ServiceModel.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Web.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Web.Services.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Windows.Forms.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Xml.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\System.Xml.Linq.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\BusLib.pdb
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.exe.manifest
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.application
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\AxoneMFGRJ\obj\Debug\AxoneMFGRJ.exe.licenses

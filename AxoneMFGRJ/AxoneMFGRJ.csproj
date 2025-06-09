@@ -1,0 +1,3846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F154036F-58BA-4273-BF72-278E41ADF4DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AxoneMFGRJ</RootNamespace>
+    <AssemblyName>AxoneMFGRJ</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>D:\Projects\AxoneInfotech\AxoneMFGRJ\Setup\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>\\192.168.2.11\Updates\</UpdateUrl>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>18</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>FaviconIconBlack.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>728108EF070D93C6A375D3FD72AB1257C5C13BB6</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>AxoneMFGRJ_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxonContLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AxonContLib.dll</HintPath>
+    </Reference>
+    <Reference Include="AxonDataLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AxonDataLib.dll</HintPath>
+    </Reference>
+    <Reference Include="AxonFacetWareData, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\LIB\AxonFacetWareData.dll</HintPath>
+    </Reference>
+    <Reference Include="BarcodeLib.Barcode.WinForms, Version=6.2.0.10118, Culture=neutral, PublicKeyToken=ef1bae04ecfd0461, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\BarcodeLib.Barcode.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevControlLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevControlLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.TreeMap.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeMap.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v17.1.Win, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Map.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.1.Export, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Spreadsheet.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.UI, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.1.Win, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraMap.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v17.1.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v17.1.Reporting.Extensions, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpreadsheet.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v17.1.Design, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="EPPlus, Version=3.1.2.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GoogleTranslateAPI, Version=0.3.1.107, Culture=neutral, PublicKeyToken=37a8e65b17fcdcbb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\GoogleTranslateAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="iFormControls, Version=1.0.3932.27188, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\iFormControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.9.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Pinvoke, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Pinvoke.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License, Version=1.2.2.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.XLS, Version=6.8.5.7040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Spire.XLS.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Base, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls.SL, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Controls.SL.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls.Win, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Controls.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Database, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Design, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Editor, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Check, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Report.Check.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Design, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Report.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Design.SLViewer, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Report.Design.SLViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Helper, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Report.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Viewer.SL, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Report.Viewer.SL.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Viewer.SL.Design, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Report.Viewer.SL.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Win, Version=2012.2.1304.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Stimulsoft.Report.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Runtime.Serialization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\FrmBillWiseEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account\FrmBillWiseEntry.designer.cs">
+      <DependentUpon>FrmBillWiseEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivationMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivationMsg.designer.cs">
+      <DependentUpon>ActivationMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance\FrmAtdCaptureDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance\FrmAtdCaptureDetail.Designer.cs">
+      <DependentUpon>FrmAtdCaptureDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance\FrmLeaveApproval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance\FrmLeaveApproval.Designer.cs">
+      <DependentUpon>FrmLeaveApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance\FrmLeaveEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance\FrmLeaveEntry.Designer.cs">
+      <DependentUpon>FrmLeaveEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance\FrmAttendanceEntryNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance\FrmAttendanceEntryNew.Designer.cs">
+      <DependentUpon>FrmAttendanceEntryNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance\FrmAttendanceRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance\FrmAttendanceRegister.Designer.cs">
+      <DependentUpon>FrmAttendanceRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance\FrmSalaryEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance\FrmSalaryEntry.Designer.cs">
+      <DependentUpon>FrmSalaryEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance\FrmAttendanceEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance\FrmAttendanceEntry.Designer.cs">
+      <DependentUpon>FrmAttendanceEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bin\Debug\RPT\KapanEstimate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KapanEstimate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomeControl\GroupByBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomeControl\GroupByBox.designer.cs">
+      <DependentUpon>GroupByBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\FrmPlanningDashboardWithOrderAndLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\FrmPlanningDashboardWithOrderAndLock.Designer.cs">
+      <DependentUpon>FrmPlanningDashboardWithOrderAndLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\FrmPlanningDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard\FrmPlanningDashboard.Designer.cs">
+      <DependentUpon>FrmPlanningDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Events\FrmEventBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Events\FrmEventBox.designer.cs">
+      <DependentUpon>FrmEventBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grading\FrmSinglePacketGradingEntryOld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grading\FrmSinglePacketGradingEntryOld.designer.cs">
+      <DependentUpon>FrmSinglePacketGradingEntryOld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grading\FrmPridictionViewForGrading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grading\FrmPridictionViewForGrading.designer.cs">
+      <DependentUpon>FrmPridictionViewForGrading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grading\FrmSaleEntryFromDiasales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grading\FrmSaleEntryFromDiasales.designer.cs">
+      <DependentUpon>FrmSaleEntryFromDiasales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grading\FrmSinglePacketGradingEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grading\FrmSinglePacketGradingEntry.designer.cs">
+      <DependentUpon>FrmSinglePacketGradingEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grading\FrmLabReCheckConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grading\FrmLabReCheckConfirm.designer.cs">
+      <DependentUpon>FrmLabReCheckConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grading\FrmSinglePacketLabPricingEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grading\FrmSinglePacketLabPricingEntry.designer.cs">
+      <DependentUpon>FrmSinglePacketLabPricingEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridViewFooterOnTop\GridControlFooterOnTop.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GridViewFooterOnTop\GridFooterOnTopOptionsView.cs" />
+    <Compile Include="GridViewFooterOnTop\GridFooterOnTopViewInfoRegistrator.cs" />
+    <Compile Include="GridViewFooterOnTop\GridViewFooterOnTop.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GridViewFooterOnTop\GridViewInfoFooterOnTop.cs" />
+    <Compile Include="Masters\FormPktGradeUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FormPktGradeUpdate.designer.cs">
+      <DependentUpon>FormPktGradeUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmDepartmentWiseJangedSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmDepartmentWiseJangedSetting.designer.cs">
+      <DependentUpon>FrmDepartmentWiseJangedSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FormQCPenalty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FormQCPenalty.designer.cs">
+      <DependentUpon>FormQCPenalty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmDepartmentWiseProcessLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmDepartmentWiseProcessLock.designer.cs">
+      <DependentUpon>FrmDepartmentWiseProcessLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmFactoryIssueLockSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmFactoryIssueLockSetting.designer.cs">
+      <DependentUpon>FrmFactoryIssueLockSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmKapanAutomarkerSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmKapanAutomarkerSetting.designer.cs">
+      <DependentUpon>FrmKapanAutomarkerSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmLabExpense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmLabExpense.Designer.cs">
+      <DependentUpon>FrmLabExpense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmGalaxyScanMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmGalaxyScanMaster.Designer.cs">
+      <DependentUpon>FrmGalaxyScanMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmMixSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmMixSize.Designer.cs">
+      <DependentUpon>FrmMixSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmParaReportCriteria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmParaReportCriteria.designer.cs">
+      <DependentUpon>FrmParaReportCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmPenultyPoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmPenultyPoint.designer.cs">
+      <DependentUpon>FrmPenultyPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmPriceDateMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmPriceDateMaster.Designer.cs">
+      <DependentUpon>FrmPriceDateMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmProcessWiseLossPer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmProcessWiseLossPer.Designer.cs">
+      <DependentUpon>FrmProcessWiseLossPer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmReportMasterNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmReportMasterNew.designer.cs">
+      <DependentUpon>FrmReportMasterNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmSubject.Designer.cs">
+      <DependentUpon>FrmSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmHeliumPrintLimitSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmHeliumPrintLimitSetting.Designer.cs">
+      <DependentUpon>FrmHeliumPrintLimitSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmAgingKapanWiseSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmAgingKapanWiseSetting.designer.cs">
+      <DependentUpon>FrmAgingKapanWiseSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmAgingProcessSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmAgingProcessSetting.designer.cs">
+      <DependentUpon>FrmAgingProcessSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmExcRateMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmExcRateMaster.designer.cs">
+      <DependentUpon>FrmExcRateMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmHeliumMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmHeliumMaster.Designer.cs">
+      <DependentUpon>FrmHeliumMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmHolidayListMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmHolidayListMaster.designer.cs">
+      <DependentUpon>FrmHolidayListMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmSettingMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmSettingMaster.designer.cs">
+      <DependentUpon>FrmSettingMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmShiftMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmShiftMaster.designer.cs">
+      <DependentUpon>FrmShiftMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmYearMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmYearMaster.designer.cs">
+      <DependentUpon>FrmYearMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDI\FrmRibbonMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI\FrmRibbonMDI.Designer.cs">
+      <DependentUpon>FrmRibbonMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmClarityAssortment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmClarityAssortment.Designer.cs">
+      <DependentUpon>FrmClarityAssortment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmClarityAssortmentView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmClarityAssortmentView.Designer.cs">
+      <DependentUpon>FrmClarityAssortmentView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmKapanInward.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmKapanInward.designer.cs">
+      <DependentUpon>FrmKapanInward.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmKapanInwardView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmKapanInwardView.Designer.cs">
+      <DependentUpon>FrmKapanInwardView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmMakablePacketCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmMakablePacketCreate.designer.cs">
+      <DependentUpon>FrmMakablePacketCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmMakebalPacketCreateNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmMakebalPacketCreateNew.designer.cs">
+      <DependentUpon>FrmMakebalPacketCreateNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmMakebalPacketCreateTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmMakebalPacketCreateTest.designer.cs">
+      <DependentUpon>FrmMakebalPacketCreateTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmMixPacketCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmMixPacketCreate.designer.cs">
+      <DependentUpon>FrmMixPacketCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmMixPriceChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmMixPriceChart.Designer.cs">
+      <DependentUpon>FrmMixPriceChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmPacketHistoryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmPacketHistoryView.designer.cs">
+      <DependentUpon>FrmPacketHistoryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmParcelGoodsTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmParcelGoodsTransfer.designer.cs">
+      <DependentUpon>FrmParcelGoodsTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmParcelPacketConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmParcelPacketConfirmation.designer.cs">
+      <DependentUpon>FrmParcelPacketConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmParcelPacketLiveStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmParcelPacketLiveStock.designer.cs">
+      <DependentUpon>FrmParcelPacketLiveStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmParcelTransactionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmParcelTransactionView.designer.cs">
+      <DependentUpon>FrmParcelTransactionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmPartyIssueWithPacket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmPartyIssueWithPacket.designer.cs">
+      <DependentUpon>FrmPartyIssueWithPacket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcel\FrmSizeAssortment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parcel\FrmSizeAssortment.Designer.cs">
+      <DependentUpon>FrmSizeAssortment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Polish\FrmIsAdditionalAssortment .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Polish\FrmIsAdditionalAssortment .Designer.cs">
+      <DependentUpon>FrmIsAdditionalAssortment .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Polish\FrmOutwardKapan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Polish\FrmOutwardKapan.designer.cs">
+      <DependentUpon>FrmOutwardKapan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Polish\FrmPolishPacketHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Polish\FrmPolishPacketHistory.designer.cs">
+      <DependentUpon>FrmPolishPacketHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Polish\FrmPolishTransactionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Polish\FrmPolishTransactionView.designer.cs">
+      <DependentUpon>FrmPolishTransactionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Polish\FrmPolishGoodsTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Polish\FrmPolishGoodsTransfer.designer.cs">
+      <DependentUpon>FrmPolishGoodsTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Polish\FrmPolishIssueWithPackets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Polish\FrmPolishIssueWithPackets.designer.cs">
+      <DependentUpon>FrmPolishIssueWithPackets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Polish\FrmPolishPacketLiveStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Polish\FrmPolishPacketLiveStock.designer.cs">
+      <DependentUpon>FrmPolishPacketLiveStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmLabourProcessMakablePlanning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmLabourProcessMakablePlanning.designer.cs">
+      <DependentUpon>FrmLabourProcessMakablePlanning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmDollarLabourPer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmDollarLabourPer.Designer.cs">
+      <DependentUpon>FrmDollarLabourPer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmDollarLabourQuickUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmDollarLabourQuickUpload.designer.cs">
+      <DependentUpon>FrmDollarLabourQuickUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmDollarLabourPriceDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmDollarLabourPriceDetail.designer.cs">
+      <DependentUpon>FrmDollarLabourPriceDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmDollarLabourUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmDollarLabourUpload.designer.cs">
+      <DependentUpon>FrmDollarLabourUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmFindRap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmFindRap.designer.cs">
+      <DependentUpon>FrmFindRap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmFindRapNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmFindRapNew.designer.cs">
+      <DependentUpon>FrmFindRapNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmLabourProcessMakable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmLabourProcessMakable.designer.cs">
+      <DependentUpon>FrmLabourProcessMakable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmSalaryTypePer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmSalaryTypePer.designer.cs">
+      <DependentUpon>FrmSalaryTypePer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmTensionSakhatLabourPer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmTensionSakhatLabourPer.designer.cs">
+      <DependentUpon>FrmTensionSakhatLabourPer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\Frm4PWisePolishReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\Frm4PWisePolishReport.designer.cs">
+      <DependentUpon>Frm4PWisePolishReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\Frm4POKReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\Frm4POKReport.designer.cs">
+      <DependentUpon>Frm4POKReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPuritySizeWCFGWiseReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPuritySizeWCFGWiseReport.designer.cs">
+      <DependentUpon>FrmPuritySizeWCFGWiseReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmKapanFactoryWisePolishReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmKapanFactoryWisePolishReport.designer.cs">
+      <DependentUpon>FrmKapanFactoryWisePolishReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmArtistWisePendingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmArtistWisePendingReport.designer.cs">
+      <DependentUpon>FrmArtistWisePendingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmArtistWisePolishReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmArtistWisePolishReport.designer.cs">
+      <DependentUpon>FrmArtistWisePolishReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmEmpWiseSplitReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmEmpWiseSplitReport.designer.cs">
+      <DependentUpon>FrmEmpWiseSplitReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmGradingAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmGradingAnalysis.designer.cs">
+      <DependentUpon>FrmGradingAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmKapanDetailReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmKapanDetailReport.designer.cs">
+      <DependentUpon>FrmKapanDetailReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmManagerWisePendingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmManagerWisePendingReport.designer.cs">
+      <DependentUpon>FrmManagerWisePendingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerDashboardCurrent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerDashboardCurrent.designer.cs">
+      <DependentUpon>FrmMarkerDashboardCurrent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMfgPrdComp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMfgPrdComp.designer.cs">
+      <DependentUpon>FrmMfgPrdComp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPrdViewForProcessPktDetailSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPrdViewForProcessPktDetailSimple.designer.cs">
+      <DependentUpon>FrmPrdViewForProcessPktDetailSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmProductionReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmProductionReport.Designer.cs">
+      <DependentUpon>FrmProductionReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmRoughCostAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmRoughCostAnalysis.Designer.cs">
+      <DependentUpon>FrmRoughCostAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmSaleDemandEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmSaleDemandEntry.designer.cs">
+      <DependentUpon>FrmSaleDemandEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmSingleMemoAnalysisOtherSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmSingleMemoAnalysisOtherSummary.Designer.cs">
+      <DependentUpon>FrmSingleMemoAnalysisOtherSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmSingleMemoAnalysisOther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmSingleMemoAnalysisOther.Designer.cs">
+      <DependentUpon>FrmSingleMemoAnalysisOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmBreakingDiffProcessPredictionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmBreakingDiffProcessPredictionView.Designer.cs">
+      <DependentUpon>FrmBreakingDiffProcessPredictionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerDashboardNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerDashboardNew.Designer.cs">
+      <DependentUpon>FrmMarkerDashboardNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmGIAAdvanceField.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmGiaAdvanceField.designer.cs">
+      <DependentUpon>FrmGIAAdvanceField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmGradingComparisionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmGradingComparisionView.Designer.cs">
+      <DependentUpon>FrmGradingComparisionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmGradingReportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmGradingReportView.designer.cs">
+      <DependentUpon>FrmGradingReportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPolishCheckerComparisionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPolishCheckerComparisionView.Designer.cs">
+      <DependentUpon>FrmPolishCheckerComparisionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmSingleMemoAnalysisSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmSingleMemoAnalysisSummary.Designer.cs">
+      <DependentUpon>FrmSingleMemoAnalysisSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmHeliumDataView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmHeliumDataView.designer.cs">
+      <DependentUpon>FrmHeliumDataView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmLabPridictionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmLabPridictionView.designer.cs">
+      <DependentUpon>FrmLabPridictionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPrdViewFinalChecker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPrdViewFinalChecker.designer.cs">
+      <DependentUpon>FrmPrdViewFinalChecker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmSingleMemoAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmSingleMemoAnalysis.Designer.cs">
+      <DependentUpon>FrmSingleMemoAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerVariationReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerVariationReport.designer.cs">
+      <DependentUpon>FrmMarkerVariationReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmSinglePrdMakLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmSinglePrdMakLog.designer.cs">
+      <DependentUpon>FrmSinglePrdMakLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmUnPlanningReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmUnPlanningReport.designer.cs">
+      <DependentUpon>FrmUnPlanningReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmWorkerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmWorkerDashboard.Designer.cs">
+      <DependentUpon>FrmWorkerDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerDashboardOld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerDashboardOld.Designer.cs">
+      <DependentUpon>FrmMarkerDashboardOld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerProcessPredictionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerProcessPredictionView.Designer.cs">
+      <DependentUpon>FrmMarkerProcessPredictionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerDashboard.Designer.cs">
+      <DependentUpon>FrmMarkerDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerGradingComparisionPopupDetailWithPivotBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerGradingComparisionPopupDetailWithPivotBox.Designer.cs">
+      <DependentUpon>FrmMarkerGradingComparisionPopupDetailWithPivotBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerGradingComparisionWithLatestGrd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerGradingComparisionWithLatestGrd.Designer.cs">
+      <DependentUpon>FrmMarkerGradingComparisionWithLatestGrd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerGradingComparision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerGradingComparision.Designer.cs">
+      <DependentUpon>FrmMarkerGradingComparision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerGradingComparisionPopupDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMarkerGradingComparisionPopupDetail.Designer.cs">
+      <DependentUpon>FrmMarkerGradingComparisionPopupDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPCNPacketsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPCNPacketsView.Designer.cs">
+      <DependentUpon>FrmPCNPacketsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPrdViewMarkerSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPrdViewMarkerSimple.designer.cs">
+      <DependentUpon>FrmPrdViewMarkerSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FrmFilterPuchaseStockReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\FrmFilterPuchaseStockReport.designer.cs">
+      <DependentUpon>FrmFilterPuchaseStockReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FrmFilterStockReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\FrmFilterStockReport.designer.cs">
+      <DependentUpon>FrmFilterStockReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FrmGridReportViewerWithBand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\FrmGridReportViewerWithBand.designer.cs">
+      <DependentUpon>FrmGridReportViewerWithBand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FrmPivotReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\FrmPivotReportViewer.designer.cs">
+      <DependentUpon>FrmPivotReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\RepShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\RepShowForm.designer.cs">
+      <DependentUpon>RepShowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmQCPenaltyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmQCPenaltyReport.designer.cs">
+      <DependentUpon>FrmQCPenaltyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryProcessDetailWithZero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryProcessDetailWithZero.designer.cs">
+      <DependentUpon>FrmSalaryProcessDetailWithZero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryView.Designer.cs">
+      <DependentUpon>FrmSalaryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryView4pLabourReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryView4pLabourReport.designer.cs">
+      <DependentUpon>FrmSalaryView4pLabourReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryViewDetailEmployeeWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryViewDetailEmployeeWise.Designer.cs">
+      <DependentUpon>FrmSalaryViewDetailEmployeeWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryViewForBlockingChecker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryViewForBlockingChecker.Designer.cs">
+      <DependentUpon>FrmSalaryViewForBlockingChecker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryViewForChiefArtist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryViewForChiefArtist.Designer.cs">
+      <DependentUpon>FrmSalaryViewForChiefArtist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryViewForDharAndMaxi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryViewForDharAndMaxi.Designer.cs">
+      <DependentUpon>FrmSalaryViewForDharAndMaxi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryViewForProcessWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryViewForProcessWise.Designer.cs">
+      <DependentUpon>FrmSalaryViewForProcessWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryViewForWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary\FrmSalaryViewForWorker.Designer.cs">
+      <DependentUpon>FrmSalaryViewForWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\GIAWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SharingLockUnlock.cs" />
+    <Compile Include="Transaction\FrmLabReturnPrediction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmLabReturnPrediction.Designer.cs">
+      <DependentUpon>FrmLabReturnPrediction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmLockPredictionEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmLockPredictionEntry.Designer.cs">
+      <DependentUpon>FrmLockPredictionEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmJobWorkPurchaseMasterDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmJobWorkPurchaseMasterDetail.designer.cs">
+      <DependentUpon>FrmJobWorkPurchaseMasterDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmJobWorkPurchaseView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmJobWorkPurchaseView.designer.cs">
+      <DependentUpon>FrmJobWorkPurchaseView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmKapanEstimentEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmKapanEstimentEntry.Designer.cs">
+      <DependentUpon>FrmKapanEstimentEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmOrderEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmOrderEntry.Designer.cs">
+      <DependentUpon>FrmOrderEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmQCRejectionCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmQCRejectionCheck.Designer.cs">
+      <DependentUpon>FrmQCRejectionCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmQCTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmQCTransfer.Designer.cs">
+      <DependentUpon>FrmQCTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmRepairingEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmRepairingEntry.designer.cs">
+      <DependentUpon>FrmRepairingEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsTransferNewManagerWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsTransferNewManagerWise.Designer.cs">
+      <DependentUpon>FrmSingleGoodsTransferNewManagerWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePacketConfirmationOld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePacketConfirmationOld.Designer.cs">
+      <DependentUpon>FrmSinglePacketConfirmationOld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmKapanValuation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmKapanValuation.designer.cs">
+      <DependentUpon>FrmKapanValuation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmManualEntryLiveStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmManualEntryLiveStock.designer.cs">
+      <DependentUpon>FrmManualEntryLiveStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmNonQCLiveStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmNonQCLiveStock.designer.cs">
+      <DependentUpon>FrmNonQCLiveStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsReturnLiveStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsReturnLiveStock.designer.cs">
+      <DependentUpon>FrmSingleGoodsReturnLiveStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsReturnWithSplitNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsReturnWithSplitNew.Designer.cs">
+      <DependentUpon>FrmSingleGoodsReturnWithSplitNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsTransferNewOLD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsTransferNewOLD.Designer.cs">
+      <DependentUpon>FrmSingleGoodsTransferNewOLD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmCrapsIssueReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmCrapsIssueReturn.designer.cs">
+      <DependentUpon>FrmCrapsIssueReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughAllotmentEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughAllotmentEntry.designer.cs">
+      <DependentUpon>FrmRoughAllotmentEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughSaleMasterDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughSaleMasterDetail.Designer.cs">
+      <DependentUpon>FrmRoughSaleMasterDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughPurchaseMixSplitView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughPurchaseMixSplitView.designer.cs">
+      <DependentUpon>FrmRoughPurchaseMixSplitView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughPurchaseMixSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughPurchaseMixSplit.designer.cs">
+      <DependentUpon>FrmRoughPurchaseMixSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmAgingPacketUnlockEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmAgingPacketUnlockEntry.Designer.cs">
+      <DependentUpon>FrmAgingPacketUnlockEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmPacketControlNoMapping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmPacketControlNoMapping.designer.cs">
+      <DependentUpon>FrmPacketControlNoMapping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmPolishOkPacketUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmPolishOkPacketUpdate.designer.cs">
+      <DependentUpon>FrmPolishOkPacketUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughPurchaseMasterDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughPurchaseMasterDetail.Designer.cs">
+      <DependentUpon>FrmRoughPurchaseMasterDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsTransferLossUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsTransferLossUpdate.Designer.cs">
+      <DependentUpon>FrmSingleGoodsTransferLossUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsTransferNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsTransferNew.Designer.cs">
+      <DependentUpon>FrmSingleGoodsTransferNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePolishOKTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePolishOKTransfer.designer.cs">
+      <DependentUpon>FrmSinglePolishOKTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePrdArtistLowerPlanTick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePrdArtistLowerPlanTick.designer.cs">
+      <DependentUpon>FrmSinglePrdArtistLowerPlanTick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmDiscountBreakup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmDiscountBreakup.designer.cs">
+      <DependentUpon>FrmDiscountBreakup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmEmpBehaviourPoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmEmpBehaviourPoint.designer.cs">
+      <DependentUpon>FrmEmpBehaviourPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmMumbaiBarcodePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmMumbaiBarcodePrint.designer.cs">
+      <DependentUpon>FrmMumbaiBarcodePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmPredictionCopyModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmPredictionCopyModule.Designer.cs">
+      <DependentUpon>FrmPredictionCopyModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughPurchaseRolling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughPurchaseRolling.designer.cs">
+      <DependentUpon>FrmRoughPurchaseRolling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughPurchaseView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmRoughPurchaseView.designer.cs">
+      <DependentUpon>FrmRoughPurchaseView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSerialNoGenerate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSerialNoGenerate.designer.cs">
+      <DependentUpon>FrmSerialNoGenerate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleBreakingPacketList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleBreakingPacketList.Designer.cs">
+      <DependentUpon>FrmSingleBreakingPacketList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleBreakingPacketEntryDetail .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleBreakingPacketEntryDetail .Designer.cs">
+      <DependentUpon>FrmSingleBreakingPacketEntryDetail .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmPacketUnlockEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmPacketUnlockEntry.Designer.cs">
+      <DependentUpon>FrmPacketUnlockEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmKapanProcessSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmKapanProcessSetting.Designer.cs">
+      <DependentUpon>FrmKapanProcessSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmItem.Designer.cs">
+      <DependentUpon>FrmItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDI\FrmAdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI\FrmAdminDashboard.Designer.cs">
+      <DependentUpon>FrmAdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmDiscountDiff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmDiscountDiff.Designer.cs">
+      <DependentUpon>FrmDiscountDiff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmComparisionViewAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmComparisionViewAdmin.Designer.cs">
+      <DependentUpon>FrmComparisionViewAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmGradingBarcodePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmGradingBarcodePrint.Designer.cs">
+      <DependentUpon>FrmGradingBarcodePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleBreakingEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleBreakingEntry.Designer.cs">
+      <DependentUpon>FrmSingleBreakingEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsFinalReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsFinalReturn.Designer.cs">
+      <DependentUpon>FrmSingleGoodsFinalReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePacketAutoIssue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePacketAutoIssue.Designer.cs">
+      <DependentUpon>FrmSinglePacketAutoIssue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleRepairingLabour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleRepairingLabour.Designer.cs">
+      <DependentUpon>FrmSingleRepairingLabour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmParameterDiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmParameterDiscount.Designer.cs">
+      <DependentUpon>FrmParameterDiscount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmLabourProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmLabourProcess.Designer.cs">
+      <DependentUpon>FrmLabourProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmEmployeeMasterNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmEmployeeMasterNew.Designer.cs">
+      <DependentUpon>FrmEmployeeMasterNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmSize.Designer.cs">
+      <DependentUpon>FrmSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmEmployeeRights.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmEmployeeRights.Designer.cs">
+      <DependentUpon>FrmEmployeeRights.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmPrdType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmPrdType.Designer.cs">
+      <DependentUpon>FrmPrdType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmLabourRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmLabourRate.Designer.cs">
+      <DependentUpon>FrmLabourRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmEmployee.Designer.cs">
+      <DependentUpon>FrmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmFixedExpenseEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmFixedExpenseEntry.designer.cs">
+      <DependentUpon>FrmFixedExpenseEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\FrmParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmParameter.Designer.cs">
+      <DependentUpon>FrmParameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDI\FrmAboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI\FrmAboutUs.designer.cs">
+      <DependentUpon>FrmAboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PacketTreeDrawing\CircleNode.cs" />
+    <Compile Include="PacketTreeDrawing\FrmPacketLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PacketTreeDrawing\FrmPacketLookup.Designer.cs">
+      <DependentUpon>FrmPacketLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PacketTreeDrawing\IDrawable.cs" />
+    <Compile Include="PacketTreeDrawing\TreeNode.cs" />
+    <Compile Include="Rapaport\FrmPriceRevised.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmPriceRevised.Designer.cs">
+      <DependentUpon>FrmPriceRevised.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmLabourPriceHeadDetailNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmLabourPriceHeadDetailNew.designer.cs">
+      <DependentUpon>FrmLabourPriceHeadDetailNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmLabourPcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmLabourPcs.Designer.cs">
+      <DependentUpon>FrmLabourPcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grading\FrmSingleFileUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grading\FrmSingleFileUpload.Designer.cs">
+      <DependentUpon>FrmSingleFileUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmLabourQuickUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmLabourQuickUpload.designer.cs">
+      <DependentUpon>FrmLabourQuickUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmFileTransferOld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmFileTransferOld.Designer.cs">
+      <DependentUpon>FrmFileTransferOld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmFindRapNewNewBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmFindRapNewNewBackup.designer.cs">
+      <DependentUpon>FrmFindRapNewNewBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmFetchPreviousPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmFetchPreviousPlan.designer.cs">
+      <DependentUpon>FrmFetchPreviousPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmCutPolSym.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmCutPolSym.Designer.cs">
+      <DependentUpon>FrmCutPolSym.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmComparisionViewMarker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmComparisionViewMarker.Designer.cs">
+      <DependentUpon>FrmComparisionViewMarker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmArtistPredictionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmArtistPredictionList.Designer.cs">
+      <DependentUpon>FrmArtistPredictionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMISAnalysisMakPolGrd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmMISAnalysisMakPolGrd.Designer.cs">
+      <DependentUpon>FrmMISAnalysisMakPolGrd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmProductionAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmProductionAnalysis.Designer.cs">
+      <DependentUpon>FrmProductionAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmComparisionViewMarkerOld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmComparisionViewMarkerOld.Designer.cs">
+      <DependentUpon>FrmComparisionViewMarkerOld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmFullKapanAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmFullKapanAnalysis.Designer.cs">
+      <DependentUpon>FrmFullKapanAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPrdViewMarker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPrdViewMarker.Designer.cs">
+      <DependentUpon>FrmPrdViewMarker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPrdViewManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmPrdViewManagement.Designer.cs">
+      <DependentUpon>FrmPrdViewManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmComparisionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmComparisionView.Designer.cs">
+      <DependentUpon>FrmComparisionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\FrmReportViewerOld.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\FrmReportViewerOld.Designer.cs">
+      <DependentUpon>FrmReportViewerOld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rapaport\FrmFileTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rapaport\FrmFileTransfer.Designer.cs">
+      <DependentUpon>FrmFileTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grading\FrmSinglePacketPolishChkGradingEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grading\FrmSinglePacketPolishChkGradingEntry.designer.cs">
+      <DependentUpon>FrmSinglePacketPolishChkGradingEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmPenaltyIncentive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmPenaltyIncentive.designer.cs">
+      <DependentUpon>FrmPenaltyIncentive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsFinalIssue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsFinalIssue.Designer.cs">
+      <DependentUpon>FrmSingleGoodsFinalIssue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmBarcodePrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmBarcodePrint.Designer.cs">
+      <DependentUpon>FrmBarcodePrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleRejectionTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleRejectionTransfer.Designer.cs">
+      <DependentUpon>FrmSingleRejectionTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleTransactionUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleTransactionUpdate.Designer.cs">
+      <DependentUpon>FrmSingleTransactionUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmStockTally.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmStockTally.Designer.cs">
+      <DependentUpon>FrmStockTally.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmStockTallyNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmStockTallyNew.Designer.cs">
+      <DependentUpon>FrmStockTallyNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmTenderEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmTenderEntry.designer.cs">
+      <DependentUpon>FrmTenderEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\BOCaptureDevice.cs" />
+    <Compile Include="Utility\FrmDataTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmDataTransfer.designer.cs">
+      <DependentUpon>FrmDataTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmExpGoalPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmExpGoalPopUp.designer.cs">
+      <DependentUpon>FrmExpGoalPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmHeliumFileImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmHeliumFileImport.Designer.cs">
+      <DependentUpon>FrmHeliumFileImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmHeliumMumbaiGradingDataView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmHeliumMumbaiGradingDataView.Designer.cs">
+      <DependentUpon>FrmHeliumMumbaiGradingDataView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmPacketGradeUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmPacketGradeUpdate.Designer.cs">
+      <DependentUpon>FrmPacketGradeUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmKapanTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmKapanTransfer.designer.cs">
+      <DependentUpon>FrmKapanTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmMumbaiTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmMumbaiTransfer.Designer.cs">
+      <DependentUpon>FrmMumbaiTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmPacketDollarUnloock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmPacketDollarUnloock.Designer.cs">
+      <DependentUpon>FrmPacketDollarUnloock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmJangedUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmJangedUpdate.Designer.cs">
+      <DependentUpon>FrmJangedUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmClientTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmClientTicket.Designer.cs">
+      <DependentUpon>FrmClientTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmPassword.Designer.cs">
+      <DependentUpon>FrmPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmSearchBoxForRapCalc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmSearchBoxForRapCalc.designer.cs">
+      <DependentUpon>FrmSearchBoxForRapCalc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmChangePassword.designer.cs">
+      <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmDepartmentIssueReturnLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmDepartmentIssueReturnLock.designer.cs">
+      <DependentUpon>FrmDepartmentIssueReturnLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmSearchPopupBoxMultipleSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmSearchPopupBoxMultipleSelect.designer.cs">
+      <DependentUpon>FrmSearchPopupBoxMultipleSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmTransactionLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmTransactionLock.designer.cs">
+      <DependentUpon>FrmTransactionLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmGetFilesFromFTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmGetFilesFromFTP.designer.cs">
+      <DependentUpon>FrmGetFilesFromFTP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmInputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmInputBox.designer.cs">
+      <DependentUpon>FrmInputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportGrid\FrmRoughWiseValueReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportGrid\FrmRoughWiseValueReport.Designer.cs">
+      <DependentUpon>FrmRoughWiseValueReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\BONetworkShare.cs" />
+    <Compile Include="Utility\FrmUserConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmUserConfig.designer.cs">
+      <DependentUpon>FrmUserConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmOrderDashboardView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmOrderDashboardView.Designer.cs">
+      <DependentUpon>FrmOrderDashboardView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmRoughCostingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmRoughCostingReport.designer.cs">
+      <DependentUpon>FrmRoughCostingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmRoughStockReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmRoughStockReport.Designer.cs">
+      <DependentUpon>FrmRoughStockReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmKapanWiseRollingReportNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmKapanWiseRollingReportNew.Designer.cs">
+      <DependentUpon>FrmKapanWiseRollingReportNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmRunningPossitionParcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmRunningPossitionParcel.designer.cs">
+      <DependentUpon>FrmRunningPossitionParcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmShapeWisePrdReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmShapeWisePrdReport.designer.cs">
+      <DependentUpon>FrmShapeWisePrdReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmStockPrintReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmStockPrintReport.designer.cs">
+      <DependentUpon>FrmStockPrintReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmPlaningReportAssorterWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmPlaningReportAssorterWise.designer.cs">
+      <DependentUpon>FrmPlaningReportAssorterWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmProcessWiseReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmProcessWiseReport.Designer.cs">
+      <DependentUpon>FrmProcessWiseReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmGalaxyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmGalaxyReport.Designer.cs">
+      <DependentUpon>FrmGalaxyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmBombayTransLabWiseReportMIX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmBombayTransLabWiseReportMIX.designer.cs">
+      <DependentUpon>FrmBombayTransLabWiseReportMIX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmBombayTransLabWiseReportGIA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmBombayTransLabWiseReportGIA.designer.cs">
+      <DependentUpon>FrmBombayTransLabWiseReportGIA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmBreakingDiffrenceDetailReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmBreakingDiffrenceDetailReport.designer.cs">
+      <DependentUpon>FrmBreakingDiffrenceDetailReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmBreakingDifferenceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmBreakingDifferenceReport.Designer.cs">
+      <DependentUpon>FrmBreakingDifferenceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmKapanRollingReportNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmKapanRollingReportNew.designer.cs">
+      <DependentUpon>FrmKapanRollingReportNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmHeliumPacketPrintDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmHeliumPacketPrintDetail.Designer.cs">
+      <DependentUpon>FrmHeliumPacketPrintDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmMyAgingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmMyAgingReport.Designer.cs">
+      <DependentUpon>FrmMyAgingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmPolishChkGradingAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmPolishChkGradingAnalysis.Designer.cs">
+      <DependentUpon>FrmPolishChkGradingAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmBlockingSalaryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmBlockingSalaryView.Designer.cs">
+      <DependentUpon>FrmBlockingSalaryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmRunningPossitionDepartmentWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmRunningPossitionDepartmentWise.Designer.cs">
+      <DependentUpon>FrmRunningPossitionDepartmentWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmBlockingLabourPlusMinusReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmBlockingLabourPlusMinusReport.Designer.cs">
+      <DependentUpon>FrmBlockingLabourPlusMinusReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmSawingSplitReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmSawingSplitReport.Designer.cs">
+      <DependentUpon>FrmSawingSplitReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmKapanRollingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmKapanRollingReport.designer.cs">
+      <DependentUpon>FrmKapanRollingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmFactoryManagerProductionReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmFactoryManagerProductionReport.Designer.cs">
+      <DependentUpon>FrmFactoryManagerProductionReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmEmployeeOverDueReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmEmployeeOverDueReport.designer.cs">
+      <DependentUpon>FrmEmployeeOverDueReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmFactoryAgingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmFactoryAgingReport.Designer.cs">
+      <DependentUpon>FrmFactoryAgingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmStockPrintReportKapanWise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmStockPrintReportKapanWise.designer.cs">
+      <DependentUpon>FrmStockPrintReportKapanWise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmWorkerRollingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmWorkerRollingReport.designer.cs">
+      <DependentUpon>FrmWorkerRollingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmMarkerLabourPlusMinusReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmMarkerLabourPlusMinusReport.Designer.cs">
+      <DependentUpon>FrmMarkerLabourPlusMinusReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmMarkerRollingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmMarkerRollingReport.designer.cs">
+      <DependentUpon>FrmMarkerRollingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmOtherProcessProduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmOtherProcessProduction.Designer.cs">
+      <DependentUpon>FrmOtherProcessProduction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmFactoryLabourWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmFactoryLabourWorker.Designer.cs">
+      <DependentUpon>FrmFactoryLabourWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmFactoryLabourNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmFactoryLabourNew.Designer.cs">
+      <DependentUpon>FrmFactoryLabourNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmFactoryLabourDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmFactoryLabourDetail.designer.cs">
+      <DependentUpon>FrmFactoryLabourDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmSingleTransactionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmSingleTransactionView.Designer.cs">
+      <DependentUpon>FrmSingleTransactionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsReturnWithSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsReturnWithSplit.Designer.cs">
+      <DependentUpon>FrmSingleGoodsReturnWithSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePacketConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePacketConfirmation.Designer.cs">
+      <DependentUpon>FrmSinglePacketConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleGoodsTransfer.Designer.cs">
+      <DependentUpon>FrmSingleGoodsTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePacketLiveStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePacketLiveStock.Designer.cs">
+      <DependentUpon>FrmSinglePacketLiveStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleKapanDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSingleKapanDashboard.Designer.cs">
+      <DependentUpon>FrmSingleKapanDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ListviewCustom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ListviewCustom.designer.cs">
+      <DependentUpon>ListviewCustom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\ReportMultiSelectNew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\ReportMultiSelectNew.designer.cs">
+      <DependentUpon>ReportMultiSelectNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\BODevGridSelection.cs" />
+    <Compile Include="Report\FrmReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\FrmReportViewer.Designer.cs">
+      <DependentUpon>FrmReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePacketCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmSinglePacketCreate.Designer.cs">
+      <DependentUpon>FrmSinglePacketCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmPacketUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmPacketUpdate.Designer.cs">
+      <DependentUpon>FrmPacketUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmRejectionTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmRejectionTransfer.Designer.cs">
+      <DependentUpon>FrmRejectionTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmKapanDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmKapanDashboard.Designer.cs">
+      <DependentUpon>FrmKapanDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmPacketReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmPacketReturn.Designer.cs">
+      <DependentUpon>FrmPacketReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\FrmKapanCreation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\FrmKapanCreation.Designer.cs">
+      <DependentUpon>FrmKapanCreation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmPopupGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmPopupGrid.designer.cs">
+      <DependentUpon>FrmPopupGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmPolishOKReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmPolishOKReport.Designer.cs">
+      <DependentUpon>FrmPolishOKReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmRunningPossitionPopupDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmRunningPossitionPopupDetail.Designer.cs">
+      <DependentUpon>FrmRunningPossitionPopupDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmAsOnDateStockReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmAsOnDateStockReport.Designer.cs">
+      <DependentUpon>FrmAsOnDateStockReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmRunningPossition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmRunningPossition.Designer.cs">
+      <DependentUpon>FrmRunningPossition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmRejectionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmRejectionView.Designer.cs">
+      <DependentUpon>FrmRejectionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmLedgerReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmLedgerReport.Designer.cs">
+      <DependentUpon>FrmLedgerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account\FrmPaymentEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account\FrmPaymentEntry.Designer.cs">
+      <DependentUpon>FrmPaymentEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FrmRojMel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FrmRojMel.Designer.cs">
+      <DependentUpon>FrmRojMel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Activation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activation.designer.cs">
+      <DependentUpon>Activation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Masters\FrmLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masters\FrmLedger.Designer.cs">
+      <DependentUpon>FrmLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDI\FrmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI\FrmHome.Designer.cs">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDI\FrmMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI\FrmMDI.Designer.cs">
+      <DependentUpon>FrmMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\FileUploadService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\FrmSearchPopupBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\FrmSearchPopupBox.designer.cs">
+      <DependentUpon>FrmSearchPopupBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utility\Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\APITicket\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Account\FrmBillWiseEntry.resx">
+      <DependentUpon>FrmBillWiseEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivationMsg.resx">
+      <DependentUpon>ActivationMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance\FrmAtdCaptureDetail.resx">
+      <DependentUpon>FrmAtdCaptureDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance\FrmLeaveApproval.resx">
+      <DependentUpon>FrmLeaveApproval.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance\FrmLeaveEntry.resx">
+      <DependentUpon>FrmLeaveEntry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance\FrmAttendanceEntryNew.resx">
+      <DependentUpon>FrmAttendanceEntryNew.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance\FrmAttendanceRegister.resx">
+      <DependentUpon>FrmAttendanceRegister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance\FrmSalaryEntry.resx">
+      <DependentUpon>FrmSalaryEntry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance\FrmAttendanceEntry.resx">
+      <DependentUpon>FrmAttendanceEntry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\RPT\KapanEstimate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>KapanEstimate.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomeControl\GroupByBox.resx">
+      <DependentUpon>GroupByBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\FrmPlanningDashboardWithOrderAndLock.resx">
+      <DependentUpon>FrmPlanningDashboardWithOrderAndLock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard\FrmPlanningDashboard.resx">
+      <DependentUpon>FrmPlanningDashboard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Events\FrmEventBox.resx">
+      <DependentUpon>FrmEventBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grading\FrmSinglePacketGradingEntryOld.resx">
+      <DependentUpon>FrmSinglePacketGradingEntryOld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grading\FrmPridictionViewForGrading.resx">
+      <DependentUpon>FrmPridictionViewForGrading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grading\FrmSaleEntryFromDiasales.resx">
+      <DependentUpon>FrmSaleEntryFromDiasales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grading\FrmSinglePacketGradingEntry.resx">
+      <DependentUpon>FrmSinglePacketGradingEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grading\FrmLabReCheckConfirm.resx">
+      <DependentUpon>FrmLabReCheckConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grading\FrmSinglePacketLabPricingEntry.resx">
+      <DependentUpon>FrmSinglePacketLabPricingEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FormPktGradeUpdate.resx">
+      <DependentUpon>FormPktGradeUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmDepartmentWiseJangedSetting.resx">
+      <DependentUpon>FrmDepartmentWiseJangedSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FormQCPenalty.resx">
+      <DependentUpon>FormQCPenalty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmDepartmentWiseProcessLock.resx">
+      <DependentUpon>FrmDepartmentWiseProcessLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmFactoryIssueLockSetting.resx">
+      <DependentUpon>FrmFactoryIssueLockSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmKapanAutomarkerSetting.resx">
+      <DependentUpon>FrmKapanAutomarkerSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmLabExpense.resx">
+      <DependentUpon>FrmLabExpense.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmGalaxyScanMaster.resx">
+      <DependentUpon>FrmGalaxyScanMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmMixSize.resx">
+      <DependentUpon>FrmMixSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmParaReportCriteria.resx">
+      <DependentUpon>FrmParaReportCriteria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmPenultyPoint.resx">
+      <DependentUpon>FrmPenultyPoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmPriceDateMaster.resx">
+      <DependentUpon>FrmPriceDateMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmProcessWiseLossPer.resx">
+      <DependentUpon>FrmProcessWiseLossPer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmReportMasterNew.resx">
+      <DependentUpon>FrmReportMasterNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmSubject.resx">
+      <DependentUpon>FrmSubject.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmHeliumPrintLimitSetting.resx">
+      <DependentUpon>FrmHeliumPrintLimitSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmAgingKapanWiseSetting.resx">
+      <DependentUpon>FrmAgingKapanWiseSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmAgingProcessSetting.resx">
+      <DependentUpon>FrmAgingProcessSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmExcRateMaster.resx">
+      <DependentUpon>FrmExcRateMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmHeliumMaster.resx">
+      <DependentUpon>FrmHeliumMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmHolidayListMaster.resx">
+      <DependentUpon>FrmHolidayListMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmSettingMaster.resx">
+      <DependentUpon>FrmSettingMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmShiftMaster.resx">
+      <DependentUpon>FrmShiftMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmYearMaster.resx">
+      <DependentUpon>FrmYearMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI\FrmRibbonMDI.resx">
+      <DependentUpon>FrmRibbonMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmClarityAssortment.resx">
+      <DependentUpon>FrmClarityAssortment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmClarityAssortmentView.resx">
+      <DependentUpon>FrmClarityAssortmentView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmKapanInward.resx">
+      <DependentUpon>FrmKapanInward.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmKapanInwardView.resx">
+      <DependentUpon>FrmKapanInwardView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmMakablePacketCreate.resx">
+      <DependentUpon>FrmMakablePacketCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmMakebalPacketCreateNew.resx">
+      <DependentUpon>FrmMakebalPacketCreateNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmMakebalPacketCreateTest.resx">
+      <DependentUpon>FrmMakebalPacketCreateTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmMixPacketCreate.resx">
+      <DependentUpon>FrmMixPacketCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmMixPriceChart.resx">
+      <DependentUpon>FrmMixPriceChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmPacketHistoryView.resx">
+      <DependentUpon>FrmPacketHistoryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmParcelGoodsTransfer.resx">
+      <DependentUpon>FrmParcelGoodsTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmParcelPacketConfirmation.resx">
+      <DependentUpon>FrmParcelPacketConfirmation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmParcelPacketLiveStock.resx">
+      <DependentUpon>FrmParcelPacketLiveStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmParcelTransactionView.resx">
+      <DependentUpon>FrmParcelTransactionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmPartyIssueWithPacket.resx">
+      <DependentUpon>FrmPartyIssueWithPacket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parcel\FrmSizeAssortment.resx">
+      <DependentUpon>FrmSizeAssortment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Polish\FrmIsAdditionalAssortment .resx">
+      <DependentUpon>FrmIsAdditionalAssortment .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Polish\FrmOutwardKapan.resx">
+      <DependentUpon>FrmOutwardKapan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Polish\FrmPolishPacketHistory.resx">
+      <DependentUpon>FrmPolishPacketHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Polish\FrmPolishTransactionView.resx">
+      <DependentUpon>FrmPolishTransactionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Polish\FrmPolishGoodsTransfer.resx">
+      <DependentUpon>FrmPolishGoodsTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Polish\FrmPolishIssueWithPackets.resx">
+      <DependentUpon>FrmPolishIssueWithPackets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Polish\FrmPolishPacketLiveStock.resx">
+      <DependentUpon>FrmPolishPacketLiveStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Rapaport\FrmLabourProcessMakablePlanning.resx">
+      <DependentUpon>FrmLabourProcessMakablePlanning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmDollarLabourPer.resx">
+      <DependentUpon>FrmDollarLabourPer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmDollarLabourQuickUpload.resx">
+      <DependentUpon>FrmDollarLabourQuickUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmDollarLabourPriceDetail.resx">
+      <DependentUpon>FrmDollarLabourPriceDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmDollarLabourUpload.resx">
+      <DependentUpon>FrmDollarLabourUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmFindRap.resx">
+      <DependentUpon>FrmFindRap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmFindRapNew.resx">
+      <DependentUpon>FrmFindRapNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmLabourProcessMakable.resx">
+      <DependentUpon>FrmLabourProcessMakable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmSalaryTypePer.resx">
+      <DependentUpon>FrmSalaryTypePer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmTensionSakhatLabourPer.resx">
+      <DependentUpon>FrmTensionSakhatLabourPer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\Frm4PWisePolishReport.resx">
+      <DependentUpon>Frm4PWisePolishReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\Frm4POKReport.resx">
+      <DependentUpon>Frm4POKReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmPuritySizeWCFGWiseReport.resx">
+      <DependentUpon>FrmPuritySizeWCFGWiseReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmKapanFactoryWisePolishReport.resx">
+      <DependentUpon>FrmKapanFactoryWisePolishReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmArtistWisePendingReport.resx">
+      <DependentUpon>FrmArtistWisePendingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmArtistWisePolishReport.resx">
+      <DependentUpon>FrmArtistWisePolishReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmEmpWiseSplitReport.resx">
+      <DependentUpon>FrmEmpWiseSplitReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmGradingAnalysis.resx">
+      <DependentUpon>FrmGradingAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmKapanDetailReport.resx">
+      <DependentUpon>FrmKapanDetailReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmManagerWisePendingReport.resx">
+      <DependentUpon>FrmManagerWisePendingReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmMarkerDashboardCurrent.resx">
+      <DependentUpon>FrmMarkerDashboardCurrent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmMfgPrdComp.resx">
+      <DependentUpon>FrmMfgPrdComp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmPrdViewForProcessPktDetailSimple.resx">
+      <DependentUpon>FrmPrdViewForProcessPktDetailSimple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmProductionReport.resx">
+      <DependentUpon>FrmProductionReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmRoughCostAnalysis.resx">
+      <DependentUpon>FrmRoughCostAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmSaleDemandEntry.resx">
+      <DependentUpon>FrmSaleDemandEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmSingleMemoAnalysisOtherSummary.resx">
+      <DependentUpon>FrmSingleMemoAnalysisOtherSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmSingleMemoAnalysisOther.resx">
+      <DependentUpon>FrmSingleMemoAnalysisOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmBreakingDiffProcessPredictionView.resx">
+      <DependentUpon>FrmBreakingDiffProcessPredictionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmMarkerDashboardNew.resx">
+      <DependentUpon>FrmMarkerDashboardNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmGIAAdvanceField.resx">
+      <DependentUpon>FrmGIAAdvanceField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmGradingComparisionView.resx">
+      <DependentUpon>FrmGradingComparisionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmGradingReportView.resx">
+      <DependentUpon>FrmGradingReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmPolishCheckerComparisionView.resx">
+      <DependentUpon>FrmPolishCheckerComparisionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmSingleMemoAnalysisSummary.resx">
+      <DependentUpon>FrmSingleMemoAnalysisSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmHeliumDataView.resx">
+      <DependentUpon>FrmHeliumDataView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmLabPridictionView.resx">
+      <DependentUpon>FrmLabPridictionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmPrdViewFinalChecker.resx">
+      <DependentUpon>FrmPrdViewFinalChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmSingleMemoAnalysis.resx">
+      <DependentUpon>FrmSingleMemoAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmMarkerVariationReport.resx">
+      <DependentUpon>FrmMarkerVariationReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmSinglePrdMakLog.resx">
+      <DependentUpon>FrmSinglePrdMakLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmUnPlanningReport.resx">
+      <DependentUpon>FrmUnPlanningReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmWorkerDashboard.resx">
+      <DependentUpon>FrmWorkerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmMarkerDashboardOld.resx">
+      <DependentUpon>FrmMarkerDashboardOld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmMarkerProcessPredictionView.resx">
+      <DependentUpon>FrmMarkerProcessPredictionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmMarkerDashboard.resx">
+      <DependentUpon>FrmMarkerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmMarkerGradingComparisionPopupDetailWithPivotBox.resx">
+      <DependentUpon>FrmMarkerGradingComparisionPopupDetailWithPivotBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmMarkerGradingComparisionWithLatestGrd.resx">
+      <DependentUpon>FrmMarkerGradingComparisionWithLatestGrd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmMarkerGradingComparision.resx">
+      <DependentUpon>FrmMarkerGradingComparision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmMarkerGradingComparisionPopupDetail.resx">
+      <DependentUpon>FrmMarkerGradingComparisionPopupDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmPCNPacketsView.resx">
+      <DependentUpon>FrmPCNPacketsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmPrdViewMarkerSimple.resx">
+      <DependentUpon>FrmPrdViewMarkerSimple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FrmFilterPuchaseStockReport.resx">
+      <DependentUpon>FrmFilterPuchaseStockReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FrmFilterStockReport.resx">
+      <DependentUpon>FrmFilterStockReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FrmGridReportViewerWithBand.resx">
+      <DependentUpon>FrmGridReportViewerWithBand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FrmPivotReportViewer.resx">
+      <DependentUpon>FrmPivotReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RepShowForm.resx">
+      <DependentUpon>RepShowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmQCPenaltyReport.resx">
+      <DependentUpon>FrmQCPenaltyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmSalaryProcessDetailWithZero.resx">
+      <DependentUpon>FrmSalaryProcessDetailWithZero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmSalaryView.resx">
+      <DependentUpon>FrmSalaryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmSalaryView4pLabourReport.resx">
+      <DependentUpon>FrmSalaryView4pLabourReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmSalaryViewDetailEmployeeWise.resx">
+      <DependentUpon>FrmSalaryViewDetailEmployeeWise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmSalaryViewForBlockingChecker.resx">
+      <DependentUpon>FrmSalaryViewForBlockingChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmSalaryViewForChiefArtist.resx">
+      <DependentUpon>FrmSalaryViewForChiefArtist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmSalaryViewForDharAndMaxi.resx">
+      <DependentUpon>FrmSalaryViewForDharAndMaxi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmSalaryViewForProcessWise.resx">
+      <DependentUpon>FrmSalaryViewForProcessWise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary\FrmSalaryViewForWorker.resx">
+      <DependentUpon>FrmSalaryViewForWorker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmLabReturnPrediction.resx">
+      <DependentUpon>FrmLabReturnPrediction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmLockPredictionEntry.resx">
+      <DependentUpon>FrmLockPredictionEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmJobWorkPurchaseMasterDetail.resx">
+      <DependentUpon>FrmJobWorkPurchaseMasterDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmJobWorkPurchaseView.resx">
+      <DependentUpon>FrmJobWorkPurchaseView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmKapanEstimentEntry.resx">
+      <DependentUpon>FrmKapanEstimentEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmOrderEntry.resx">
+      <DependentUpon>FrmOrderEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmQCRejectionCheck.resx">
+      <DependentUpon>FrmQCRejectionCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmQCTransfer.resx">
+      <DependentUpon>FrmQCTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmRepairingEntry.resx">
+      <DependentUpon>FrmRepairingEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleGoodsTransferNewManagerWise.resx">
+      <DependentUpon>FrmSingleGoodsTransferNewManagerWise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSinglePacketConfirmationOld.resx">
+      <DependentUpon>FrmSinglePacketConfirmationOld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmKapanValuation.resx">
+      <DependentUpon>FrmKapanValuation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmManualEntryLiveStock.resx">
+      <DependentUpon>FrmManualEntryLiveStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmNonQCLiveStock.resx">
+      <DependentUpon>FrmNonQCLiveStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleGoodsReturnLiveStock.resx">
+      <DependentUpon>FrmSingleGoodsReturnLiveStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleGoodsReturnWithSplitNew.resx">
+      <DependentUpon>FrmSingleGoodsReturnWithSplitNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleGoodsTransferNewOLD.resx">
+      <DependentUpon>FrmSingleGoodsTransferNewOLD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmCrapsIssueReturn.resx">
+      <DependentUpon>FrmCrapsIssueReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmRoughAllotmentEntry.resx">
+      <DependentUpon>FrmRoughAllotmentEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmRoughSaleMasterDetail.resx">
+      <DependentUpon>FrmRoughSaleMasterDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmRoughPurchaseMixSplitView.resx">
+      <DependentUpon>FrmRoughPurchaseMixSplitView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmRoughPurchaseMixSplit.resx">
+      <DependentUpon>FrmRoughPurchaseMixSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmAgingPacketUnlockEntry.resx">
+      <DependentUpon>FrmAgingPacketUnlockEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmPacketControlNoMapping.resx">
+      <DependentUpon>FrmPacketControlNoMapping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmPolishOkPacketUpdate.resx">
+      <DependentUpon>FrmPolishOkPacketUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmRoughPurchaseMasterDetail.resx">
+      <DependentUpon>FrmRoughPurchaseMasterDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleGoodsTransferLossUpdate.resx">
+      <DependentUpon>FrmSingleGoodsTransferLossUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleGoodsTransferNew.resx">
+      <DependentUpon>FrmSingleGoodsTransferNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSinglePolishOKTransfer.resx">
+      <DependentUpon>FrmSinglePolishOKTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSinglePrdArtistLowerPlanTick.resx">
+      <DependentUpon>FrmSinglePrdArtistLowerPlanTick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmDiscountBreakup.resx">
+      <DependentUpon>FrmDiscountBreakup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmEmpBehaviourPoint.resx">
+      <DependentUpon>FrmEmpBehaviourPoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmMumbaiBarcodePrint.resx">
+      <DependentUpon>FrmMumbaiBarcodePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmPredictionCopyModule.resx">
+      <DependentUpon>FrmPredictionCopyModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmRoughPurchaseRolling.resx">
+      <DependentUpon>FrmRoughPurchaseRolling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmRoughPurchaseView.resx">
+      <DependentUpon>FrmRoughPurchaseView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSerialNoGenerate.resx">
+      <DependentUpon>FrmSerialNoGenerate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleBreakingPacketList.resx">
+      <DependentUpon>FrmSingleBreakingPacketList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleBreakingPacketEntryDetail .resx">
+      <DependentUpon>FrmSingleBreakingPacketEntryDetail .cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmPacketUnlockEntry.resx">
+      <DependentUpon>FrmPacketUnlockEntry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmKapanProcessSetting.resx">
+      <DependentUpon>FrmKapanProcessSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmItem.resx">
+      <DependentUpon>FrmItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI\FrmAdminDashboard.resx">
+      <DependentUpon>FrmAdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmDiscountDiff.resx">
+      <DependentUpon>FrmDiscountDiff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmComparisionViewAdmin.resx">
+      <DependentUpon>FrmComparisionViewAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmGradingBarcodePrint.resx">
+      <DependentUpon>FrmGradingBarcodePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleBreakingEntry.resx">
+      <DependentUpon>FrmSingleBreakingEntry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleGoodsFinalReturn.resx">
+      <DependentUpon>FrmSingleGoodsFinalReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSinglePacketAutoIssue.resx">
+      <DependentUpon>FrmSinglePacketAutoIssue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleRepairingLabour.resx">
+      <DependentUpon>FrmSingleRepairingLabour.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmParameterDiscount.resx">
+      <DependentUpon>FrmParameterDiscount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmLabourProcess.resx">
+      <DependentUpon>FrmLabourProcess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmEmployeeMasterNew.resx">
+      <DependentUpon>FrmEmployeeMasterNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmSize.resx">
+      <DependentUpon>FrmSize.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmEmployeeRights.resx">
+      <DependentUpon>FrmEmployeeRights.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmPrdType.resx">
+      <DependentUpon>FrmPrdType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmLabourRate.resx">
+      <DependentUpon>FrmLabourRate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmEmployee.resx">
+      <DependentUpon>FrmEmployee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmFixedExpenseEntry.resx">
+      <DependentUpon>FrmFixedExpenseEntry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmParameter.resx">
+      <DependentUpon>FrmParameter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI\FrmAboutUs.resx">
+      <DependentUpon>FrmAboutUs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PacketTreeDrawing\FrmPacketLookup.resx">
+      <DependentUpon>FrmPacketLookup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmPriceRevised.resx">
+      <DependentUpon>FrmPriceRevised.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmLabourPriceHeadDetailNew.resx">
+      <DependentUpon>FrmLabourPriceHeadDetailNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmLabourPcs.resx">
+      <DependentUpon>FrmLabourPcs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grading\FrmSingleFileUpload.resx">
+      <DependentUpon>FrmSingleFileUpload.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmLabourQuickUpload.resx">
+      <DependentUpon>FrmLabourQuickUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmFileTransferOld.resx">
+      <DependentUpon>FrmFileTransferOld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmFindRapNewNewBackup.resx">
+      <DependentUpon>FrmFindRapNewNewBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmFetchPreviousPlan.resx">
+      <DependentUpon>FrmFetchPreviousPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmCutPolSym.resx">
+      <DependentUpon>FrmCutPolSym.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmComparisionViewMarker.resx">
+      <DependentUpon>FrmComparisionViewMarker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmArtistPredictionList.resx">
+      <DependentUpon>FrmArtistPredictionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmMISAnalysisMakPolGrd.resx">
+      <DependentUpon>FrmMISAnalysisMakPolGrd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmProductionAnalysis.resx">
+      <DependentUpon>FrmProductionAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmComparisionViewMarkerOld.resx">
+      <DependentUpon>FrmComparisionViewMarkerOld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmFullKapanAnalysis.resx">
+      <DependentUpon>FrmFullKapanAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmPrdViewMarker.resx">
+      <DependentUpon>FrmPrdViewMarker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmPrdViewManagement.resx">
+      <DependentUpon>FrmPrdViewManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmComparisionView.resx">
+      <DependentUpon>FrmComparisionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FrmReportViewerOld.resx">
+      <DependentUpon>FrmReportViewerOld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rapaport\FrmFileTransfer.resx">
+      <DependentUpon>FrmFileTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grading\FrmSinglePacketPolishChkGradingEntry.resx">
+      <DependentUpon>FrmSinglePacketPolishChkGradingEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmPenaltyIncentive.resx">
+      <DependentUpon>FrmPenaltyIncentive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleGoodsFinalIssue.resx">
+      <DependentUpon>FrmSingleGoodsFinalIssue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmBarcodePrint.resx">
+      <DependentUpon>FrmBarcodePrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleRejectionTransfer.resx">
+      <DependentUpon>FrmSingleRejectionTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleTransactionUpdate.resx">
+      <DependentUpon>FrmSingleTransactionUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmStockTally.resx">
+      <DependentUpon>FrmStockTally.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmStockTallyNew.resx">
+      <DependentUpon>FrmStockTallyNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmTenderEntry.resx">
+      <DependentUpon>FrmTenderEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmDataTransfer.resx">
+      <DependentUpon>FrmDataTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmExpGoalPopUp.resx">
+      <DependentUpon>FrmExpGoalPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmHeliumFileImport.resx">
+      <DependentUpon>FrmHeliumFileImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmHeliumMumbaiGradingDataView.resx">
+      <DependentUpon>FrmHeliumMumbaiGradingDataView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmPacketGradeUpdate.resx">
+      <DependentUpon>FrmPacketGradeUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmKapanTransfer.resx">
+      <DependentUpon>FrmKapanTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmMumbaiTransfer.resx">
+      <DependentUpon>FrmMumbaiTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmPacketDollarUnloock.resx">
+      <DependentUpon>FrmPacketDollarUnloock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmJangedUpdate.resx">
+      <DependentUpon>FrmJangedUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmClientTicket.resx">
+      <DependentUpon>FrmClientTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmPassword.resx">
+      <DependentUpon>FrmPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmSearchBoxForRapCalc.resx">
+      <DependentUpon>FrmSearchBoxForRapCalc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmChangePassword.resx">
+      <DependentUpon>FrmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmDepartmentIssueReturnLock.resx">
+      <DependentUpon>FrmDepartmentIssueReturnLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmSearchPopupBoxMultipleSelect.resx">
+      <DependentUpon>FrmSearchPopupBoxMultipleSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmTransactionLock.resx">
+      <DependentUpon>FrmTransactionLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmGetFilesFromFTP.resx">
+      <DependentUpon>FrmGetFilesFromFTP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmInputBox.resx">
+      <DependentUpon>FrmInputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportGrid\FrmRoughWiseValueReport.resx">
+      <DependentUpon>FrmRoughWiseValueReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmUserConfig.resx">
+      <DependentUpon>FrmUserConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmOrderDashboardView.resx">
+      <DependentUpon>FrmOrderDashboardView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmRoughCostingReport.resx">
+      <DependentUpon>FrmRoughCostingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmRoughStockReport.resx">
+      <DependentUpon>FrmRoughStockReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmKapanWiseRollingReportNew.resx">
+      <DependentUpon>FrmKapanWiseRollingReportNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmRunningPossitionParcel.resx">
+      <DependentUpon>FrmRunningPossitionParcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmShapeWisePrdReport.resx">
+      <DependentUpon>FrmShapeWisePrdReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmStockPrintReport.resx">
+      <DependentUpon>FrmStockPrintReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmPlaningReportAssorterWise.resx">
+      <DependentUpon>FrmPlaningReportAssorterWise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmProcessWiseReport.resx">
+      <DependentUpon>FrmProcessWiseReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmGalaxyReport.resx">
+      <DependentUpon>FrmGalaxyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmBombayTransLabWiseReportMIX.resx">
+      <DependentUpon>FrmBombayTransLabWiseReportMIX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmBombayTransLabWiseReportGIA.resx">
+      <DependentUpon>FrmBombayTransLabWiseReportGIA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmBreakingDiffrenceDetailReport.resx">
+      <DependentUpon>FrmBreakingDiffrenceDetailReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmBreakingDifferenceReport.resx">
+      <DependentUpon>FrmBreakingDifferenceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmKapanRollingReportNew.resx">
+      <DependentUpon>FrmKapanRollingReportNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmHeliumPacketPrintDetail.resx">
+      <DependentUpon>FrmHeliumPacketPrintDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmMyAgingReport.resx">
+      <DependentUpon>FrmMyAgingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmPolishChkGradingAnalysis.resx">
+      <DependentUpon>FrmPolishChkGradingAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmBlockingSalaryView.resx">
+      <DependentUpon>FrmBlockingSalaryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmRunningPossitionDepartmentWise.resx">
+      <DependentUpon>FrmRunningPossitionDepartmentWise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmBlockingLabourPlusMinusReport.resx">
+      <DependentUpon>FrmBlockingLabourPlusMinusReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmSawingSplitReport.resx">
+      <DependentUpon>FrmSawingSplitReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmKapanRollingReport.resx">
+      <DependentUpon>FrmKapanRollingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmFactoryManagerProductionReport.resx">
+      <DependentUpon>FrmFactoryManagerProductionReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmEmployeeOverDueReport.resx">
+      <DependentUpon>FrmEmployeeOverDueReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmFactoryAgingReport.resx">
+      <DependentUpon>FrmFactoryAgingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmStockPrintReportKapanWise.resx">
+      <DependentUpon>FrmStockPrintReportKapanWise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmWorkerRollingReport.resx">
+      <DependentUpon>FrmWorkerRollingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmMarkerLabourPlusMinusReport.resx">
+      <DependentUpon>FrmMarkerLabourPlusMinusReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmMarkerRollingReport.resx">
+      <DependentUpon>FrmMarkerRollingReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmOtherProcessProduction.resx">
+      <DependentUpon>FrmOtherProcessProduction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmFactoryLabourWorker.resx">
+      <DependentUpon>FrmFactoryLabourWorker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmFactoryLabourNew.resx">
+      <DependentUpon>FrmFactoryLabourNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmFactoryLabourDetail.resx">
+      <DependentUpon>FrmFactoryLabourDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmSingleTransactionView.resx">
+      <DependentUpon>FrmSingleTransactionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleGoodsReturnWithSplit.resx">
+      <DependentUpon>FrmSingleGoodsReturnWithSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSinglePacketConfirmation.resx">
+      <DependentUpon>FrmSinglePacketConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleGoodsTransfer.resx">
+      <DependentUpon>FrmSingleGoodsTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSinglePacketLiveStock.resx">
+      <DependentUpon>FrmSinglePacketLiveStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSingleKapanDashboard.resx">
+      <DependentUpon>FrmSingleKapanDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\FrmReportViewer.resx">
+      <DependentUpon>FrmReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmSinglePacketCreate.resx">
+      <DependentUpon>FrmSinglePacketCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmPacketUpdate.resx">
+      <DependentUpon>FrmPacketUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmRejectionTransfer.resx">
+      <DependentUpon>FrmRejectionTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmKapanDashboard.resx">
+      <DependentUpon>FrmKapanDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmPacketReturn.resx">
+      <DependentUpon>FrmPacketReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\FrmKapanCreation.resx">
+      <DependentUpon>FrmKapanCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ListviewCustom.resx">
+      <DependentUpon>ListviewCustom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\ReportMultiSelectNew.resx">
+      <DependentUpon>ReportMultiSelectNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmPopupGrid.resx">
+      <DependentUpon>FrmPopupGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmPolishOKReport.resx">
+      <DependentUpon>FrmPolishOKReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmRunningPossitionPopupDetail.resx">
+      <DependentUpon>FrmRunningPossitionPopupDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmAsOnDateStockReport.resx">
+      <DependentUpon>FrmAsOnDateStockReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmRunningPossition.resx">
+      <DependentUpon>FrmRunningPossition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmRejectionView.resx">
+      <DependentUpon>FrmRejectionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmLedgerReport.resx">
+      <DependentUpon>FrmLedgerReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account\FrmPaymentEntry.resx">
+      <DependentUpon>FrmPaymentEntry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FrmRojMel.resx">
+      <DependentUpon>FrmRojMel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Activation.resx">
+      <DependentUpon>Activation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masters\FrmLedger.resx">
+      <DependentUpon>FrmLedger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI\FrmHome.resx">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI\FrmMDI.resx">
+      <DependentUpon>FrmMDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\FrmSearchPopupBox.resx">
+      <DependentUpon>FrmSearchPopupBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utility\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\RPT\AttendanceSalesRegister.rpt" />
+    <None Include="bin\Debug\RPT\FinalPacketPrint.rpt" />
+    <None Include="bin\Debug\RPT\FullKapanAnalysis.rpt" />
+    <None Include="bin\Debug\RPT\FullKapanAnalysisParticular.rpt" />
+    <None Include="bin\Debug\RPT\JangedPrint.rpt" />
+    <None Include="bin\Debug\RPT\JangedPrintMFG.rpt" />
+    <None Include="bin\Debug\RPT\PredictionPrintGroup.rpt" />
+    <None Include="MyWebservice.wsdl" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ReportCheckWS.wsdl" />
+    <None Include="Service References\FileUploadService\FileUploader.wsdl" />
+    <None Include="Service References\GIAWebService\ConsolidatedWS.wsdl" />
+    <None Include="Service References\GIAWebService\ConsolidatedWS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\APITicket\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\APITicket\webservice.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1492122313_ca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\FileUploadService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\FileUploadService\configuration.svcinfo" />
+    <None Include="Service References\FileUploadService\configuration91.svcinfo" />
+    <None Include="Service References\FileUploadService\FileUploader.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\FileUploadService\" />
+    <WCFMetadataStorage Include="Service References\GIAWebService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FaviconIconBlack.ico" />
+    <Content Include="Resources\A1.png" />
+    <Content Include="Resources\A2.png" />
+    <None Include="Resources\clear.svg" />
+    <None Include="Resources\salesthankyou.svg" />
+    <None Include="Resources\cut.svg" />
+    <None Include="Resources\export.svg" />
+    <None Include="Resources\exit.svg" />
+    <None Include="Resources\addcolumn.svg" />
+    <None Include="Resources\pagepreview.svg" />
+    <None Include="Resources\pagenext1.svg" />
+    <None Include="Resources\pagenext.svg" />
+    <None Include="Web References\APITicket\webservice.disco" />
+    <None Include="Resources\Background.png" />
+    <None Include="Resources\LoginLogo.png" />
+    <None Include="Resources\btnsave.png" />
+    <None Include="Resources\btnprint.png" />
+    <None Include="Resources\btnexit.png" />
+    <None Include="Resources\btnexcelexport.png" />
+    <None Include="Resources\btnemail.png" />
+    <None Include="Resources\btndelete.png" />
+    <None Include="Resources\btnclear.png" />
+    <None Include="Resources\btnbestfit.png" />
+    <None Include="Resources\btnadd.png" />
+    <None Include="Resources\btnsearch.png" />
+    <None Include="Resources\A5.png" />
+    <None Include="Resources\A6.png" />
+    <None Include="Service References\GIAWebService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GIAWebService\configuration.svcinfo" />
+    <None Include="Service References\GIAWebService\configuration91.svcinfo" />
+    <None Include="Resources\A4.png" />
+    <None Include="Resources\A3.png" />
+    <None Include="Resources\ThinkPositive.jpg" />
+    <None Include="Resources\HappyAnniversary.png" />
+    <None Include="Resources\HappyBirthday.png" />
+    <None Include="Resources\RoundGreen.png" />
+    <None Include="Resources\RoundRed.png" />
+    <None Include="Resources\Report.png" />
+    <None Include="Resources\Plan.png" />
+    <None Include="Resources\Late Comers.png" />
+    <None Include="Resources\Holiday.png" />
+    <None Include="Resources\Employees.png" />
+    <None Include="Resources\Designation.png" />
+    <None Include="Resources\department.png" />
+    <None Include="Resources\dashboard.png" />
+    <None Include="Resources\Attendance.png" />
+    <None Include="Resources\users-group.png" />
+    <None Include="Resources\User.png" />
+    <None Include="Resources\thumbs-up.png" />
+    <None Include="Resources\thumb-down.png" />
+    <None Include="Resources\Shift.png" />
+    <None Include="Resources\Hanumanji.png" />
+    <None Include="Resources\Checked.png" />
+    <None Include="Resources\Unchecked .png" />
+    <None Include="Resources\FaviconIconBlack.ico" />
+    <None Include="Resources\FaviconIconWhite.ico" />
+    <None Include="Resources\AXONE Infotech Final 02.jpg" />
+    <None Include="Resources\AXONE Infotech Final 04 %281%29.jpg" />
+    <None Include="Resources\AXONE Infotech Final 01.jpg" />
+    <None Include="Resources\AXONE Infotech Final 03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ClientDoc">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommLayer">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Controllers">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CubeDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataSetConversion">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ObjectFactory">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Prompting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ReportDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.XmlSerialize">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.CodeConverter.v17.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.CodeParser.v17.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Design.v17.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Images.v17.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Xpf.Core.v17.1.Design.Wizards">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraGauges.v17.1.Presets">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraScheduler.v17.1.Reporting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraSpellChecker.v17.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraSpreadsheet.v17.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinListView.v8.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinStatusBar.v8.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinTabControl.v8.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinToolbars.v8.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinTree.v8.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.TextManager.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.TextManager.Interop.8.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualStudio.TextTemplating.Interfaces.10.0">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\RPT\RPT\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusLib\BusLib.csproj">
+      <Project>{4e644160-968f-4fd5-9012-b94264e5a619}</Project>
+      <Name>BusLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://103.218.110.153/tmsApi/webservice.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\APITicket\</RelPath>
+      <UpdateFromURL>http://103.218.110.153/tmsApi/webservice.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AxoneMFGRJ_APITicket_WebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.axoneinfotech.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.axoneinfotech.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.axoneinfotech.com/">
+      <s:element name="ClinetTicket_JSON">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pStrTicketNoStr" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStrTicketNo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pIntClient_ID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrProjectName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrTicketGeneratedBy" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrTicketDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrExpetedFinishDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrTaskDetail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrPriority" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrTicketStatus" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrEntryIP" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClinetTicket_JSONResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClinetTicket_JSONResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClinetTicket_JSON_V1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pStrTicketNoStr" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pStrTicketNo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="pIntClient_ID" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrProjectName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrTicketGeneratedBy" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrTicketDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrExpetedFinishDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrTaskDetail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrPriority" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrTicketStatus" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrEntryIP" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClinetTicket_JSON_V1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClinetTicket_JSON_V1Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClientTicket_Dataset">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pStrTicketNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrFromDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrToDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStrStatus" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClientTicket_DatasetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClientTicket_DatasetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ClinetTicket_JSONSoapIn">
+    <wsdl:part name="parameters" element="tns:ClinetTicket_JSON" />
+  </wsdl:message>
+  <wsdl:message name="ClinetTicket_JSONSoapOut">
+    <wsdl:part name="parameters" element="tns:ClinetTicket_JSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="ClinetTicket_JSON_V1SoapIn">
+    <wsdl:part name="parameters" element="tns:ClinetTicket_JSON_V1" />
+  </wsdl:message>
+  <wsdl:message name="ClinetTicket_JSON_V1SoapOut">
+    <wsdl:part name="parameters" element="tns:ClinetTicket_JSON_V1Response" />
+  </wsdl:message>
+  <wsdl:message name="ClientTicket_DatasetSoapIn">
+    <wsdl:part name="parameters" element="tns:ClientTicket_Dataset" />
+  </wsdl:message>
+  <wsdl:message name="ClientTicket_DatasetSoapOut">
+    <wsdl:part name="parameters" element="tns:ClientTicket_DatasetResponse" />
+  </wsdl:message>
+  <wsdl:message name="ClinetTicket_JSONHttpGetIn">
+    <wsdl:part name="pStrTicketNoStr" type="s:string" />
+    <wsdl:part name="pStrTicketNo" type="s:string" />
+    <wsdl:part name="pIntClient_ID" type="s:string" />
+    <wsdl:part name="pStrProjectName" type="s:string" />
+    <wsdl:part name="pStrTicketGeneratedBy" type="s:string" />
+    <wsdl:part name="pStrTicketDate" type="s:string" />
+    <wsdl:part name="pStrExpetedFinishDate" type="s:string" />
+    <wsdl:part name="pStrTaskDetail" type="s:string" />
+    <wsdl:part name="pStrPriority" type="s:string" />
+    <wsdl:part name="pStrTicketStatus" type="s:string" />
+    <wsdl:part name="pStrEntryIP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ClinetTicket_JSONHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ClinetTicket_JSON_V1HttpGetIn">
+    <wsdl:part name="pStrTicketNoStr" type="s:string" />
+    <wsdl:part name="pStrTicketNo" type="s:string" />
+    <wsdl:part name="pIntClient_ID" type="s:string" />
+    <wsdl:part name="pStrProjectName" type="s:string" />
+    <wsdl:part name="pStrTicketGeneratedBy" type="s:string" />
+    <wsdl:part name="pStrTicketDate" type="s:string" />
+    <wsdl:part name="pStrExpetedFinishDate" type="s:string" />
+    <wsdl:part name="pStrTaskDetail" type="s:string" />
+    <wsdl:part name="pStrPriority" type="s:string" />
+    <wsdl:part name="pStrTicketStatus" type="s:string" />
+    <wsdl:part name="pStrEntryIP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ClinetTicket_JSON_V1HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ClientTicket_DatasetHttpGetIn">
+    <wsdl:part name="pStrTicketNo" type="s:string" />
+    <wsdl:part name="pStrFromDate" type="s:string" />
+    <wsdl:part name="pStrToDate" type="s:string" />
+    <wsdl:part name="pStrStatus" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ClientTicket_DatasetHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ClinetTicket_JSONHttpPostIn">
+    <wsdl:part name="pStrTicketNoStr" type="s:string" />
+    <wsdl:part name="pStrTicketNo" type="s:string" />
+    <wsdl:part name="pIntClient_ID" type="s:string" />
+    <wsdl:part name="pStrProjectName" type="s:string" />
+    <wsdl:part name="pStrTicketGeneratedBy" type="s:string" />
+    <wsdl:part name="pStrTicketDate" type="s:string" />
+    <wsdl:part name="pStrExpetedFinishDate" type="s:string" />
+    <wsdl:part name="pStrTaskDetail" type="s:string" />
+    <wsdl:part name="pStrPriority" type="s:string" />
+    <wsdl:part name="pStrTicketStatus" type="s:string" />
+    <wsdl:part name="pStrEntryIP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ClinetTicket_JSONHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ClinetTicket_JSON_V1HttpPostIn">
+    <wsdl:part name="pStrTicketNoStr" type="s:string" />
+    <wsdl:part name="pStrTicketNo" type="s:string" />
+    <wsdl:part name="pIntClient_ID" type="s:string" />
+    <wsdl:part name="pStrProjectName" type="s:string" />
+    <wsdl:part name="pStrTicketGeneratedBy" type="s:string" />
+    <wsdl:part name="pStrTicketDate" type="s:string" />
+    <wsdl:part name="pStrExpetedFinishDate" type="s:string" />
+    <wsdl:part name="pStrTaskDetail" type="s:string" />
+    <wsdl:part name="pStrPriority" type="s:string" />
+    <wsdl:part name="pStrTicketStatus" type="s:string" />
+    <wsdl:part name="pStrEntryIP" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ClinetTicket_JSON_V1HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="ClientTicket_DatasetHttpPostIn">
+    <wsdl:part name="pStrTicketNo" type="s:string" />
+    <wsdl:part name="pStrFromDate" type="s:string" />
+    <wsdl:part name="pStrToDate" type="s:string" />
+    <wsdl:part name="pStrStatus" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ClientTicket_DatasetHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceSoap">
+    <wsdl:operation name="ClinetTicket_JSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">JSON Client Ticket Process</wsdl:documentation>
+      <wsdl:input message="tns:ClinetTicket_JSONSoapIn" />
+      <wsdl:output message="tns:ClinetTicket_JSONSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ClinetTicket_JSON_V1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Dataset Response For Client Ticket Insert </wsdl:documentation>
+      <wsdl:input message="tns:ClinetTicket_JSON_V1SoapIn" />
+      <wsdl:output message="tns:ClinetTicket_JSON_V1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ClientTicket_Dataset">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Dataset Response Search Client Ticket</wsdl:documentation>
+      <wsdl:input message="tns:ClientTicket_DatasetSoapIn" />
+      <wsdl:output message="tns:ClientTicket_DatasetSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebServiceHttpGet">
+    <wsdl:operation name="ClinetTicket_JSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">JSON Client Ticket Process</wsdl:documentation>
+      <wsdl:input message="tns:ClinetTicket_JSONHttpGetIn" />
+      <wsdl:output message="tns:ClinetTicket_JSONHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ClinetTicket_JSON_V1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Dataset Response For Client Ticket Insert </wsdl:documentation>
+      <wsdl:input message="tns:ClinetTicket_JSON_V1HttpGetIn" />
+      <wsdl:output message="tns:ClinetTicket_JSON_V1HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ClientTicket_Dataset">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Dataset Response Search Client Ticket</wsdl:documentation>
+      <wsdl:input message="tns:ClientTicket_DatasetHttpGetIn" />
+      <wsdl:output message="tns:ClientTicket_DatasetHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebServiceHttpPost">
+    <wsdl:operation name="ClinetTicket_JSON">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">JSON Client Ticket Process</wsdl:documentation>
+      <wsdl:input message="tns:ClinetTicket_JSONHttpPostIn" />
+      <wsdl:output message="tns:ClinetTicket_JSONHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ClinetTicket_JSON_V1">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Dataset Response For Client Ticket Insert </wsdl:documentation>
+      <wsdl:input message="tns:ClinetTicket_JSON_V1HttpPostIn" />
+      <wsdl:output message="tns:ClinetTicket_JSON_V1HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ClientTicket_Dataset">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Dataset Response Search Client Ticket</wsdl:documentation>
+      <wsdl:input message="tns:ClientTicket_DatasetHttpPostIn" />
+      <wsdl:output message="tns:ClientTicket_DatasetHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceSoap" type="tns:WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ClinetTicket_JSON">
+      <soap:operation soapAction="http://www.axoneinfotech.com/ClinetTicket_JSON" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClinetTicket_JSON_V1">
+      <soap:operation soapAction="http://www.axoneinfotech.com/ClinetTicket_JSON_V1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClientTicket_Dataset">
+      <soap:operation soapAction="http://www.axoneinfotech.com/ClientTicket_Dataset" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceSoap12" type="tns:WebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ClinetTicket_JSON">
+      <soap12:operation soapAction="http://www.axoneinfotech.com/ClinetTicket_JSON" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClinetTicket_JSON_V1">
+      <soap12:operation soapAction="http://www.axoneinfotech.com/ClinetTicket_JSON_V1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClientTicket_Dataset">
+      <soap12:operation soapAction="http://www.axoneinfotech.com/ClientTicket_Dataset" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceHttpGet" type="tns:WebServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="ClinetTicket_JSON">
+      <http:operation location="/ClinetTicket_JSON" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClinetTicket_JSON_V1">
+      <http:operation location="/ClinetTicket_JSON_V1" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClientTicket_Dataset">
+      <http:operation location="/ClientTicket_Dataset" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceHttpPost" type="tns:WebServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="ClinetTicket_JSON">
+      <http:operation location="/ClinetTicket_JSON" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClinetTicket_JSON_V1">
+      <http:operation location="/ClinetTicket_JSON_V1" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClientTicket_Dataset">
+      <http:operation location="/ClientTicket_Dataset" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService">
+    <wsdl:port name="WebServiceSoap" binding="tns:WebServiceSoap">
+      <soap:address location="http://103.218.110.153/tmsApi/webservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceSoap12" binding="tns:WebServiceSoap12">
+      <soap12:address location="http://103.218.110.153/tmsApi/webservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceHttpGet" binding="tns:WebServiceHttpGet">
+      <http:address location="http://103.218.110.153/tmsApi/webservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceHttpPost" binding="tns:WebServiceHttpPost">
+      <http:address location="http://103.218.110.153/tmsApi/webservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

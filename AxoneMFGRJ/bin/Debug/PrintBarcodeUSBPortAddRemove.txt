@@ -1,0 +1,8 @@
+net use lpt1: \\DESKTOP-KKDGNQA\Argox /persistent:yes
+
+
+
+net use LPT1: \\DESKTOP-KKDGNQA\Argox /persistant:no
+
+
+net use LPT1: /delete

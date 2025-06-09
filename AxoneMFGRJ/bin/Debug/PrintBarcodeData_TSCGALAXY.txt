@@ -1,0 +1,19 @@
+<xpml><page quantity='0' pitch='15.5 mm'></xpml>SIZE 39.5 mm, 14 mm
+GAP 3 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.5 mm'></xpml>SET TEAR 
+ON
+CLS
+BARCODE 297,105,"128M",44,0,180,2,4,"!105220200000005"
+CODEPAGE 1252
+TEXT 299,58,"ROMAN.TTF",180,1,8,"2#101#8#A"
+TEXT 147,58,"ROMAN.TTF",180,1,8,"0.650
+TEXT 72,103,"ROMAN.TTF",180,1,8,"A+"
+TEXT 72,58,"0",180,9,8,"BRN0"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>

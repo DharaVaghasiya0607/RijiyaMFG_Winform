@@ -1,0 +1,21 @@
+<xpml><page quantity='0' pitch='15.5 mm'></xpml>SIZE 66.5 mm, 15.5 mm
+GAP 2.5 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.5 mm'></xpml>SET TEAR 
+ON
+CLS
+CODEPAGE 1252
+TEXT 513,103,"2",180,1,1,"DC.39.1-118-A"
+TEXT 186,103,"2",180,1,1,"25/02/2022 14:57:43"
+BARCODE 514,82,"128M",49,0,180,2,4,"DC.39.1
+118
+A"
+TEXT 462,28,"2",180,1,1,"2010"
+TEXT 125,28,"2",180,1,1,"0.275"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>

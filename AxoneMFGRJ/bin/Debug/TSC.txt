@@ -1,0 +1,38 @@
+<xpml><page quantity='0' pitch='15.5 mm'></xpml>SIZE 66.5 mm, 15.5 mm
+GAP 2.5 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.5 mm'></xpml>SET TEAR 
+ON
+CLS
+CODEPAGE 1252
+TEXT 513,103,"2",180,1,1,"DJ2-0-"
+TEXT 186,103,"2",180,1,1,"07-05-22"
+BARCODE 514,82,"128M",49,0,180,2,4,"220500001950"
+TEXT 462,28,"2",180,1,1,"1"
+TEXT 125,28,"2",180,1,1,"0.038"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>
+<xpml><page quantity='0' pitch='15.5 mm'></xpml>SIZE 66.5 mm, 15.5 mm
+GAP 2.5 mm, 0 mm
+DIRECTION 0,0
+REFERENCE 0,0
+OFFSET 0 mm
+SET PEEL OFF
+SET CUTTER OFF
+SET PARTIAL_CUTTER OFF
+<xpml></page></xpml><xpml><page quantity='1' pitch='15.5 mm'></xpml>SET TEAR 
+ON
+CLS
+CODEPAGE 1252
+TEXT 513,103,"2",180,1,1,"DJ2-1-A"
+TEXT 186,103,"2",180,1,1,"03-05-22"
+BARCODE 514,82,"128M",49,0,180,2,4,"220500000036"
+TEXT 462,28,"2",180,1,1,"4008"
+TEXT 125,28,"2",180,1,1,"0.503"
+PRINT 1,1
+<xpml></page></xpml><xpml><end/></xpml>

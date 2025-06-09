@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4E644160-968F-4FD5-9012-B94264E5A619}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusLib</RootNamespace>
+    <AssemblyName>BusLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxonDataLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\LIB\AxonDataLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\BOInvoiceEntry.cs" />
+    <Compile Include="Account\BOLedgerTransaction.cs" />
+    <Compile Include="Attendance\BOMST_Attedance.cs" />
+    <Compile Include="Attendance\BOMST_SalaryEntry.cs" />
+    <Compile Include="Attendance\BOTRN_LeaveEntry.cs" />
+    <Compile Include="BOFormPermission.cs" />
+    <Compile Include="Configuration\BOConfiguration.cs" />
+    <Compile Include="BOComboFill.cs" />
+    <Compile Include="Configuration\BOFormPer.cs" />
+    <Compile Include="BOMaximumID.cs" />
+    <Compile Include="Master\BOHEL_ColumnMaster.cs" />
+    <Compile Include="Master\BOMST_AgingKapanWiseSetting.cs" />
+    <Compile Include="Master\BOMST_AgingProcessSetting.cs" />
+    <Compile Include="Master\BOMST_DepartmentWiseProcessLock.cs" />
+    <Compile Include="Master\BOMST_FixedExpense.cs" />
+    <Compile Include="Master\BOMST_HolidayDetail.cs" />
+    <Compile Include="Master\BOMST_Ledger.cs" />
+    <Compile Include="Master\BOMST_FormPermission.cs" />
+    <Compile Include="Master\BOMST_MajuriRate.cs" />
+    <Compile Include="Master\BOMST_Parameter.cs" />
+    <Compile Include="Master\BOMST_Penulty.cs" />
+    <Compile Include="Master\BOMST_PriceDate.cs" />
+    <Compile Include="Master\BOMST_ProcessWiseLossPer.cs" />
+    <Compile Include="Master\BOMST_Reason.cs" />
+    <Compile Include="Master\BOMST_PrdType.cs" />
+    <Compile Include="Master\BOMST_Report.cs" />
+    <Compile Include="Master\BOMST_Setting.cs" />
+    <Compile Include="Master\BOMST_Shift.cs" />
+    <Compile Include="Master\BOMST_Size.cs" />
+    <Compile Include="Master\BOMST_Year.cs" />
+    <Compile Include="Master\BOTRN_ExcRate.cs" />
+    <Compile Include="Master\BOTRN_LabourProcess.cs" />
+    <Compile Include="Master\BOMST_Item.cs" />
+    <Compile Include="Master\BOMST_KapanProcessSetting.cs" />
+    <Compile Include="Master\BOHEL_PrintMaxLimitMaster.cs" />
+    <Compile Include="Master\BOMST_GalaxyScanSize.cs" />
+    <Compile Include="Master\BOMST_ParaReportCriteria.cs" />
+    <Compile Include="Master\BOMST_LabExpense.cs" />
+    <Compile Include="Polish\BOTRN_PolishTransaction.cs" />
+    <Compile Include="Rapaport\BOTRN_DollarLabourUpload.cs" />
+    <Compile Include="Rapaport\BOTRN_SalaryTypePer.cs" />
+    <Compile Include="Rapaport\BOTRN_SingleDollarLabourDetail.cs" />
+    <Compile Include="Rapaport\BOTRN_DollarLabourPer.cs" />
+    <Compile Include="Rapaport\BOTRN_TesnSakhatLabourPer.cs" />
+    <Compile Include="ReportGrid\BOTRN_UnPlanningReport.cs" />
+    <Compile Include="TableName\AgeKapanWiseSettingProperty.cs" />
+    <Compile Include="TableName\AgeProcessSettingProperty.cs" />
+    <Compile Include="TableName\AtdCaptureDetailProperty.cs" />
+    <Compile Include="TableName\BOTRN_KapanInward.cs" />
+    <Compile Include="TableName\PenultyMasterProperty.cs" />
+    <Compile Include="TableName\TrnFancyRateProperty.cs" />
+    <Compile Include="TableName\KapanOutwardProperty.cs" />
+    <Compile Include="TableName\TrnKapanEsstimentProperty.cs" />
+    <Compile Include="TableName\DepartmentWiseProcessLockProperty.cs" />
+    <Compile Include="TableName\DollarLabourUploadProperty.cs" />
+    <Compile Include="TableName\KapanValuationProperty.cs" />
+    <Compile Include="TableName\MST_ReportProperty.cs" />
+    <Compile Include="TableName\ParcelKapanInwardProperty.cs" />
+    <Compile Include="TableName\ParcelPriceChartProperty.cs" />
+    <Compile Include="TableName\PolishIssueReturnProperty.cs" />
+    <Compile Include="TableName\PriceDateMasterProperty.cs" />
+    <Compile Include="TableName\ProcessMasterProperty.cs" />
+    <Compile Include="TableName\QCPanultyProperty.cs" />
+    <Compile Include="TableName\RapaportCriteriaProperty.cs" />
+    <Compile Include="TableName\LabExpenseMasterProperty.cs" />
+    <Compile Include="TableName\ParaReportCriteriaMasterProperty.cs" />
+    <Compile Include="TableName\GalaxyScanSizeMasterProperty.cs" />
+    <Compile Include="TableName\RoughAllotmentProperty.cs" />
+    <Compile Include="TableName\RoughUpdateProperty.cs" />
+    <Compile Include="TableName\SubjectMasterProperty.cs" />
+    <Compile Include="TableName\HelPrintMaxLimitProperty.cs" />
+    <Compile Include="TableName\HelColumnMasterProperty.cs" />
+    <Compile Include="TableName\HolidayDetailProperty.cs" />
+    <Compile Include="TableName\JOB.cs" />
+    <Compile Include="TableName\MajuriRateProperty.cs" />
+    <Compile Include="TableName\MSTSalaryTypePerProperty.cs" />
+    <Compile Include="TableName\RapMistakePrdEntryProperty.cs" />
+    <Compile Include="TableName\SettingMasterProperty.cs" />
+    <Compile Include="TableName\ShiftMasterProperty.cs" />
+    <Compile Include="TableName\TrnAgingPacketUnlockSettingProperty.cs" />
+    <Compile Include="TableName\TrnCrapsIssueReturnProperty.cs" />
+    <Compile Include="TableName\TrnEmployeeBehaviourPointProperty.cs" />
+    <Compile Include="TableName\TrnPolishPacketIssueReturn.cs" />
+    <Compile Include="TableName\TrnPredictionCopyProperty.cs" />
+    <Compile Include="TableName\TrnSaleProperty.cs" />
+    <Compile Include="TableName\TrnStockTallyNewProperty.cs" />
+    <Compile Include="TableName\TrnTenSakhatLabourPerProperty.cs" />
+    <Compile Include="TableName\TRN_SingleBreakingPacketEntry.cs" />
+    <Compile Include="TableName\TrnDollarLabourPerProperty.cs" />
+    <Compile Include="TableName\ExcRateMasterProperty.cs" />
+    <Compile Include="TableName\Trn_TenderProperty.cs" />
+    <Compile Include="TableName\YearMasterProperty.cs" />
+    <Compile Include="Transaction\BOTRN_AgingPacketUnlockSetting.cs" />
+    <Compile Include="Transaction\BOTRN_ArtistWisePendingReport.cs" />
+    <Compile Include="Transaction\BOTRN_ArtistWisePolishReport.cs" />
+    <Compile Include="Transaction\BOTRN_CrapsIssueReturn.cs" />
+    <Compile Include="Transaction\BOTRN_EmployeeBehaviourPoint.cs" />
+    <Compile Include="Transaction\BOTRN_EmpWiseSplitReport.cs" />
+    <Compile Include="Transaction\BOTRN_GradingAnalysis.cs" />
+    <Compile Include="Transaction\BOTRN_KapanEsstiment.cs" />
+    <Compile Include="Transaction\BOTRN_KapanValuation.cs" />
+    <Compile Include="Transaction\BOTRN_LabRecheckConfirm.cs" />
+    <Compile Include="Transaction\BOTRN_ManagerWisePendingReport.cs" />
+    <Compile Include="Transaction\BOTRN_PacketControlNoMapping.cs" />
+    <Compile Include="Transaction\BOTRN_PacketUnlockSetting.cs" />
+    <Compile Include="Rapaport\BOTRN_SingleRepairingLabour.cs" />
+    <Compile Include="Rapaport\BOTRN_LabourPcs.cs" />
+    <Compile Include="Rapaport\BOPRI_DiscountDiff.cs" />
+    <Compile Include="Rapaport\BOTRN_SingleFileUpload.cs" />
+    <Compile Include="Rapaport\BOTRN_FileTransfer.cs" />
+    <Compile Include="Rapaport\BOFindRap.cs" />
+    <Compile Include="Rapaport\BOTRN_PriceHeadDetail.cs" />
+    <Compile Include="Rapaport\BOTRN_ParameterDiscount.cs" />
+    <Compile Include="ReportGrid\BOTRN_PredictionView.cs" />
+    <Compile Include="Report\Report.cs" />
+    <Compile Include="TableName\AttendanceEntryProperty.cs" />
+    <Compile Include="TableName\TrnPacketUnlockSettingProperty.cs" />
+    <Compile Include="TableName\KapanProcessSettingProperty.cs" />
+    <Compile Include="TableName\SingleBreakingProperty.cs" />
+    <Compile Include="TableName\LeaveEntryProperty.cs" />
+    <Compile Include="TableName\SingleRepairingLabourProperty.cs" />
+    <Compile Include="TableName\TrnStockTallyProperty.cs" />
+    <Compile Include="TableName\PriDiscountDiffProperty.cs" />
+    <Compile Include="TableName\ParameterDiscountProperty.cs" />
+    <Compile Include="TableName\TrnLabourProcessProperty.cs" />
+    <Compile Include="TableName\TrnLabourPcsProperty.cs" />
+    <Compile Include="TableName\SingleFileUploadProperty.cs" />
+    <Compile Include="TableName\PriceHeadDetailProperty.cs" />
+    <Compile Include="TableName\TrnFileTransferProperty.cs" />
+    <Compile Include="TableName\SizeMasterProperty.cs" />
+    <Compile Include="TableName\EmployeeActionRightsProperty.cs" />
+    <Compile Include="TableName\MSTPrdTypeMasterProperty.cs" />
+    <Compile Include="TableName\MSTReasonMasterProperty.cs" />
+    <Compile Include="TableName\TrnPenaltyIncentiveProperty.cs" />
+    <Compile Include="TableName\TrnReportProperty.cs" />
+    <Compile Include="TableName\TrnSingleIssueReturnProperty.cs" />
+    <Compile Include="TableName\TrnSinglePacketCreationProperty.cs" />
+    <Compile Include="TableName\Trn_RapCalcSaveProperty.cs" />
+    <Compile Include="TableName\TrnLabourRateProperty.cs" />
+    <Compile Include="TableName\SalaryEntryProperty.cs" />
+    <Compile Include="TableName\ParameterMasterProperty.cs" />
+    <Compile Include="TableName\ItemGroupProperty.cs" />
+    <Compile Include="TableName\TrnKapanCreateProperty.cs" />
+    <Compile Include="TableName\TrnPacketCreationProperty.cs" />
+    <Compile Include="TableName\TrnRoughPurchaseProperty.cs" />
+    <Compile Include="TableName\TRN_FixedExpenseEntryProperty.cs" />
+    <Compile Include="TableName\TRN_RejectionProperty.cs" />
+    <Compile Include="TableName\UserPermissionProperty.cs" />
+    <Compile Include="TableName\TrnInvoiceDetailProperty.cs" />
+    <Compile Include="TableName\TrnInvoiceProperty.cs" />
+    <Compile Include="TableName\ItemMasterProperty.cs" />
+    <Compile Include="TableName\EmployeeMasterProperty.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableName\LedgerTransactionProperty.cs" />
+    <Compile Include="TableName\LedgerMasterProperty.cs" />
+    <Compile Include="TableName\TrnInwardProperty.cs" />
+    <Compile Include="TPV\BOSProc.cs" />
+    <Compile Include="TPV\BOTableName.cs" />
+    <Compile Include="Transaction\BOTRN_KapanCreate.cs" />
+    <Compile Include="Transaction\BOTRN_PacketCreate.cs" />
+    <Compile Include="Transaction\BOTRN_ParcelKapanOutward.cs" />
+    <Compile Include="Transaction\BOTRN_PenaltyIncentive.cs" />
+    <Compile Include="Transaction\BOTRN_PolishOkPacketUpdate.cs" />
+    <Compile Include="Transaction\BOTRN_ProductionReport.cs" />
+    <Compile Include="Transaction\BOTRN_PurchaseLiveStock.cs" />
+    <Compile Include="Transaction\BOTRN_RapMistakePrdEntry.cs" />
+    <Compile Include="Transaction\BOTRN_RoughAllotment.cs" />
+    <Compile Include="Transaction\BOTRN_RoughPurchase.cs" />
+    <Compile Include="Transaction\BOTRN_RoughMIS.cs" />
+    <Compile Include="Transaction\BOTRN_Rejection.cs" />
+    <Compile Include="Transaction\BOTRN_SaleDemandEntry.cs" />
+    <Compile Include="Transaction\BOTRN_SaleEntryFromDiasales.cs" />
+    <Compile Include="Transaction\BOTRN_SaleMasterDetail.cs" />
+    <Compile Include="Transaction\BOTRN_SingleBreaking.cs" />
+    <Compile Include="Transaction\BOTRN_SinglePolishOKTransfer.cs" />
+    <Compile Include="Transaction\BOTRN_StockReport.cs" />
+    <Compile Include="Master\BOTRN_LabourRate.cs" />
+    <Compile Include="Transaction\BOTRN_SinglePacketCreate.cs" />
+    <Compile Include="Transaction\BOTRN_SingleIssueReturn.cs" />
+    <Compile Include="Transaction\BOTRN_StockTally.cs" />
+    <Compile Include="Transaction\BOTRN_SingleBreakingPacketEntry.cs" />
+    <Compile Include="Transaction\BOTRN_PredictionCopy.cs" />
+    <Compile Include="Transaction\BOTRN_RoughPurchaseMasterDetail.cs" />
+    <Compile Include="View\BOTRN_RoughCostAnalysis.cs" />
+    <Compile Include="View\BOTRN_RunningPositionParcel.cs" />
+    <Compile Include="View\BOTRN_RunninPossition.cs" />
+    <Compile Include="View\BOTRN_ProductionAnalysis.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utility\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

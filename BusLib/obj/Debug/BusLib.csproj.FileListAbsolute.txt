@@ -1,0 +1,56 @@
+D:\Git Repository\RijiyaMFG\BusLib\bin\Debug\BusLib.dll
+D:\Git Repository\RijiyaMFG\BusLib\bin\Debug\BusLib.pdb
+D:\Git Repository\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CoreCompileInputs.cache
+D:\Git Repository\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CopyComplete
+D:\Git Repository\RijiyaMFG\BusLib\obj\Debug\BusLib.dll
+D:\Git Repository\RijiyaMFG\BusLib\obj\Debug\BusLib.pdb
+D:\Git Repository\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.AssemblyReference.cache
+D:\VipulWork\AxoneInfotech\Projects\GIT_Repository\RijiyaGems\RijiyaMFG\BusLib\bin\Debug\BusLib.dll
+D:\VipulWork\AxoneInfotech\Projects\GIT_Repository\RijiyaGems\RijiyaMFG\BusLib\bin\Debug\BusLib.pdb
+D:\VipulWork\AxoneInfotech\Projects\GIT_Repository\RijiyaGems\RijiyaMFG\BusLib\obj\Debug\BusLib.dll
+D:\VipulWork\AxoneInfotech\Projects\GIT_Repository\RijiyaGems\RijiyaMFG\BusLib\obj\Debug\BusLib.pdb
+D:\VipulWork\AxoneInfotech\Projects\GIT_Repository\RijiyaGems\RijiyaMFG\BusLib\obj\Debug\BusLib.csprojResolveAssemblyReference.cache
+D:\Projects\RijiyaMFG\RijiyaMFG\BusLib\bin\Debug\BusLib.dll
+D:\Projects\RijiyaMFG\RijiyaMFG\BusLib\bin\Debug\BusLib.pdb
+D:\Projects\RijiyaMFG\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CoreCompileInputs.cache
+D:\Projects\RijiyaMFG\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CopyComplete
+D:\Projects\RijiyaMFG\RijiyaMFG\BusLib\obj\Debug\BusLib.dll
+D:\Projects\RijiyaMFG\RijiyaMFG\BusLib\obj\Debug\BusLib.pdb
+D:\Projects\RijiyaMFG\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\RijiyaMFG_29122023\RijiyaMFG\BusLib\bin\Debug\BusLib.dll
+C:\Users\Lenovo\Desktop\RijiyaMFG_29122023\RijiyaMFG\BusLib\bin\Debug\BusLib.pdb
+C:\Users\Lenovo\Desktop\RijiyaMFG_29122023\RijiyaMFG\BusLib\obj\Debug\BusLib.dll
+C:\Users\Lenovo\Desktop\RijiyaMFG_29122023\RijiyaMFG\BusLib\obj\Debug\BusLib.pdb
+D:\Axone\Rijiya\RijiyaMFG\BusLib\bin\Debug\BusLib.dll
+D:\Axone\Rijiya\RijiyaMFG\BusLib\bin\Debug\BusLib.pdb
+D:\Axone\Rijiya\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CoreCompileInputs.cache
+D:\Axone\Rijiya\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CopyComplete
+D:\Axone\Rijiya\RijiyaMFG\BusLib\obj\Debug\BusLib.dll
+D:\Axone\Rijiya\RijiyaMFG\BusLib\obj\Debug\BusLib.pdb
+D:\Projects\RijiyaMFG\RijiyaMFG\RijiyaMFG\BusLib\bin\Debug\BusLib.dll
+D:\Projects\RijiyaMFG\RijiyaMFG\RijiyaMFG\BusLib\bin\Debug\BusLib.pdb
+D:\Projects\RijiyaMFG\RijiyaMFG\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CoreCompileInputs.cache
+D:\Projects\RijiyaMFG\RijiyaMFG\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CopyComplete
+D:\Projects\RijiyaMFG\RijiyaMFG\RijiyaMFG\BusLib\obj\Debug\BusLib.dll
+D:\Projects\RijiyaMFG\RijiyaMFG\RijiyaMFG\BusLib\obj\Debug\BusLib.pdb
+D:\Projects\RijiyaMFG\RijiyaMFG\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.AssemblyReference.cache
+D:\Axone\RijiyaMFG\BusLib\bin\Debug\BusLib.dll
+D:\Axone\RijiyaMFG\BusLib\bin\Debug\BusLib.pdb
+D:\Axone\RijiyaMFG\BusLib\obj\Debug\BusLib.dll
+D:\Axone\RijiyaMFG\BusLib\obj\Debug\BusLib.pdb
+D:\Axone\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CoreCompileInputs.cache
+D:\Axone\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CopyComplete
+D:\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\bin\Debug\BusLib.dll
+D:\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\bin\Debug\BusLib.pdb
+D:\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CoreCompileInputs.cache
+D:\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CopyComplete
+D:\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\obj\Debug\BusLib.dll
+D:\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\obj\Debug\BusLib.pdb
+D:\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.AssemblyReference.cache
+D:\Office\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\bin\Debug\BusLib.dll
+D:\Office\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\bin\Debug\BusLib.pdb
+D:\Office\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CoreCompileInputs.cache
+D:\Office\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.CopyComplete
+D:\Office\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\obj\Debug\BusLib.dll
+D:\Office\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\obj\Debug\BusLib.pdb
+D:\Office\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.AssemblyReference.cache

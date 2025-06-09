@@ -1,0 +1,1 @@
+Data Source=192.168.0.243;Initial Catalog=AxoneMFGRJ_BackUp;User ID=sa;password=chEck@25#07rvvv!maDe_;Integrated Security=false;Integrated Security=false;Connection Timeout=3

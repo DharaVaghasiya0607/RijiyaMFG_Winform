@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxoneMFGRJ", "AxoneMFGRJ\AxoneMFGRJ.csproj", "{F154036F-58BA-4273-BF72-278E41ADF4DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusLib", "BusLib\BusLib.csproj", "{4E644160-968F-4FD5-9012-B94264E5A619}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://win-h188ifgcuaf:8080/tfs/winformcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AxoneMFGRJ\\AxoneMFGRJ.csproj
+		SccProjectName1 = AxoneMFGRJ
+		SccLocalPath1 = AxoneMFGRJ
+		SccProjectUniqueName2 = BusLib\\BusLib.csproj
+		SccProjectName2 = BusLib
+		SccLocalPath2 = BusLib
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F154036F-58BA-4273-BF72-278E41ADF4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F154036F-58BA-4273-BF72-278E41ADF4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F154036F-58BA-4273-BF72-278E41ADF4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F154036F-58BA-4273-BF72-278E41ADF4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E644160-968F-4FD5-9012-B94264E5A619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E644160-968F-4FD5-9012-B94264E5A619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E644160-968F-4FD5-9012-B94264E5A619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E644160-968F-4FD5-9012-B94264E5A619}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

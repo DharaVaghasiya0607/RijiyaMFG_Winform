@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://service.consws.model.ngs.com/" name="ConsolidatedWS" targetNamespace="http://service.consws.model.ngs.com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="https://labws.gia.edu/ConsolidatedWS/ConsolidatedWS?xsd=1" namespace="http://service.consws.model.ngs.com/" />
+    </xsd:schema>
+  </types>
+  <message name="getFees">
+    <part name="parameters" element="tns:getFees" />
+  </message>
+  <message name="getFeesResponse">
+    <part name="parameters" element="tns:getFeesResponse" />
+  </message>
+  <message name="putStoneOnHold">
+    <part name="parameters" element="tns:putStoneOnHold" />
+  </message>
+  <message name="putStoneOnHoldResponse">
+    <part name="parameters" element="tns:putStoneOnHoldResponse" />
+  </message>
+  <message name="createPrintRequest">
+    <part name="parameters" element="tns:createPrintRequest" />
+  </message>
+  <message name="createPrintRequestResponse">
+    <part name="parameters" element="tns:createPrintRequestResponse" />
+  </message>
+  <message name="createSleevePrintRequest">
+    <part name="parameters" element="tns:createSleevePrintRequest" />
+  </message>
+  <message name="createSleevePrintRequestResponse">
+    <part name="parameters" element="tns:createSleevePrintRequestResponse" />
+  </message>
+  <message name="getPortalActivity">
+    <part name="parameters" element="tns:getPortalActivity" />
+  </message>
+  <message name="getPortalActivityResponse">
+    <part name="parameters" element="tns:getPortalActivityResponse" />
+  </message>
+  <message name="getStones">
+    <part name="parameters" element="tns:getStones" />
+  </message>
+  <message name="getStonesResponse">
+    <part name="parameters" element="tns:getStonesResponse" />
+  </message>
+  <message name="getStoneOnHold">
+    <part name="parameters" element="tns:getStoneOnHold" />
+  </message>
+  <message name="getStoneOnHoldResponse">
+    <part name="parameters" element="tns:getStoneOnHoldResponse" />
+  </message>
+  <message name="getItemsReceived">
+    <part name="parameters" element="tns:getItemsReceived" />
+  </message>
+  <message name="getItemsReceivedResponse">
+    <part name="parameters" element="tns:getItemsReceivedResponse" />
+  </message>
+  <message name="getItemsReturned">
+    <part name="parameters" element="tns:getItemsReturned" />
+  </message>
+  <message name="getItemsReturnedResponse">
+    <part name="parameters" element="tns:getItemsReturnedResponse" />
+  </message>
+  <message name="getItemStatus">
+    <part name="parameters" element="tns:getItemStatus" />
+  </message>
+  <message name="getItemStatusResponse">
+    <part name="parameters" element="tns:getItemStatusResponse" />
+  </message>
+  <message name="getInscription_DiamondType_DigitalImage">
+    <part name="parameters" element="tns:getInscription_DiamondType_DigitalImage" />
+  </message>
+  <message name="getInscription_DiamondType_DigitalImageResponse">
+    <part name="parameters" element="tns:getInscription_DiamondType_DigitalImageResponse" />
+  </message>
+  <message name="getServiceCompletedControlNumbers">
+    <part name="parameters" element="tns:getServiceCompletedControlNumbers" />
+  </message>
+  <message name="getServiceCompletedControlNumbersResponse">
+    <part name="parameters" element="tns:getServiceCompletedControlNumbersResponse" />
+  </message>
+  <message name="getPrimaryResults1">
+    <part name="parameters" element="tns:getPrimaryResults1" />
+  </message>
+  <message name="getPrimaryResults1Response">
+    <part name="parameters" element="tns:getPrimaryResults1Response" />
+  </message>
+  <message name="getPrimaryResults2">
+    <part name="parameters" element="tns:getPrimaryResults2" />
+  </message>
+  <message name="getPrimaryResults2Response">
+    <part name="parameters" element="tns:getPrimaryResults2Response" />
+  </message>
+  <message name="getPrimaryResults3">
+    <part name="parameters" element="tns:getPrimaryResults3" />
+  </message>
+  <message name="getPrimaryResults3Response">
+    <part name="parameters" element="tns:getPrimaryResults3Response" />
+  </message>
+  <message name="getPrimaryResults4">
+    <part name="parameters" element="tns:getPrimaryResults4" />
+  </message>
+  <message name="getPrimaryResults4Response">
+    <part name="parameters" element="tns:getPrimaryResults4Response" />
+  </message>
+  <message name="getRecheckResults1">
+    <part name="parameters" element="tns:getRecheckResults1" />
+  </message>
+  <message name="getRecheckResults1Response">
+    <part name="parameters" element="tns:getRecheckResults1Response" />
+  </message>
+  <message name="getRecheckResults2">
+    <part name="parameters" element="tns:getRecheckResults2" />
+  </message>
+  <message name="getRecheckResults2Response">
+    <part name="parameters" element="tns:getRecheckResults2Response" />
+  </message>
+  <message name="getRecheckResults3">
+    <part name="parameters" element="tns:getRecheckResults3" />
+  </message>
+  <message name="getRecheckResults3Response">
+    <part name="parameters" element="tns:getRecheckResults3Response" />
+  </message>
+  <message name="getRecheckResults4">
+    <part name="parameters" element="tns:getRecheckResults4" />
+  </message>
+  <message name="getRecheckResults4Response">
+    <part name="parameters" element="tns:getRecheckResults4Response" />
+  </message>
+  <message name="getFinalResults1">
+    <part name="parameters" element="tns:getFinalResults1" />
+  </message>
+  <message name="getFinalResults1Response">
+    <part name="parameters" element="tns:getFinalResults1Response" />
+  </message>
+  <message name="getFinalResults2">
+    <part name="parameters" element="tns:getFinalResults2" />
+  </message>
+  <message name="getFinalResults2Response">
+    <part name="parameters" element="tns:getFinalResults2Response" />
+  </message>
+  <message name="getFinalResults3">
+    <part name="parameters" element="tns:getFinalResults3" />
+  </message>
+  <message name="getFinalResults3Response">
+    <part name="parameters" element="tns:getFinalResults3Response" />
+  </message>
+  <message name="addServiceRequest">
+    <part name="parameters" element="tns:addServiceRequest" />
+  </message>
+  <message name="addServiceRequestResponse">
+    <part name="parameters" element="tns:addServiceRequestResponse" />
+  </message>
+  <message name="inscribeAndPrintRequest">
+    <part name="parameters" element="tns:inscribeAndPrintRequest" />
+  </message>
+  <message name="inscribeAndPrintRequestResponse">
+    <part name="parameters" element="tns:inscribeAndPrintRequestResponse" />
+  </message>
+  <message name="requestSealingAndPrint">
+    <part name="parameters" element="tns:requestSealingAndPrint" />
+  </message>
+  <message name="requestSealingAndPrintResponse">
+    <part name="parameters" element="tns:requestSealingAndPrintResponse" />
+  </message>
+  <message name="createJob">
+    <part name="parameters" element="tns:createJob" />
+  </message>
+  <message name="createJobResponse">
+    <part name="parameters" element="tns:createJobResponse" />
+  </message>
+  <message name="getItemsReturnedResults">
+    <part name="parameters" element="tns:getItemsReturnedResults" />
+  </message>
+  <message name="getItemsReturnedResultsResponse">
+    <part name="parameters" element="tns:getItemsReturnedResultsResponse" />
+  </message>
+  <message name="getCrownHeight">
+    <part name="parameters" element="tns:getCrownHeight" />
+  </message>
+  <message name="getCrownHeightResponse">
+    <part name="parameters" element="tns:getCrownHeightResponse" />
+  </message>
+  <message name="getReportDtSecServiceRCStones">
+    <part name="parameters" element="tns:getReportDtSecServiceRCStones" />
+  </message>
+  <message name="getReportDtSecServiceRCStonesResponse">
+    <part name="parameters" element="tns:getReportDtSecServiceRCStonesResponse" />
+  </message>
+  <portType name="ConsolidatedWebServices">
+    <operation name="getFees">
+      <input message="tns:getFees" />
+      <output message="tns:getFeesResponse" />
+    </operation>
+    <operation name="putStoneOnHold">
+      <input message="tns:putStoneOnHold" />
+      <output message="tns:putStoneOnHoldResponse" />
+    </operation>
+    <operation name="createPrintRequest">
+      <input message="tns:createPrintRequest" />
+      <output message="tns:createPrintRequestResponse" />
+    </operation>
+    <operation name="createSleevePrintRequest">
+      <input message="tns:createSleevePrintRequest" />
+      <output message="tns:createSleevePrintRequestResponse" />
+    </operation>
+    <operation name="getPortalActivity">
+      <input message="tns:getPortalActivity" />
+      <output message="tns:getPortalActivityResponse" />
+    </operation>
+    <operation name="getStones">
+      <input message="tns:getStones" />
+      <output message="tns:getStonesResponse" />
+    </operation>
+    <operation name="getStoneOnHold">
+      <input message="tns:getStoneOnHold" />
+      <output message="tns:getStoneOnHoldResponse" />
+    </operation>
+    <operation name="getItemsReceived">
+      <input message="tns:getItemsReceived" />
+      <output message="tns:getItemsReceivedResponse" />
+    </operation>
+    <operation name="getItemsReturned">
+      <input message="tns:getItemsReturned" />
+      <output message="tns:getItemsReturnedResponse" />
+    </operation>
+    <operation name="getItemStatus">
+      <input message="tns:getItemStatus" />
+      <output message="tns:getItemStatusResponse" />
+    </operation>
+    <operation name="getInscription_DiamondType_DigitalImage">
+      <input message="tns:getInscription_DiamondType_DigitalImage" />
+      <output message="tns:getInscription_DiamondType_DigitalImageResponse" />
+    </operation>
+    <operation name="getServiceCompletedControlNumbers">
+      <input message="tns:getServiceCompletedControlNumbers" />
+      <output message="tns:getServiceCompletedControlNumbersResponse" />
+    </operation>
+    <operation name="getPrimaryResults1">
+      <input message="tns:getPrimaryResults1" />
+      <output message="tns:getPrimaryResults1Response" />
+    </operation>
+    <operation name="getPrimaryResults2">
+      <input message="tns:getPrimaryResults2" />
+      <output message="tns:getPrimaryResults2Response" />
+    </operation>
+    <operation name="getPrimaryResults3">
+      <input message="tns:getPrimaryResults3" />
+      <output message="tns:getPrimaryResults3Response" />
+    </operation>
+    <operation name="getPrimaryResults4">
+      <input message="tns:getPrimaryResults4" />
+      <output message="tns:getPrimaryResults4Response" />
+    </operation>
+    <operation name="getRecheckResults1">
+      <input message="tns:getRecheckResults1" />
+      <output message="tns:getRecheckResults1Response" />
+    </operation>
+    <operation name="getRecheckResults2">
+      <input message="tns:getRecheckResults2" />
+      <output message="tns:getRecheckResults2Response" />
+    </operation>
+    <operation name="getRecheckResults3">
+      <input message="tns:getRecheckResults3" />
+      <output message="tns:getRecheckResults3Response" />
+    </operation>
+    <operation name="getRecheckResults4">
+      <input message="tns:getRecheckResults4" />
+      <output message="tns:getRecheckResults4Response" />
+    </operation>
+    <operation name="getFinalResults1">
+      <input message="tns:getFinalResults1" />
+      <output message="tns:getFinalResults1Response" />
+    </operation>
+    <operation name="getFinalResults2">
+      <input message="tns:getFinalResults2" />
+      <output message="tns:getFinalResults2Response" />
+    </operation>
+    <operation name="getFinalResults3">
+      <input message="tns:getFinalResults3" />
+      <output message="tns:getFinalResults3Response" />
+    </operation>
+    <operation name="addServiceRequest">
+      <input message="tns:addServiceRequest" />
+      <output message="tns:addServiceRequestResponse" />
+    </operation>
+    <operation name="inscribeAndPrintRequest">
+      <input message="tns:inscribeAndPrintRequest" />
+      <output message="tns:inscribeAndPrintRequestResponse" />
+    </operation>
+    <operation name="requestSealingAndPrint">
+      <input message="tns:requestSealingAndPrint" />
+      <output message="tns:requestSealingAndPrintResponse" />
+    </operation>
+    <operation name="createJob">
+      <input message="tns:createJob" />
+      <output message="tns:createJobResponse" />
+    </operation>
+    <operation name="getItemsReturnedResults">
+      <input message="tns:getItemsReturnedResults" />
+      <output message="tns:getItemsReturnedResultsResponse" />
+    </operation>
+    <operation name="getCrownHeight">
+      <input message="tns:getCrownHeight" />
+      <output message="tns:getCrownHeightResponse" />
+    </operation>
+    <operation name="getReportDtSecServiceRCStones">
+      <input message="tns:getReportDtSecServiceRCStones" />
+      <output message="tns:getReportDtSecServiceRCStonesResponse" />
+    </operation>
+  </portType>
+  <binding name="ConsolidatedWebServicesImplPortBinding" type="tns:ConsolidatedWebServices">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getFees">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="putStoneOnHold">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="createPrintRequest">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="createSleevePrintRequest">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPortalActivity">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getStones">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getStoneOnHold">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getItemsReceived">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getItemsReturned">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getItemStatus">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getInscription_DiamondType_DigitalImage">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getServiceCompletedControlNumbers">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPrimaryResults1">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPrimaryResults2">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPrimaryResults3">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPrimaryResults4">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRecheckResults1">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRecheckResults2">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRecheckResults3">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRecheckResults4">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getFinalResults1">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getFinalResults2">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getFinalResults3">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="addServiceRequest">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="inscribeAndPrintRequest">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="requestSealingAndPrint">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="createJob">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getItemsReturnedResults">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCrownHeight">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getReportDtSecServiceRCStones">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ConsolidatedWS">
+    <port name="ConsolidatedWebServicesImplPort" binding="tns:ConsolidatedWebServicesImplPortBinding">
+      <soap:address location="https://labws.gia.edu/ConsolidatedWS/ConsolidatedWS" />
+    </port>
+  </service>
+</definitions>

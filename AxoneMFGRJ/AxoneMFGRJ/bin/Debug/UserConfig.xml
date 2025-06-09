@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Created with the XDocument class.-->
+<UserConfig>
+  <LocalDownload path="E:\JobWork\Download" />
+  <LocalOutputPath path="E:\JobWork\Upload" />
+</UserConfig>

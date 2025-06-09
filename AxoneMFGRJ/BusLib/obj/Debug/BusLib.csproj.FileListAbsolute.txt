@@ -1,0 +1,22 @@
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\BusLib\bin\Debug\BusLib.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\BusLib\bin\Debug\BusLib.pdb
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\BusLib\bin\Debug\AxonDataLib.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\BusLib\obj\Debug\BusLib.csprojResolveAssemblyReference.cache
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\BusLib\obj\Debug\BusLib.dll
+E:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\BusLib\obj\Debug\BusLib.pdb
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\BusLib\bin\Debug\BusLib.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\BusLib\bin\Debug\BusLib.pdb
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\BusLib\bin\Debug\AxonDataLib.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\BusLib\obj\Debug\BusLib.csprojResolveAssemblyReference.cache
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\BusLib\obj\Debug\BusLib.dll
+F:\TFS2023\AxoneMFGRJ\AxoneMFGRJ\BusLib\obj\Debug\BusLib.pdb
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\BusLib\bin\Debug\BusLib.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\BusLib\bin\Debug\BusLib.pdb
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\BusLib\obj\Debug\BusLib.dll
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\BusLib\obj\Debug\BusLib.pdb
+D:\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\BusLib\obj\Debug\BusLib.csprojResolveAssemblyReference.cache
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\BusLib\bin\Debug\BusLib.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\BusLib\bin\Debug\BusLib.pdb
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\BusLib\obj\Debug\BusLib.csprojResolveAssemblyReference.cache
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\BusLib\obj\Debug\BusLib.dll
+D:\Volum D\TFS2023\Rijiya\AxoneMFGRJ\AxoneMFGRJ\BusLib\obj\Debug\BusLib.pdb

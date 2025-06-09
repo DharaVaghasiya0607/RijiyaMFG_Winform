@@ -1,0 +1,121 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Data;
+using AxonDataLib;
+using SProc = BusLib.TPV.BOSProc;
+using TabName = BusLib.TPV.BOTableName;
+using Config = BusLib.Configuration.BOConfiguration;
+using BusLib.TableName;
+using System.Collections;
+
+namespace BusLib.Master
+{
+    public class BOMST_Shift
+    {
+        AxonDataLib.BOSQLHelper Ope = new AxonDataLib.BOSQLHelper();
+        AxonDataLib.BOConversion Val = new AxonDataLib.BOConversion();
+
+        public DataTable Fill()
+        {
+            Ope.ClearParams();
+            DataTable DTab = new DataTable();
+            Ope.FillDTab(Config.ConnectionString, Config.ProviderName, DTab, "MST_ShiftGetData", CommandType.StoredProcedure);
+            return DTab;
+        }
+
+        public ShiftMasterProperty Save(ShiftMasterProperty pClsProperty)
+        {
+            try
+            {
+                Ope.ClearParams();
+                Ope.AddParams("SHIFT_ID", pClsProperty.SHIFT_ID, DbType.Int32, ParameterDirection.Input);
+                Ope.AddParams("SHIFTNAME", pClsProperty.SHIFTNAME, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("SHIFTTYPE", pClsProperty.SHIFTTYPE, DbType.String, ParameterDirection.Input);
+
+                Ope.AddParams("FROMDATE", pClsProperty.FROMDATE, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("TODATE", pClsProperty.TODATE, DbType.String, ParameterDirection.Input);
+
+                Ope.AddParams("PUNCHSTARTTIME", pClsProperty.PUNCHSTARTTIME, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("PUNCHENDTIME", pClsProperty.PUNCHENDTIME, DbType.String, ParameterDirection.Input);
+
+                Ope.AddParams("SHIFTSTARTTIME", pClsProperty.SHIFTSTARTTIME, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("SHIFTENDTIME", pClsProperty.SHIFTENDTIME, DbType.String, ParameterDirection.Input);
+
+                Ope.AddParams("LUNCHSTARTTIME", pClsProperty.LUNCHSTARTTIME, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("LUNCHENDTIME", pClsProperty.LUNCHENDTIME, DbType.String, ParameterDirection.Input);
+
+                Ope.AddParams("IDLEINTIME", pClsProperty.IDLEINTIME, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("IDLEOUTTIME", pClsProperty.IDLEOUTTIME, DbType.String, ParameterDirection.Input);
+
+                Ope.AddParams("TOTALHOURS", pClsProperty.TOTALHOURS, DbType.Int32, ParameterDirection.Input);
+                Ope.AddParams("TOTALMINUTES", pClsProperty.TOTALMINUTES, DbType.Int32, ParameterDirection.Input);
+
+                Ope.AddParams("OTAPPLICABLEBEFORE", pClsProperty.OTAPPLICABLEBEFORE, DbType.Int32, ParameterDirection.Input);
+                Ope.AddParams("OTAPPLICABLEAFTER", pClsProperty.OTAPPLICABLEAFTER, DbType.Int32, ParameterDirection.Input);
+
+                Ope.AddParams("ENTRYBY", Config.gEmployeeProperty.LEDGER_ID, DbType.Int64, ParameterDirection.Input);
+                Ope.AddParams("ENTRYIP", Config.ComputerIP, DbType.String, ParameterDirection.Input);
+                
+                Ope.AddParams("ReturnValue", "", DbType.String, ParameterDirection.Output);
+                Ope.AddParams("ReturnMessageType", "", DbType.String, ParameterDirection.Output);
+                Ope.AddParams("ReturnMessageDesc", "", DbType.String, ParameterDirection.Output);
+
+                ArrayList AL = Ope.ExeNonQueryWithOutParameter(Config.ConnectionString, Config.ProviderName, "MST_ShiftMasterSave", CommandType.StoredProcedure);
+
+                if (AL.Count != 0)
+                {
+                    pClsProperty.ReturnValue = Val.ToString(AL[0]);
+                    pClsProperty.ReturnMessageType = Val.ToString(AL[1]);
+                    pClsProperty.ReturnMessageDesc = Val.ToString(AL[2]);
+                }
+            }
+            catch (System.Exception ex)
+            {
+                pClsProperty.ReturnValue = "";
+                pClsProperty.ReturnMessageType = "FAIL";
+                pClsProperty.ReturnMessageDesc = ex.Message;
+
+            }
+            return pClsProperty;
+
+        }
+
+        public ShiftMasterProperty Delete(ShiftMasterProperty pClsProperty)
+        {
+            try
+            {
+                Ope.ClearParams();
+                Ope.AddParams("SHIFT_ID", pClsProperty.SHIFT_ID, DbType.Int32, ParameterDirection.Input);
+                Ope.AddParams("ENTRYBY", Config.gEmployeeProperty.LEDGER_ID, DbType.Int64, ParameterDirection.Input);
+                Ope.AddParams("ENTRYIP", Config.ComputerIP, DbType.String, ParameterDirection.Input);
+                
+                Ope.AddParams("ReturnValue", "", DbType.String, ParameterDirection.Output);
+                Ope.AddParams("ReturnMessageType", "", DbType.String, ParameterDirection.Output);
+                Ope.AddParams("ReturnMessageDesc", "", DbType.String, ParameterDirection.Output);
+
+                ArrayList AL = Ope.ExeNonQueryWithOutParameter(Config.ConnectionString, Config.ProviderName, "MST_ShiftDelete", CommandType.StoredProcedure);
+
+                if (AL.Count != 0)
+                {
+                    pClsProperty.ReturnValue = Val.ToString(AL[0]);
+                    pClsProperty.ReturnMessageType = Val.ToString(AL[1]);
+                    pClsProperty.ReturnMessageDesc = Val.ToString(AL[2]);
+                }
+
+            }
+            catch (System.Exception ex)
+            {
+                pClsProperty.ReturnValue = "";
+                pClsProperty.ReturnMessageType = "FAIL";
+                pClsProperty.ReturnMessageDesc = ex.Message;
+
+            }
+            return pClsProperty;
+
+        }
+      
+
+    }
+}
