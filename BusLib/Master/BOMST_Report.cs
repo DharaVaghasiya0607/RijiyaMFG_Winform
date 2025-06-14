@@ -238,7 +238,6 @@ namespace BusLib.Master
 
             }
             return pClsProperty;
-
         }
 
         public DataSet GenerateMaintainanceReport(MST_ReportProperty pClsProperty)
@@ -308,7 +307,6 @@ namespace BusLib.Master
 
                 Ope.AddParams("ROUGHCODE", pClsProperty.ROUGHCODE, DbType.String); // Dhara : 10-10-2024 : as per discussion with sohangbhai for Roughcode Filter
                 Ope.AddParams("TAG", pClsProperty.TAG, DbType.String); // Dhara : 11-10-2024 : as per discussion with sohangbhai for Tag Filter
-
 
                 Ope.FillDSet(Config.ConnectionString, Config.ProviderName, DS, "Temp", pClsProperty.SPNAME, CommandType.StoredProcedure);
                 return DS;

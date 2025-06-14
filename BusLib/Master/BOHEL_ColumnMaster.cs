@@ -62,6 +62,84 @@ namespace BusLib.Master
 
         }
 
+        //ADD BY RAJVI : 06/06/2025
+        public HeliumFileReportProperty Save(HeliumFileReportProperty pClsProperty)
+        {
+            try
+            {
+                Ope.ClearParams();
+                //Ope.AddParams("HELIUM_ID", pClsProperty.HELIUM_ID, DbType.Guid, ParameterDirection.Input);
+                Ope.AddParams("KAPAN", pClsProperty.KAPAN, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("PACKETNO", pClsProperty.PACKETNO, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("TAG", pClsProperty.TAG, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("HELIUM_ID", pClsProperty.HELIUM_ID, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("SHAPE", pClsProperty.SHAPE, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("CARAT", pClsProperty.CARAT, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("DEPTH", pClsProperty.DEPTH, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("TAB", pClsProperty.TAB, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("H_MEASURMENT", pClsProperty.H_MEASURMENT, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("H_DR", pClsProperty.H_DR, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("H_LAB", pClsProperty.H_LAB, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("H_CULET", pClsProperty.H_CULET, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("H_GIRDLE", pClsProperty.H_GIRDLE, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("H_GP", pClsProperty.H_GP, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("H_CANG", pClsProperty.H_CANG, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("H_CHIG", pClsProperty.H_CHIG, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("H_PANG", pClsProperty.H_PANG, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("H_PHIG", pClsProperty.H_PHIG, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("H_LH", pClsProperty.H_LH, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("H_RATIO", pClsProperty.H_RATIO, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("H_HEIGHT", pClsProperty.H_HEIGHT, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("LOCATION", pClsProperty.LOCATION, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("COLOR", pClsProperty.COLOR, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("CLARITY", pClsProperty.CLARITY, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("CUT", pClsProperty.CUT, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("POLISH", pClsProperty.POLISH, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("SYMM", pClsProperty.SYMM, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("MILKY", pClsProperty.MILKY, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("FLOUR", pClsProperty.FLOUR, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("BROWN", pClsProperty.BROWN, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("BLA_INC", pClsProperty.BLA_INC, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("TAB_INC", pClsProperty.TAB_INC, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("LUSTER", pClsProperty.LUSTER, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("T_OPEN", pClsProperty.T_OPEN, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("C_OPEN", pClsProperty.C_OPEN, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("P_OPEN", pClsProperty.P_OPEN, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("HA", pClsProperty.HA, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("LAB", pClsProperty.LAB, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("TYPE", pClsProperty.TYPE, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("GIANONGIA", pClsProperty.GIANONGIA, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("RAPPAPORT", pClsProperty.RAPAPORT, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("DISCOUNT", pClsProperty.DISCOUNT, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("PRICEPERCTS", pClsProperty.PRICEPERCARAT, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("AMOUNT", pClsProperty.AMOUNT, DbType.Double, ParameterDirection.Input);
+                Ope.AddParams("JANGADNO", pClsProperty.JANGADNO, DbType.Int64, ParameterDirection.Input);
+                 
+                Ope.AddParams("ENTRYBY", Config.gEmployeeProperty.LEDGER_ID, DbType.Int64, ParameterDirection.Input);
+                Ope.AddParams("ENTRYIP", Config.ComputerIP, DbType.String, ParameterDirection.Input);
+
+                Ope.AddParams("RETURNVALUE", "", DbType.String, ParameterDirection.Output);
+                Ope.AddParams("RETURNMESSAGETYPE", "", DbType.String, ParameterDirection.Output);
+                Ope.AddParams("RETURNMESSAGEDESC", "", DbType.String, ParameterDirection.Output);
+
+                ArrayList AL = Ope.ExeNonQueryWithOutParameter(Config.ConnectionString, Config.ProviderName, "RP_HeliumViewSave", CommandType.StoredProcedure);
+
+                if (AL.Count != 0)
+                {
+                    pClsProperty.ReturnValue = Val.ToString(AL[0]);
+                    pClsProperty.ReturnMessageType = Val.ToString(AL[1]);
+                    pClsProperty.ReturnMessageDesc = Val.ToString(AL[2]);
+                }
+            }
+            catch (System.Exception ex)
+            {
+                pClsProperty.ReturnValue = "";
+                pClsProperty.ReturnMessageType = "FAIL";
+                pClsProperty.ReturnMessageDesc = ex.Message;
+            }
+            return pClsProperty;
+        }
+        //END RAJVI
         public DataTable HeliumData(string wORD_STR)
         {
             Ope.ClearParams();

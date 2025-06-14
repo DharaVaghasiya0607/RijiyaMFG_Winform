@@ -108,6 +108,7 @@
     <Compile Include="TableName\AgeKapanWiseSettingProperty.cs" />
     <Compile Include="TableName\AgeProcessSettingProperty.cs" />
     <Compile Include="TableName\AtdCaptureDetailProperty.cs" />
+    <Compile Include="TableName\HeliumFileReportProperty.cs" />
     <Compile Include="TableName\KapanAutomarkerSettingProprerty.cs" />
     <Compile Include="TableName\KapanTransferProperty.cs" />
     <Compile Include="Transaction\BOTRN_KapanInward.cs" />

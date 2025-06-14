@@ -166,9 +166,11 @@ namespace BusLib
             MST_TAGSRNO = 129,
             MST_MANAGER = 130,
             MST_KAPANREMARK = 131,
-            MST_PLANNINGGRADE = 132
-
-
+            MST_PLANNINGGRADE = 132,
+            MST_TABLEOPEN=133,
+            MST_CROWNOPEN=134,
+            MST_PAVILLIONOPEN=135,
+            MST_LAB=136
         }
 
         public DataTable FillCmb(TABLE tenum)

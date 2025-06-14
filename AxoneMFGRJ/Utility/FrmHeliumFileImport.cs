@@ -1,10 +1,12 @@
 ﻿using BusLib.Configuration;
 using BusLib.Master;
+using BusLib.TableName;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.OleDb;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -24,6 +26,7 @@ namespace AxoneMFGRJ.Utility
 
         DataTable DTabHeliumPath = new DataTable();
         DataTable DTabStoneDetail = new DataTable();
+    
         //FUNCTIONS FNC = new FUNCTIONS();
 
         public FrmHeliumFileImport()
@@ -37,6 +40,7 @@ namespace AxoneMFGRJ.Utility
             AttachFormDefaultEvent();
             ObjPer.GetFormPermission(Val.ToString(this.Tag));         
             this.Show();
+            TxtKapan.Focus();
             //GetHeliumFilePath();
         }
         public void AttachFormDefaultEvent()
@@ -411,7 +415,7 @@ namespace AxoneMFGRJ.Utility
                             st.AppendLine(" END");
                             st.ToString();
                             //DF.datainupde(st.ToString());
-                            int IntRes = ObjMast.SavetxtHeliumFile(st);
+                            int IntRes = ObjMast.   (st);
 
                             GridDetail.SetRowCellValue(i, "STATUS", "True");
                             #endregion
@@ -691,6 +695,35 @@ namespace AxoneMFGRJ.Utility
             }
         }
 
+        private bool ValSave()
+        {
+            if (TxtHelium_ID.Text.Trim().Length == 0)
+            {
+                Global.MessageError("Helium_ID Is Required");
+                TxtHelium_ID.Focus();
+                return false;
+            }
+            else if (TxtKapan.Text.Trim().Length == 0)
+            {
+                Global.MessageError("Kapan Is Required");
+                TxtKapan.Focus();
+                return false;
+            }
+            else if (TxtPacketNo.Text.Trim().Length == 0)
+            {
+                Global.MessageError("PacketNo Is Required");
+                TxtPacketNo.Focus();
+                return false;
+            }
+            else if (TxtCarat.Text.Trim().Length == 0)
+            {
+                Global.MessageError("Carat Is Required");
+                TxtCarat.Focus();
+                return false;
+            }
+            return true;
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -698,6 +731,690 @@ namespace AxoneMFGRJ.Utility
                 ADD_PATH(DateTime.Today.AddDays(0).ToString("yyyy"), DateTime.Today.AddDays(0).ToString("MM"), DateTime.Today.AddDays(0).ToString("dd"));
                 ADD_PATH(DateTime.Today.AddDays(-1).ToString("yyyy"), DateTime.Today.AddDays(-1).ToString("MM"), DateTime.Today.AddDays(-1).ToString("dd"));
                 InsertInToTable();
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void BtnSave_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (ValSave() == false)
+                {
+                    return;
+                }
+          
+                HeliumFileReportProperty Property = new HeliumFileReportProperty();
+                Property.HELIUM_ID = Val.ToString(TxtHelium_ID.Tag);
+                Property.KAPAN = Val.ToString(TxtKapan.Text);
+                Property.PACKETNO = Val.ToString(TxtPacketNo.Text);
+                //string sql = "SELECT Packet_Id FROM Trn_MumbaiTransferNew WHERE Kapan = @Kapan AND PacketNo = @PacketNo";
+                Property.TAG = Val.ToString(TxtTag.Text);
+                Property.HELIUM_ID = Val.ToString(TxtHelium_ID.Text);
+                Property.SHAPE = Val.ToString(TxtShape.Text);
+                Property.SHAPE_ID = Val.ToInt32(TxtShape.Tag);
+                Property.CARAT = Val.ToDouble(TxtCarat.Text);
+                Property.DEPTH = Val.ToDouble(Txtdepth.Text);
+                Property.TAB = Val.ToDouble(TxtTab.Text);
+                Property.H_MEASURMENT = Val.ToString(TxtH_Measurment.Text);
+                Property.H_DR = Val.ToDouble(TxtH_Dr.Text);
+                Property.H_LAB = Val.ToString(TxtH_Lab.Text);
+                Property.H_CULET = Val.ToString(TxtH_Culet.Text);
+                Property.H_GIRDLE = Val.ToString(TxtH_Girdle.Text);
+                Property.H_GP = Val.ToString(TxtH_Gp.Text);
+                Property.H_CANG = Val.ToDouble(TxtH_Cang.Text);
+                Property.H_CHIG = Val.ToDouble(TxtH_Chig.Text);
+                Property.H_PANG = Val.ToDouble(TxtH_Pang.Text);
+                Property.H_PHIG = Val.ToDouble(TxtH_Phig.Text);
+                Property.H_LH = Val.ToDouble(TxtH_Lh.Text);
+                Property.H_RATIO = Val.ToDouble(TxtH_RAtio.Text);
+                Property.H_HEIGHT = Val.ToDouble(TxtH_Height.Text);
+                Property.LOCATION = Val.ToString(TxtLocation.Text);
+                Property.COLOR = Val.ToString(TxtColor.Text);
+                Property.COLOR_ID = Val.ToInt32(TxtColor.Text);
+                Property.CLARITY = Val.ToString(TxtClarity.Text);
+                Property.CLARITY_ID = Val.ToInt32(TxtClarity.Text);
+                Property.CUT = Val.ToString(TxtCut.Text);
+                Property.CUT_ID = Val.ToInt32(TxtCut.Text);
+                Property.POLISH = Val.ToString(TxtPolish.Text);
+                Property.POLISH_ID = Val.ToInt32(TxtPolish.Text);
+                Property.SYMM = Val.ToString(TxtSymm.Text);
+                Property.SYMM_ID = Val.ToInt32(TxtSymm.Text);
+                Property.FLOUR = Val.ToString(TxtFlour.Text);
+                Property.FLOUR_ID = Val.ToInt32(TxtFlour.Text);
+                Property.MILKY = Val.ToString(TxtMilky.Text);
+                Property.MILKY_ID = Val.ToInt32(TxtMilky.Text);
+                Property.BROWN = Val.ToString(TxtBrown.Text);
+                Property.BROWN_ID = Val.ToInt32(TxtBrown.Text);
+                Property.TAB_INC = Val.ToString(TxtTab_Inc.Text);
+                Property.TAB_INC_ID = Val.ToInt32(TxtTab_Inc.Text);
+                Property.BLA_INC = Val.ToString(TxtBla_Inc.Text);
+                Property.BLA_INC_ID = Val.ToInt32(TxtBla_Inc.Text);
+                Property.LUSTER = Val.ToString(TxtLuster.Text);
+                Property.LUSTER_ID = Val.ToInt32(TxtLuster.Text);
+                Property.T_OPEN = Val.ToString(TxtT_Open.Text);
+                Property.T_OPEN_ID = Val.ToInt32(TxtT_Open.Text);
+                Property.C_OPEN = Val.ToString(TxtC_Open.Text);
+                Property.C_OPEN_ID = Val.ToInt32(TxtC_Open.Text);
+                Property.P_OPEN = Val.ToString(TxtP_Open.Text);
+                Property.P_OPEN_ID = Val.ToInt32(TxtP_Open.Text);
+                Property.HA = Val.ToString(TxtHA.Text);
+                Property.HA_ID = Val.ToInt32(TxtHA.Text);
+                Property.TYPE = Val.ToString(TxtType.Text);
+                Property.LAB = Val.ToString(TxtLab.Text);
+                Property.LAB_ID = Val.ToInt32(TxtLab.Text);
+                Property.GIANONGIA = Val.ToString(TxtGIANONGIA.Text);
+                Property.RAPAPORT = Val.ToDouble(TxtRapaport.Text);
+                Property.DISCOUNT = Val.ToDouble(TxtDiscount.Text);
+                Property.PRICEPERCARAT = Val.ToDouble(TxtPriceperCts.Text);
+                Property.AMOUNT = Val.ToDouble(TxtAmount.Text);
+                Property.JANGADNO = Val.ToInt64(TxtJangadNo.Text);
+                
+                Property = ObjMast.Save(Property);
+                InsertInToTable();
+
+                Global.Message(Property.ReturnMessageDesc);
+
+                if (Property.ReturnMessageType == "SUCCESS")
+                {
+                    BtnClear_Click(null, null);
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.MessageError(ex.Message);
+            }
+        }
+
+        private void BtnClear_Click(object sender, EventArgs e)
+        {
+            TxtKapan.Text = string.Empty;
+            TxtPacketNo.Text = string.Empty;
+            TxtTag.Text = string.Empty;
+            TxtHelium_ID.Text = string.Empty;
+            TxtShape.Text = string.Empty;
+            TxtCarat.Text = string.Empty;
+            Txtdepth.Text = string.Empty;
+            TxtTab.Text = string.Empty;
+            TxtH_Measurment.Text = string.Empty;
+            TxtH_Dr.Text = string.Empty;
+            TxtH_Culet.Text = string.Empty;
+            TxtH_Lab.Text = string.Empty;
+            TxtH_Girdle.Text = string.Empty;
+            TxtH_Gp.Text = string.Empty;
+            TxtH_Cang.Text = string.Empty;
+            TxtH_Chig.Text = string.Empty;
+            TxtH_Pang.Text = string.Empty;
+            TxtH_Phig.Text = string.Empty;
+            TxtH_Lh.Text = string.Empty;
+            TxtH_RAtio.Text = string.Empty;
+            TxtH_Height.Text = string.Empty;
+            TxtLocation.Text = string.Empty;
+            TxtColor.Text = string.Empty;
+            TxtClarity.Text = string.Empty;
+            TxtCut.Text = string.Empty;
+            TxtPolish.Text = string.Empty;
+            TxtSymm.Text = string.Empty;
+            TxtFlour.Text = string.Empty;
+            TxtMilky.Text = string.Empty;
+            TxtBrown.Text = string.Empty;
+            TxtBla_Inc.Text = string.Empty;
+            TxtTab_Inc.Text = string.Empty;
+            TxtLuster.Text = string.Empty;
+            TxtT_Open.Text = string.Empty;
+            TxtC_Open.Text = string.Empty;
+            TxtP_Open.Text = string.Empty;
+            TxtLab.Text = string.Empty;
+            TxtType.Text = string.Empty;
+            TxtHA.Text = string.Empty;
+            TxtGIANONGIA.Text = string.Empty;
+            TxtRapaport.Text = string.Empty;
+            TxtDiscount.Text = string.Empty;
+            TxtPriceperCts.Text = string.Empty;
+            TxtAmount.Text = string.Empty;
+            TxtJangadNo.Text = string.Empty;
+        }
+
+        private void TxtShape_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "SHAPENAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_SHAPE);
+
+                    FrmSearch.mColumnsToHide = "SHAPE_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtShape.Text = Val.ToString(FrmSearch.mDRow["SHAPENAME"]);
+                        TxtShape.Tag = Val.ToString(FrmSearch.mDRow["SHAPE_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtColor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "COLORNAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_COLOR);
+
+                    FrmSearch.mColumnsToHide = "COLOR_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtColor.Text = Val.ToString(FrmSearch.mDRow["COLORNAME"]);
+                        TxtColor.Tag = Val.ToString(FrmSearch.mDRow["COLOR_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtClarity_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "CLARITYNAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_CLARITY);
+
+                    FrmSearch.mColumnsToHide = "CLARITY_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtClarity.Text = Val.ToString(FrmSearch.mDRow["CLARITYNAME"]);
+                        TxtClarity.Tag = Val.ToString(FrmSearch.mDRow["CLARITY_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtCut_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "CUTNAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_CUT);
+
+                    FrmSearch.mColumnsToHide = "CUT_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtCut.Text = Val.ToString(FrmSearch.mDRow["CUTNAME"]);
+                        TxtCut.Tag = Val.ToString(FrmSearch.mDRow["CUT_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtPolish_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "POLNAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_POL);
+
+                    FrmSearch.mColumnsToHide = "POL_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtPolish.Text = Val.ToString(FrmSearch.mDRow["POLNAME"]);
+                        TxtPolish.Tag = Val.ToString(FrmSearch.mDRow["POL_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtSymm_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "SYMNAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_SYM);
+
+                    FrmSearch.mColumnsToHide = "SYM_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtSymm.Text = Val.ToString(FrmSearch.mDRow["SYMNAME"]);
+                        TxtSymm.Tag = Val.ToString(FrmSearch.mDRow["SYM_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtFlour_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "FLNAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_FL);
+
+                    FrmSearch.mColumnsToHide = "FL_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtFlour.Text = Val.ToString(FrmSearch.mDRow["FLNAME"]);
+                        TxtFlour.Tag = Val.ToString(FrmSearch.mDRow["FL_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtMilky_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "MILKYNAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_MILKY);
+
+                    FrmSearch.mColumnsToHide = "MILKY_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtMilky.Text = Val.ToString(FrmSearch.mDRow["MILKYNAME"]);
+                        TxtMilky.Tag = Val.ToString(FrmSearch.mDRow["MILKY_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtBrown_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //try
+            //{
+            //    if (Global.OnKeyPressToOpenPopup(e))
+            //    {
+            //        FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+            //        FrmSearch.mSearchField = "MILKYNAME";
+            //        FrmSearch.mSearchText = e.KeyChar.ToString();
+            //        this.Cursor = Cursors.WaitCursor;
+            //        FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_MILKY);
+
+            //        FrmSearch.mColumnsToHide = "MILKY_ID";
+            //        this.Cursor = Cursors.Default;
+            //        FrmSearch.ShowDialog();
+            //        e.Handled = true;
+            //        if (FrmSearch.mDRow != null)
+            //        {
+            //            TxtColor.Text = Val.ToString(FrmSearch.mDRow["MILKYNAME"]);
+            //            TxtColor.Tag = Val.ToString(FrmSearch.mDRow["MILKY_ID"]);
+            //        }
+            //        FrmSearch.Hide();
+            //        FrmSearch.Dispose();
+            //        FrmSearch = null;
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Global.Message(ex.Message);
+            //}
+        }
+
+        private void TxtBla_Inc_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //try
+            //{
+            //    if (Global.OnKeyPressToOpenPopup(e))
+            //    {
+            //        FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+            //        FrmSearch.mSearchField = "MILKYNAME";
+            //        FrmSearch.mSearchText = e.KeyChar.ToString();
+            //        this.Cursor = Cursors.WaitCursor;
+            //        FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_MILKY);
+
+            //        FrmSearch.mColumnsToHide = "MILKY_ID";
+            //        this.Cursor = Cursors.Default;
+            //        FrmSearch.ShowDialog();
+            //        e.Handled = true;
+            //        if (FrmSearch.mDRow != null)
+            //        {
+            //            TxtColor.Text = Val.ToString(FrmSearch.mDRow["MILKYNAME"]);
+            //            TxtColor.Tag = Val.ToString(FrmSearch.mDRow["MILKY_ID"]);
+            //        }
+            //        FrmSearch.Hide();
+            //        FrmSearch.Dispose();
+            //        FrmSearch = null;
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Global.Message(ex.Message);
+            //}
+        }
+
+        private void TxtTab_Inc_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //try
+            //{
+            //    if (Global.OnKeyPressToOpenPopup(e))
+            //    {
+            //        FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+            //        FrmSearch.mSearchField = "MILKYNAME";
+            //        FrmSearch.mSearchText = e.KeyChar.ToString();
+            //        this.Cursor = Cursors.WaitCursor;
+            //        FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_MILKY);
+
+            //        FrmSearch.mColumnsToHide = "MILKY_ID";
+            //        this.Cursor = Cursors.Default;
+            //        FrmSearch.ShowDialog();
+            //        e.Handled = true;
+            //        if (FrmSearch.mDRow != null)
+            //        {
+            //            TxtColor.Text = Val.ToString(FrmSearch.mDRow["MILKYNAME"]);
+            //            TxtColor.Tag = Val.ToString(FrmSearch.mDRow["MILKY_ID"]);
+            //        }
+            //        FrmSearch.Hide();
+            //        FrmSearch.Dispose();
+            //        FrmSearch = null;
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Global.Message(ex.Message);
+            //}
+        }
+
+        private void TxtLuster_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "LUSTERNAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_LUSTER);
+
+                    FrmSearch.mColumnsToHide = "LUSTER_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtLuster.Text = Val.ToString(FrmSearch.mDRow["LUSTERNAME"]);
+                        TxtLuster.Tag = Val.ToString(FrmSearch.mDRow["LUSTER_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtT_Open_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "TABLEOPENNAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_TABLEOPEN);
+
+                    FrmSearch.mColumnsToHide = "TABLEOPEN_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtT_Open.Text = Val.ToString(FrmSearch.mDRow["TABLEOPENNAME"]);
+                        TxtT_Open.Tag = Val.ToString(FrmSearch.mDRow["TABLEOPEN_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtC_Open_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "CROWNOPENNAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_CROWNOPEN);
+
+                    FrmSearch.mColumnsToHide = "CROWNOPEN_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtC_Open.Text = Val.ToString(FrmSearch.mDRow["CROWNOPENNAME"]);
+                        TxtC_Open.Tag = Val.ToString(FrmSearch.mDRow["CROWNOPEN_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtP_Open_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "PAVILLIONOPENNAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_PAVILLIONOPEN);
+
+                    FrmSearch.mColumnsToHide = "PAVILLIONOPEN_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtP_Open.Text = Val.ToString(FrmSearch.mDRow["PAVILLIONOPENNAME"]);
+                        TxtP_Open.Tag = Val.ToString(FrmSearch.mDRow["PAVILLIONOPEN_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtHA_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "HANAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_HA);
+
+                    FrmSearch.mColumnsToHide = "HA_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtHA.Text = Val.ToString(FrmSearch.mDRow["HANAME"]);
+                        TxtHA.Tag = Val.ToString(FrmSearch.mDRow["HA_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.Message(ex.Message);
+            }
+        }
+
+        private void TxtLab_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressToOpenPopup(e))
+                {
+                    FrmSearchPopupBox FrmSearch = new FrmSearchPopupBox();
+                    FrmSearch.mSearchField = "LABNAME";
+                    FrmSearch.mSearchText = e.KeyChar.ToString();
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_LAB);
+
+                    FrmSearch.mColumnsToHide = "LAB_ID";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.mDRow != null)
+                    {
+                        TxtLab.Text = Val.ToString(FrmSearch.mDRow["LABNAME"]);
+                        TxtLab.Tag = Val.ToString(FrmSearch.mDRow["LAB_ID"]);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
             }
             catch (Exception ex)
             {
