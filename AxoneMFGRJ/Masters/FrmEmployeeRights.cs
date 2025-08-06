@@ -94,7 +94,6 @@ namespace AxoneMFGRJ.Masters
                     this.Cursor = Cursors.WaitCursor;
                     FrmSearch.mDTab = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_EMPLOYEE);
                     FrmSearch.mColumnsToHide = "EMPLOYEE_ID";
-                    
                     FrmSearch.mSearchField = "EMPLOYEECODE,EMPLOYEENAME";
                     this.Cursor = Cursors.Default;
                     FrmSearch.ShowDialog();
@@ -155,10 +154,6 @@ namespace AxoneMFGRJ.Masters
 
             MainGridReport.DataSource = DTabReport;
             GrdDetReport.RefreshData();
-
-
-
-
 
            // DTabProcess.Rows.Add(DTabProcess.NewRow());
 
@@ -272,14 +267,6 @@ namespace AxoneMFGRJ.Masters
                 DTabTransfer.AcceptChanges();
                 DTabProcess.AcceptChanges();
                 DTabReport.AcceptChanges();
-
-
-                //DataTable Dt = ObjMast.CheckUsername(Val.ToInt64(txtEmployee.Tag), txtUserName.Text);
-                //if (Dt.Rows.Count > 0)
-                //{
-                //    Global.Message("UserName Already Exists");
-                //    return;
-                //}
 
                 this.Cursor = Cursors.WaitCursor;
 

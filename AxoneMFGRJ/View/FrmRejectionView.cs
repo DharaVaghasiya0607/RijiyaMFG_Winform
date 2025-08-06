@@ -48,6 +48,9 @@ namespace AxoneMFGRJ.Account
         {
             Val.FormGeneralSetting(this);
             AttachFormDefaultEvent();
+
+            
+
             this.Show();
 
             if (MainGridDet.RepositoryItems.Count == 1)
@@ -130,7 +133,7 @@ namespace AxoneMFGRJ.Account
 
                 MainGridDet.DataSource = DS.Tables[1];
                 MainGridDet.Refresh();
-                GrdDet.BestFitColumns();
+                //GrdDet.BestFitColumns();
 
                 ObjGridSelection.ClearSelection();
 
@@ -145,7 +148,6 @@ namespace AxoneMFGRJ.Account
                 txtKapanName.Tag = string.Empty;
                 txtPacketNo.Text = string.Empty;
                 txtPacketNo.Tag = string.Empty;
-
 
                 this.Cursor = Cursors.Default;
             }
@@ -771,5 +773,32 @@ namespace AxoneMFGRJ.Account
                 Global.Message(Ex.Message.ToString());
             }
         }
+
+        private void GrdDet_CustomRowCellEdit(object sender, CustomRowCellEditEventArgs e)
+        {
+           
+        }
+
+        //ADD AS RAJVI : 06/08/2025
+        private void txtPassForDeleteBtn_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (Val.ToString(txtPassForDeleteBtn.Tag) != "" && Val.ToString(txtPassForDeleteBtn.Tag).ToUpper() == txtPassForDeleteBtn.Text.ToUpper())
+                {
+                    gridColumn11.Visible = true;
+                    gridColumn11.VisibleIndex = 1;
+                }
+                else
+                {
+                    gridColumn11.Visible = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                Global.MessageError(ex.Message.ToString());
+            }
+        }
+        //END AS RAJVI
     }
 }

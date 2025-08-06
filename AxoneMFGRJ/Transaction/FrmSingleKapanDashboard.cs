@@ -43,6 +43,7 @@ namespace AxoneMFGRJ.Transaction
             InitializeComponent();
         }
 
+
         public void ShowForm()
         {
 
@@ -52,6 +53,15 @@ namespace AxoneMFGRJ.Transaction
             Val.FormGeneralSetting(this);
             AttachFormDefaultEvent();
             txtKapanDisplay_TextChanged(null,null);
+
+            string Str = new BOTRN_KapanCreate().GetGridLayout(this.Name, GrdDetKapanLive.Name);
+
+            if (Str != "")
+            {
+                byte[] byteArray = Encoding.ASCII.GetBytes(Str);
+                MemoryStream stream = new MemoryStream(byteArray);
+                GrdDetKapanLive.RestoreLayoutFromStream(stream);
+            }
             this.Show();
             //  BtnSearch_Click(null, null);
 
@@ -681,5 +691,31 @@ namespace AxoneMFGRJ.Transaction
                 GrdDetKapanLive.Columns["ISHIDE"].Visible = false;
             }
         }
+
+        //ADD AS RAJVI : 06/08/2025
+        private void lblSaveLayout_Click(object sender, EventArgs e)
+        {
+            Stream str = new System.IO.MemoryStream();
+            GrdDetKapanLive.SaveLayoutToStream(str);
+            str.Seek(0, System.IO.SeekOrigin.Begin);
+            StreamReader reader = new StreamReader(str);
+            string text = reader.ReadToEnd();
+
+            int IntRes = new BOTRN_KapanCreate().SaveGridLayout(this.Name, GrdDetKapanLive.Name, text);
+            if (IntRes != -1)
+            {
+                Global.Message("Layout Successfully Saved");
+            }
+        }
+
+        private void lblDefaultLayout_Click(object sender, EventArgs e)
+        {
+            int IntRes = new BOTRN_KapanCreate().DeleteGridLayout(this.Name, GrdDetKapanLive.Name);
+            if (IntRes != -1)
+            {
+                Global.Message("Layout Successfully Deleted");
+            }
+        }
+        //END AS RAJVI
     }
 }

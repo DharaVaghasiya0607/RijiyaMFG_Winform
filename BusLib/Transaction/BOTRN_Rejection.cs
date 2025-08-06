@@ -164,9 +164,7 @@ namespace BusLib.Transaction
             Ope.AddParams("FROMDATE", pStrFromDate, DbType.String, ParameterDirection.Input);
             Ope.AddParams("TODATE", pStrToDate, DbType.String, ParameterDirection.Input);
             Ope.FillDSet(Config.ConnectionString, Config.ProviderName, DS, "Temp", "Trn_RejectionView", CommandType.StoredProcedure);
-
             return DS;
-
         }
 
         public TRN_RejectionProperty DeleteRejectionID(TRN_RejectionProperty pClsProperty)

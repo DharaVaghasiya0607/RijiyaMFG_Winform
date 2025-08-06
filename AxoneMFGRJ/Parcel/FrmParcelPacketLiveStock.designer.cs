@@ -358,7 +358,7 @@
             this.PanelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelHeader.Location = new System.Drawing.Point(0, 0);
             this.PanelHeader.Name = "PanelHeader";
-            this.PanelHeader.Size = new System.Drawing.Size(1180, 70);
+            this.PanelHeader.Size = new System.Drawing.Size(1429, 70);
             this.PanelHeader.TabIndex = 0;
             // 
             // txtSubPktJangedNo
@@ -397,7 +397,7 @@
             this.panel1.Controls.Add(this.RbtSubPktFullStock);
             this.panel1.Controls.Add(this.RbtSubPktOtherStock);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(286, 0);
+            this.panel1.Location = new System.Drawing.Point(535, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(894, 70);
             this.panel1.TabIndex = 151;
@@ -918,9 +918,9 @@
             this.panel2.Controls.Add(this.txtTotalCarat);
             this.panel2.Controls.Add(this.txtTotalPcs);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 565);
+            this.panel2.Location = new System.Drawing.Point(0, 668);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1180, 31);
+            this.panel2.Size = new System.Drawing.Size(1429, 31);
             this.panel2.TabIndex = 19;
             // 
             // panel3
@@ -933,7 +933,7 @@
             this.panel3.Controls.Add(this.lblDefaultLayout);
             this.panel3.Controls.Add(this.lblSaveLayout);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(619, 0);
+            this.panel3.Location = new System.Drawing.Point(868, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(561, 31);
             this.panel3.TabIndex = 155;
@@ -1148,7 +1148,7 @@
             this.MainGridSubPkt.Location = new System.Drawing.Point(0, 70);
             this.MainGridSubPkt.MainView = this.GrdDetSubPkt;
             this.MainGridSubPkt.Name = "MainGridSubPkt";
-            this.MainGridSubPkt.Size = new System.Drawing.Size(1180, 495);
+            this.MainGridSubPkt.Size = new System.Drawing.Size(1429, 598);
             this.MainGridSubPkt.TabIndex = 19;
             this.MainGridSubPkt.ToolTipController = this.toolTipController1;
             this.MainGridSubPkt.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -2162,7 +2162,7 @@
             this.xtraTabPage1.Controls.Add(this.PanelHeader);
             this.xtraTabPage1.Controls.Add(this.panel2);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(1180, 596);
+            this.xtraTabPage1.Size = new System.Drawing.Size(1429, 699);
             this.xtraTabPage1.Text = "SUB PACKETS";
             // 
             // xtraTabPage6
@@ -2174,7 +2174,7 @@
             this.xtraTabPage6.Controls.Add(this.panel16);
             this.xtraTabPage6.Controls.Add(this.panel7);
             this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(1180, 596);
+            this.xtraTabPage6.Size = new System.Drawing.Size(1180, 699);
             this.xtraTabPage6.Text = "MAIN PACKETS";
             // 
             // GrpSinglePacketCreate
@@ -2390,7 +2390,7 @@
             this.RepBtnProcessIssue,
             this.RepBtnMakbleIssue,
             this.repBtnSinglePacketCreate});
-            this.MainGridMainPkt.Size = new System.Drawing.Size(1180, 516);
+            this.MainGridMainPkt.Size = new System.Drawing.Size(1180, 619);
             this.MainGridMainPkt.TabIndex = 21;
             this.MainGridMainPkt.ToolTipController = this.toolTipController1;
             this.MainGridMainPkt.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -3336,7 +3336,7 @@
             this.panel16.Controls.Add(this.txtPassForDisplayBack);
             this.panel16.Controls.Add(this.ChkMainPktDisplayAll);
             this.panel16.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel16.Location = new System.Drawing.Point(0, 574);
+            this.panel16.Location = new System.Drawing.Point(0, 677);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(1180, 22);
             this.panel16.TabIndex = 22;
@@ -4100,7 +4100,7 @@
             this.xtraTabControl2.Location = new System.Drawing.Point(0, 0);
             this.xtraTabControl2.Name = "xtraTabControl2";
             this.xtraTabControl2.SelectedTabPage = this.xtraTabPage6;
-            this.xtraTabControl2.Size = new System.Drawing.Size(1186, 625);
+            this.xtraTabControl2.Size = new System.Drawing.Size(1435, 728);
             this.xtraTabControl2.TabIndex = 152;
             this.xtraTabControl2.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage6,
@@ -4111,7 +4111,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1186, 625);
+            this.ClientSize = new System.Drawing.Size(1435, 728);
             this.Controls.Add(this.xtraTabControl2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.LookAndFeel.SkinName = "Stardust";

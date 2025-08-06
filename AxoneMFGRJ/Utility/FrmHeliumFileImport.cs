@@ -415,7 +415,7 @@ namespace AxoneMFGRJ.Utility
                             st.AppendLine(" END");
                             st.ToString();
                             //DF.datainupde(st.ToString());
-                            int IntRes = ObjMast.   (st);
+                            int IntRes = ObjMast.SavetxtHeliumFile(st);
 
                             GridDetail.SetRowCellValue(i, "STATUS", "True");
                             #endregion

@@ -1023,7 +1023,7 @@ namespace AxoneMFGRJ.Transaction
 
         private void txtPassForDateUpdate_TextChanged(object sender, EventArgs e)
         {
-          try
+           try
            {
               if (Val.ToString(txtPassForDateUpdate.Tag) != "" && Val.ToString(txtPassForDateUpdate.Tag).ToUpper() == txtPassForDateUpdate.Text.ToUpper())
               {
@@ -1035,9 +1035,9 @@ namespace AxoneMFGRJ.Transaction
               }
            }
            catch (Exception ex)
-          {
+           {
                 Global.MessageError(ex.Message.ToString());
-          }
+           }
         }
 
         #endregion

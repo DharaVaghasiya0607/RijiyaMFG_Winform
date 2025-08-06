@@ -108,6 +108,7 @@
             this.PanelClient = new AxonContLib.cPanel(this.components);
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
+            this.txtPassForDeleteBtn = new AxonContLib.cTextBox(this.components);
             this.txtMultiMainManager = new AxonContLib.cTextBox(this.components);
             this.cLabel4 = new AxonContLib.cLabel(this.components);
             this.BtnShow = new System.Windows.Forms.Button();
@@ -179,7 +180,7 @@
             this.xtraScrollableControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraScrollableControl2.Location = new System.Drawing.Point(0, 0);
             this.xtraScrollableControl2.Name = "xtraScrollableControl2";
-            this.xtraScrollableControl2.Size = new System.Drawing.Size(1176, 412);
+            this.xtraScrollableControl2.Size = new System.Drawing.Size(1448, 556);
             this.xtraScrollableControl2.TabIndex = 1;
             // 
             // splitContainer1
@@ -196,8 +197,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.groupControl2);
-            this.splitContainer1.Size = new System.Drawing.Size(1176, 302);
-            this.splitContainer1.SplitterDistance = 528;
+            this.splitContainer1.Size = new System.Drawing.Size(1448, 446);
+            this.splitContainer1.SplitterDistance = 650;
             this.splitContainer1.TabIndex = 32;
             // 
             // groupControl1
@@ -211,7 +212,7 @@
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl1.Location = new System.Drawing.Point(0, 0);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(526, 300);
+            this.groupControl1.Size = new System.Drawing.Size(648, 444);
             this.groupControl1.TabIndex = 1;
             this.groupControl1.Text = "Summary Report";
             // 
@@ -443,7 +444,7 @@
             this.repBtnParcelTransfer,
             this.RepMakTransfer,
             this.RepBtnOrderRejection});
-            this.MainGridSum.Size = new System.Drawing.Size(522, 277);
+            this.MainGridSum.Size = new System.Drawing.Size(644, 421);
             this.MainGridSum.TabIndex = 0;
             this.MainGridSum.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.GrdDetSum});
@@ -706,7 +707,7 @@
             this.groupControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl2.Location = new System.Drawing.Point(0, 0);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(642, 300);
+            this.groupControl2.Size = new System.Drawing.Size(792, 444);
             this.groupControl2.TabIndex = 2;
             this.groupControl2.Text = "Detail Report";
             // 
@@ -718,7 +719,7 @@
             this.MainGridDet.Name = "MainGridDet";
             this.MainGridDet.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.BtnDelete});
-            this.MainGridDet.Size = new System.Drawing.Size(638, 277);
+            this.MainGridDet.Size = new System.Drawing.Size(788, 421);
             this.MainGridDet.TabIndex = 0;
             this.MainGridDet.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.GrdDet});
@@ -783,6 +784,7 @@
             this.GrdDet.OptionsView.ShowFooter = true;
             this.GrdDet.OptionsView.ShowGroupPanel = false;
             this.GrdDet.RowHeight = 23;
+            this.GrdDet.CustomRowCellEdit += new DevExpress.XtraGrid.Views.Grid.CustomRowCellEditEventHandler(this.GrdDet_CustomRowCellEdit);
             this.GrdDet.CustomSummaryCalculate += new DevExpress.Data.CustomSummaryEventHandler(this.GrdDet_CustomSummaryCalculate);
             // 
             // gridColumn5
@@ -823,7 +825,7 @@
             this.gridColumn1.OptionsColumn.AllowEdit = false;
             this.gridColumn1.OptionsFilter.FilterPopupMode = DevExpress.XtraGrid.Columns.FilterPopupMode.CheckedList;
             this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 1;
+            this.gridColumn1.VisibleIndex = 0;
             this.gridColumn1.Width = 101;
             // 
             // gridColumn2
@@ -838,7 +840,7 @@
             this.gridColumn2.OptionsColumn.AllowEdit = false;
             this.gridColumn2.OptionsFilter.FilterPopupMode = DevExpress.XtraGrid.Columns.FilterPopupMode.CheckedList;
             this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 2;
+            this.gridColumn2.VisibleIndex = 1;
             this.gridColumn2.Width = 96;
             // 
             // gridColumn3
@@ -851,7 +853,7 @@
             this.gridColumn3.OptionsColumn.AllowEdit = false;
             this.gridColumn3.OptionsFilter.FilterPopupMode = DevExpress.XtraGrid.Columns.FilterPopupMode.CheckedList;
             this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 3;
+            this.gridColumn3.VisibleIndex = 2;
             this.gridColumn3.Width = 99;
             // 
             // gridColumn7
@@ -866,7 +868,7 @@
             this.gridColumn7.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum)});
             this.gridColumn7.Visible = true;
-            this.gridColumn7.VisibleIndex = 8;
+            this.gridColumn7.VisibleIndex = 7;
             this.gridColumn7.Width = 103;
             // 
             // gridColumn8
@@ -881,7 +883,7 @@
             this.gridColumn8.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Custom)});
             this.gridColumn8.Visible = true;
-            this.gridColumn8.VisibleIndex = 9;
+            this.gridColumn8.VisibleIndex = 8;
             this.gridColumn8.Width = 91;
             // 
             // gridColumn9
@@ -896,7 +898,7 @@
             this.gridColumn9.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "AMOUNT", "{0:N4}")});
             this.gridColumn9.Visible = true;
-            this.gridColumn9.VisibleIndex = 10;
+            this.gridColumn9.VisibleIndex = 9;
             this.gridColumn9.Width = 104;
             // 
             // gridColumn10
@@ -911,7 +913,7 @@
             this.gridColumn10.OptionsColumn.AllowEdit = false;
             this.gridColumn10.OptionsFilter.FilterPopupMode = DevExpress.XtraGrid.Columns.FilterPopupMode.CheckedList;
             this.gridColumn10.Visible = true;
-            this.gridColumn10.VisibleIndex = 11;
+            this.gridColumn10.VisibleIndex = 10;
             this.gridColumn10.Width = 165;
             // 
             // gridColumn11
@@ -921,8 +923,6 @@
             this.gridColumn11.FieldName = "gridColumn11";
             this.gridColumn11.Name = "gridColumn11";
             this.gridColumn11.UnboundType = DevExpress.Data.UnboundColumnType.String;
-            this.gridColumn11.Visible = true;
-            this.gridColumn11.VisibleIndex = 0;
             this.gridColumn11.Width = 40;
             // 
             // BtnDelete
@@ -944,7 +944,7 @@
             this.gridColumn4.OptionsColumn.AllowEdit = false;
             this.gridColumn4.OptionsFilter.FilterPopupMode = DevExpress.XtraGrid.Columns.FilterPopupMode.CheckedList;
             this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 4;
+            this.gridColumn4.VisibleIndex = 3;
             // 
             // gridColumn12
             // 
@@ -956,7 +956,7 @@
             this.gridColumn12.OptionsColumn.AllowEdit = false;
             this.gridColumn12.OptionsFilter.FilterPopupMode = DevExpress.XtraGrid.Columns.FilterPopupMode.CheckedList;
             this.gridColumn12.Visible = true;
-            this.gridColumn12.VisibleIndex = 6;
+            this.gridColumn12.VisibleIndex = 5;
             // 
             // gridColumn13
             // 
@@ -970,7 +970,7 @@
             this.gridColumn13.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Count)});
             this.gridColumn13.Visible = true;
-            this.gridColumn13.VisibleIndex = 7;
+            this.gridColumn13.VisibleIndex = 6;
             // 
             // gridColumn14
             // 
@@ -1024,7 +1024,7 @@
             this.gridColumn20.OptionsColumn.AllowEdit = false;
             this.gridColumn20.OptionsFilter.FilterPopupMode = DevExpress.XtraGrid.Columns.FilterPopupMode.CheckedList;
             this.gridColumn20.Visible = true;
-            this.gridColumn20.VisibleIndex = 5;
+            this.gridColumn20.VisibleIndex = 4;
             this.gridColumn20.Width = 132;
             // 
             // gridColumn21
@@ -1047,7 +1047,7 @@
             this.gridColumn28.FieldName = "ENTRYIP";
             this.gridColumn28.Name = "gridColumn28";
             this.gridColumn28.Visible = true;
-            this.gridColumn28.VisibleIndex = 12;
+            this.gridColumn28.VisibleIndex = 11;
             // 
             // gridColumn29
             // 
@@ -1057,7 +1057,7 @@
             this.gridColumn29.FieldName = "ENRTYBYNAME";
             this.gridColumn29.Name = "gridColumn29";
             this.gridColumn29.Visible = true;
-            this.gridColumn29.VisibleIndex = 13;
+            this.gridColumn29.VisibleIndex = 12;
             // 
             // PanelClient
             // 
@@ -1066,7 +1066,7 @@
             this.PanelClient.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelClient.Location = new System.Drawing.Point(0, 0);
             this.PanelClient.Name = "PanelClient";
-            this.PanelClient.Size = new System.Drawing.Size(1176, 110);
+            this.PanelClient.Size = new System.Drawing.Size(1448, 110);
             this.PanelClient.TabIndex = 0;
             // 
             // groupControl3
@@ -1081,7 +1081,7 @@
             this.groupControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl3.Location = new System.Drawing.Point(352, 0);
             this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(824, 110);
+            this.groupControl3.Size = new System.Drawing.Size(1096, 110);
             this.groupControl3.TabIndex = 46;
             this.groupControl3.Text = "Filter";
             // 
@@ -1089,6 +1089,7 @@
             // 
             this.panelControl2.Appearance.BackColor = System.Drawing.Color.White;
             this.panelControl2.Appearance.Options.UseBackColor = true;
+            this.panelControl2.Controls.Add(this.txtPassForDeleteBtn);
             this.panelControl2.Controls.Add(this.txtMultiMainManager);
             this.panelControl2.Controls.Add(this.cLabel4);
             this.panelControl2.Controls.Add(this.BtnShow);
@@ -1106,8 +1107,29 @@
             this.panelControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl2.Location = new System.Drawing.Point(2, 20);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(820, 88);
+            this.panelControl2.Size = new System.Drawing.Size(1092, 88);
             this.panelControl2.TabIndex = 0;
+            // 
+            // txtPassForDeleteBtn
+            // 
+            this.txtPassForDeleteBtn.ActivationColor = false;
+            this.txtPassForDeleteBtn.ActivationColorCode = System.Drawing.Color.Empty;
+            this.txtPassForDeleteBtn.AllowTabKeyOnEnter = false;
+            this.txtPassForDeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(239)))));
+            this.txtPassForDeleteBtn.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPassForDeleteBtn.Format = "";
+            this.txtPassForDeleteBtn.IsComplusory = false;
+            this.txtPassForDeleteBtn.Location = new System.Drawing.Point(606, 24);
+            this.txtPassForDeleteBtn.Name = "txtPassForDeleteBtn";
+            this.txtPassForDeleteBtn.PasswordChar = '*';
+            this.txtPassForDeleteBtn.SelectAllTextOnFocus = true;
+            this.txtPassForDeleteBtn.Size = new System.Drawing.Size(45, 14);
+            this.txtPassForDeleteBtn.TabIndex = 227;
+            this.txtPassForDeleteBtn.TabStop = false;
+            this.txtPassForDeleteBtn.Tag = "AXONE";
+            this.txtPassForDeleteBtn.ToolTips = "";
+            this.txtPassForDeleteBtn.WaterMarkText = null;
+            this.txtPassForDeleteBtn.TextChanged += new System.EventHandler(this.txtPassForDeleteBtn_TextChanged);
             // 
             // txtMultiMainManager
             // 
@@ -1496,7 +1518,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1176, 412);
+            this.ClientSize = new System.Drawing.Size(1448, 556);
             this.Controls.Add(this.xtraScrollableControl2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmRejectionView";
@@ -1634,5 +1656,6 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit RepBtnOrderRejection;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn28;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn29;
+        private AxonContLib.cTextBox txtPassForDeleteBtn;
     }
 }

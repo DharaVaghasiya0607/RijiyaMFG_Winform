@@ -178,7 +178,6 @@ namespace BusLib.Master
             return DTab;
         }
 
-
         public HelColumnMasterProperty MumbaiTransfer(HelColumnMasterProperty pClsProperty, string StrXmlForBombayTransfer)
         {
             try

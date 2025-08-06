@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject11 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject12 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions10 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject37 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject38 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject39 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject40 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions12 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject45 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject46 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject47 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject48 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions11 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject41 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject42 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject43 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject44 = new DevExpress.Utils.SerializableAppearanceObject();
             this.panel4 = new AxonContLib.cPanel(this.components);
             this.txtKapanDisplay = new AxonContLib.cTextBox(this.components);
             this.BtnExport = new DevExpress.XtraEditors.SimpleButton();
@@ -63,6 +63,7 @@
             this.panel2 = new AxonContLib.cPanel(this.components);
             this.MainGridKapanLive = new DevExpress.XtraGrid.GridControl();
             this.GrdDetKapanLive = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridView();
+            this.gridBand9 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn1 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.repBtnDelete = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.bandedGridColumn2 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
@@ -84,6 +85,7 @@
             this.RepDiameterlock = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.bandedGridColumn39 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.RepChkIsHide = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.gridBand1 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn28 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.repCmbDiamondType = new DevExpress.XtraEditors.Repository.RepositoryItemComboBox();
             this.bandedGridColumn29 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
@@ -98,17 +100,26 @@
             this.bandedGridColumn20 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.bandedGridColumn14 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.repChkIsNotApplyLock = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.gridBand2 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn9 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.bandedGridColumn12 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridBand3 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn10 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridBand4 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand6 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand7 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.gridBand8 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn16 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.gridBand5 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn17 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.bandedGridColumn30 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.btnKapanValuation = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
+            this.gridBand10 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
             this.bandedGridColumn18 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.bandedGridColumn55 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.bandedGridColumn25 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.bandedGridColumn23 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.bandedGridColumn11 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.bandedGridColumn15 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.RepLabourAmount = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
             this.bandedGridColumn3 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
@@ -121,17 +132,8 @@
             this.bandedGridColumn36 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
             this.RepChlIsHide = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.BtnRejectionTransfer = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
-            this.bandedGridColumn11 = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
-            this.gridBand9 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand1 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand2 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand3 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand4 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand6 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand7 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand8 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand5 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
-            this.gridBand10 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.lblDefaultLayout = new AxonContLib.cLabel(this.components);
+            this.lblSaveLayout = new AxonContLib.cLabel(this.components);
             this.panel4.SuspendLayout();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CmbKapanStatus.Properties)).BeginInit();
@@ -158,7 +160,9 @@
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.lblDefaultLayout);
             this.panel4.Controls.Add(this.txtKapanDisplay);
+            this.panel4.Controls.Add(this.lblSaveLayout);
             this.panel4.Controls.Add(this.BtnExport);
             this.panel4.Controls.Add(this.BtnSearch);
             this.panel4.Controls.Add(this.BtnAutoFit);
@@ -170,7 +174,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1054, 59);
+            this.panel4.Size = new System.Drawing.Size(1477, 59);
             this.panel4.TabIndex = 0;
             // 
             // txtKapanDisplay
@@ -258,7 +262,7 @@
             this.panel8.Controls.Add(this.lblPresent);
             this.panel8.Controls.Add(this.lblPending);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel8.Location = new System.Drawing.Point(758, 0);
+            this.panel8.Location = new System.Drawing.Point(1181, 0);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(296, 59);
             this.panel8.TabIndex = 161;
@@ -386,7 +390,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 59);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1054, 414);
+            this.panel2.Size = new System.Drawing.Size(1477, 414);
             this.panel2.TabIndex = 19;
             // 
             // MainGridKapanLive
@@ -411,7 +415,7 @@
             this.RepChkIsKapanLock,
             this.RepDiameterlock,
             this.RepChkIsHide});
-            this.MainGridKapanLive.Size = new System.Drawing.Size(1054, 414);
+            this.MainGridKapanLive.Size = new System.Drawing.Size(1477, 414);
             this.MainGridKapanLive.TabIndex = 19;
             this.MainGridKapanLive.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.GrdDetKapanLive});
@@ -508,6 +512,27 @@
             this.GrdDetKapanLive.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.GrdDetKapanLive_FocusedRowChanged);
             this.GrdDetKapanLive.FocusedColumnChanged += new DevExpress.XtraGrid.Views.Base.FocusedColumnChangedEventHandler(this.GrdDetKapanLive_FocusedColumnChanged);
             // 
+            // gridBand9
+            // 
+            this.gridBand9.Caption = "Action";
+            this.gridBand9.Columns.Add(this.bandedGridColumn1);
+            this.gridBand9.Columns.Add(this.bandedGridColumn2);
+            this.gridBand9.Columns.Add(this.bandedGridColumn4);
+            this.gridBand9.Columns.Add(this.bandedGridColumn22);
+            this.gridBand9.Columns.Add(this.bandedGridColumn75);
+            this.gridBand9.Columns.Add(this.bandedGridColumn78);
+            this.gridBand9.Columns.Add(this.bandedGridColumn5);
+            this.gridBand9.Columns.Add(this.bandedGridColumn79);
+            this.gridBand9.Columns.Add(this.bandedGridColumn6);
+            this.gridBand9.Columns.Add(this.bandedGridColumn37);
+            this.gridBand9.Columns.Add(this.bandedGridColumn38);
+            this.gridBand9.Columns.Add(this.bandedGridColumn39);
+            this.gridBand9.Fixed = DevExpress.XtraGrid.Columns.FixedStyle.Left;
+            this.gridBand9.MinWidth = 12;
+            this.gridBand9.Name = "gridBand9";
+            this.gridBand9.VisibleIndex = 0;
+            this.gridBand9.Width = 473;
+            // 
             // bandedGridColumn1
             // 
             this.bandedGridColumn1.AppearanceCell.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -577,24 +602,24 @@
             // repBtnKapanProcIssue
             // 
             this.repBtnKapanProcIssue.AutoHeight = false;
-            serializableAppearanceObject1.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            serializableAppearanceObject1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            serializableAppearanceObject1.Options.UseFont = true;
-            serializableAppearanceObject1.Options.UseForeColor = true;
-            serializableAppearanceObject2.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            serializableAppearanceObject2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            serializableAppearanceObject2.Options.UseFont = true;
-            serializableAppearanceObject2.Options.UseForeColor = true;
-            serializableAppearanceObject3.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            serializableAppearanceObject3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            serializableAppearanceObject3.Options.UseFont = true;
-            serializableAppearanceObject3.Options.UseForeColor = true;
-            serializableAppearanceObject4.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            serializableAppearanceObject4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            serializableAppearanceObject4.Options.UseFont = true;
-            serializableAppearanceObject4.Options.UseForeColor = true;
+            serializableAppearanceObject37.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            serializableAppearanceObject37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            serializableAppearanceObject37.Options.UseFont = true;
+            serializableAppearanceObject37.Options.UseForeColor = true;
+            serializableAppearanceObject38.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            serializableAppearanceObject38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            serializableAppearanceObject38.Options.UseFont = true;
+            serializableAppearanceObject38.Options.UseForeColor = true;
+            serializableAppearanceObject39.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            serializableAppearanceObject39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            serializableAppearanceObject39.Options.UseFont = true;
+            serializableAppearanceObject39.Options.UseForeColor = true;
+            serializableAppearanceObject40.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            serializableAppearanceObject40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            serializableAppearanceObject40.Options.UseFont = true;
+            serializableAppearanceObject40.Options.UseForeColor = true;
             this.repBtnKapanProcIssue.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Packet Create", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Packet Create", -1, true, true, false, editorButtonImageOptions10, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject37, serializableAppearanceObject38, serializableAppearanceObject39, serializableAppearanceObject40, "", null, null)});
             this.repBtnKapanProcIssue.Name = "repBtnKapanProcIssue";
             this.repBtnKapanProcIssue.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.repBtnKapanProcIssue.Click += new System.EventHandler(this.repBtnKapanProcIssue_Click);
@@ -617,24 +642,24 @@
             // ReptxtMixPktCreate
             // 
             this.ReptxtMixPktCreate.AutoHeight = false;
-            serializableAppearanceObject5.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            serializableAppearanceObject5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            serializableAppearanceObject5.Options.UseFont = true;
-            serializableAppearanceObject5.Options.UseForeColor = true;
-            serializableAppearanceObject6.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            serializableAppearanceObject6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            serializableAppearanceObject6.Options.UseFont = true;
-            serializableAppearanceObject6.Options.UseForeColor = true;
-            serializableAppearanceObject7.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            serializableAppearanceObject7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            serializableAppearanceObject7.Options.UseFont = true;
-            serializableAppearanceObject7.Options.UseForeColor = true;
-            serializableAppearanceObject8.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            serializableAppearanceObject8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            serializableAppearanceObject8.Options.UseFont = true;
-            serializableAppearanceObject8.Options.UseForeColor = true;
+            serializableAppearanceObject45.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            serializableAppearanceObject45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            serializableAppearanceObject45.Options.UseFont = true;
+            serializableAppearanceObject45.Options.UseForeColor = true;
+            serializableAppearanceObject46.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            serializableAppearanceObject46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            serializableAppearanceObject46.Options.UseFont = true;
+            serializableAppearanceObject46.Options.UseForeColor = true;
+            serializableAppearanceObject47.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            serializableAppearanceObject47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            serializableAppearanceObject47.Options.UseFont = true;
+            serializableAppearanceObject47.Options.UseForeColor = true;
+            serializableAppearanceObject48.Font = new System.Drawing.Font("Verdana", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            serializableAppearanceObject48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            serializableAppearanceObject48.Options.UseFont = true;
+            serializableAppearanceObject48.Options.UseForeColor = true;
             this.ReptxtMixPktCreate.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Mix Pkt Create", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, serializableAppearanceObject6, serializableAppearanceObject7, serializableAppearanceObject8, "", null, null)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Mix Pkt Create", -1, true, true, false, editorButtonImageOptions12, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject45, serializableAppearanceObject46, serializableAppearanceObject47, serializableAppearanceObject48, "", null, null)});
             this.ReptxtMixPktCreate.Name = "ReptxtMixPktCreate";
             this.ReptxtMixPktCreate.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.ReptxtMixPktCreate.Click += new System.EventHandler(this.ReptxtMixPktCreate_Click);
@@ -660,24 +685,24 @@
             // BtnRejection
             // 
             this.BtnRejection.AutoHeight = false;
-            serializableAppearanceObject9.Font = new System.Drawing.Font("Verdana", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            serializableAppearanceObject9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            serializableAppearanceObject9.Options.UseFont = true;
-            serializableAppearanceObject9.Options.UseForeColor = true;
-            serializableAppearanceObject10.Font = new System.Drawing.Font("Verdana", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            serializableAppearanceObject10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            serializableAppearanceObject10.Options.UseFont = true;
-            serializableAppearanceObject10.Options.UseForeColor = true;
-            serializableAppearanceObject11.Font = new System.Drawing.Font("Verdana", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            serializableAppearanceObject11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            serializableAppearanceObject11.Options.UseFont = true;
-            serializableAppearanceObject11.Options.UseForeColor = true;
-            serializableAppearanceObject12.Font = new System.Drawing.Font("Verdana", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            serializableAppearanceObject12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            serializableAppearanceObject12.Options.UseFont = true;
-            serializableAppearanceObject12.Options.UseForeColor = true;
+            serializableAppearanceObject41.Font = new System.Drawing.Font("Verdana", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            serializableAppearanceObject41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            serializableAppearanceObject41.Options.UseFont = true;
+            serializableAppearanceObject41.Options.UseForeColor = true;
+            serializableAppearanceObject42.Font = new System.Drawing.Font("Verdana", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            serializableAppearanceObject42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            serializableAppearanceObject42.Options.UseFont = true;
+            serializableAppearanceObject42.Options.UseForeColor = true;
+            serializableAppearanceObject43.Font = new System.Drawing.Font("Verdana", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            serializableAppearanceObject43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            serializableAppearanceObject43.Options.UseFont = true;
+            serializableAppearanceObject43.Options.UseForeColor = true;
+            serializableAppearanceObject44.Font = new System.Drawing.Font("Verdana", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            serializableAppearanceObject44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            serializableAppearanceObject44.Options.UseFont = true;
+            serializableAppearanceObject44.Options.UseForeColor = true;
             this.BtnRejection.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Rejctn", -1, true, true, false, editorButtonImageOptions3, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject9, serializableAppearanceObject10, serializableAppearanceObject11, serializableAppearanceObject12, "", null, null)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Rejctn", -1, true, true, false, editorButtonImageOptions11, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject41, serializableAppearanceObject42, serializableAppearanceObject43, serializableAppearanceObject44, "", null, null)});
             this.BtnRejection.Name = "BtnRejection";
             this.BtnRejection.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.BtnRejection.Click += new System.EventHandler(this.BtnRejection_Click);
@@ -820,6 +845,25 @@
             this.RepChkIsHide.AutoHeight = false;
             this.RepChkIsHide.Name = "RepChkIsHide";
             this.RepChkIsHide.CheckedChanged += new System.EventHandler(this.RepChkIsHide_CheckedChanged);
+            // 
+            // gridBand1
+            // 
+            this.gridBand1.Caption = "Invoice";
+            this.gridBand1.Columns.Add(this.bandedGridColumn28);
+            this.gridBand1.Columns.Add(this.bandedGridColumn29);
+            this.gridBand1.Columns.Add(this.bandedGridColumn7);
+            this.gridBand1.Columns.Add(this.bandedGridColumn27);
+            this.gridBand1.Columns.Add(this.bandedGridColumn13);
+            this.gridBand1.Columns.Add(this.bandedGridColumn21);
+            this.gridBand1.Columns.Add(this.bandedGridColumn26);
+            this.gridBand1.Columns.Add(this.bandedGridColumn8);
+            this.gridBand1.Columns.Add(this.bandedGridColumn19);
+            this.gridBand1.Columns.Add(this.bandedGridColumn20);
+            this.gridBand1.Columns.Add(this.bandedGridColumn14);
+            this.gridBand1.MinWidth = 12;
+            this.gridBand1.Name = "gridBand1";
+            this.gridBand1.VisibleIndex = 1;
+            this.gridBand1.Width = 859;
             // 
             // bandedGridColumn28
             // 
@@ -1047,6 +1091,16 @@
             this.repChkIsNotApplyLock.PictureChecked = global::AxoneMFGRJ.Properties.Resources.Checked;
             this.repChkIsNotApplyLock.PictureUnchecked = global::AxoneMFGRJ.Properties.Resources.Unchecked;
             // 
+            // gridBand2
+            // 
+            this.gridBand2.Caption = "General";
+            this.gridBand2.Columns.Add(this.bandedGridColumn9);
+            this.gridBand2.Columns.Add(this.bandedGridColumn12);
+            this.gridBand2.MinWidth = 12;
+            this.gridBand2.Name = "gridBand2";
+            this.gridBand2.VisibleIndex = 2;
+            this.gridBand2.Width = 258;
+            // 
             // bandedGridColumn9
             // 
             this.bandedGridColumn9.AppearanceCell.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1082,6 +1136,15 @@
             this.bandedGridColumn12.Visible = true;
             this.bandedGridColumn12.Width = 87;
             // 
+            // gridBand3
+            // 
+            this.gridBand3.Caption = "Other";
+            this.gridBand3.Columns.Add(this.bandedGridColumn10);
+            this.gridBand3.MinWidth = 12;
+            this.gridBand3.Name = "gridBand3";
+            this.gridBand3.VisibleIndex = 3;
+            this.gridBand3.Width = 166;
+            // 
             // bandedGridColumn10
             // 
             this.bandedGridColumn10.AppearanceCell.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1098,6 +1161,42 @@
             this.bandedGridColumn10.OptionsFilter.FilterPopupMode = DevExpress.XtraGrid.Columns.FilterPopupMode.CheckedList;
             this.bandedGridColumn10.Visible = true;
             this.bandedGridColumn10.Width = 166;
+            // 
+            // gridBand4
+            // 
+            this.gridBand4.Caption = "Sawing";
+            this.gridBand4.MinWidth = 12;
+            this.gridBand4.Name = "gridBand4";
+            this.gridBand4.Visible = false;
+            this.gridBand4.VisibleIndex = -1;
+            this.gridBand4.Width = 87;
+            // 
+            // gridBand6
+            // 
+            this.gridBand6.Caption = "Lotting";
+            this.gridBand6.MinWidth = 12;
+            this.gridBand6.Name = "gridBand6";
+            this.gridBand6.Visible = false;
+            this.gridBand6.VisibleIndex = -1;
+            this.gridBand6.Width = 87;
+            // 
+            // gridBand7
+            // 
+            this.gridBand7.Caption = "Manufacturing";
+            this.gridBand7.MinWidth = 12;
+            this.gridBand7.Name = "gridBand7";
+            this.gridBand7.Visible = false;
+            this.gridBand7.VisibleIndex = -1;
+            this.gridBand7.Width = 87;
+            // 
+            // gridBand8
+            // 
+            this.gridBand8.Caption = "Rejection";
+            this.gridBand8.Columns.Add(this.bandedGridColumn16);
+            this.gridBand8.MinWidth = 12;
+            this.gridBand8.Name = "gridBand8";
+            this.gridBand8.VisibleIndex = 4;
+            this.gridBand8.Width = 87;
             // 
             // bandedGridColumn16
             // 
@@ -1119,6 +1218,16 @@
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum)});
             this.bandedGridColumn16.Visible = true;
             this.bandedGridColumn16.Width = 87;
+            // 
+            // gridBand5
+            // 
+            this.gridBand5.Caption = "Loss";
+            this.gridBand5.Columns.Add(this.bandedGridColumn17);
+            this.gridBand5.Columns.Add(this.bandedGridColumn30);
+            this.gridBand5.MinWidth = 12;
+            this.gridBand5.Name = "gridBand5";
+            this.gridBand5.VisibleIndex = 5;
+            this.gridBand5.Width = 188;
             // 
             // bandedGridColumn17
             // 
@@ -1163,6 +1272,21 @@
             this.btnKapanValuation.Name = "btnKapanValuation";
             this.btnKapanValuation.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             this.btnKapanValuation.Click += new System.EventHandler(this.btnKapanValuation_Click);
+            // 
+            // gridBand10
+            // 
+            this.gridBand10.Caption = "Balance";
+            this.gridBand10.Columns.Add(this.bandedGridColumn18);
+            this.gridBand10.Columns.Add(this.bandedGridColumn55);
+            this.gridBand10.Columns.Add(this.bandedGridColumn25);
+            this.gridBand10.Columns.Add(this.bandedGridColumn23);
+            this.gridBand10.Columns.Add(this.bandedGridColumn11);
+            this.gridBand10.Columns.Add(this.bandedGridColumn15);
+            this.gridBand10.Fixed = DevExpress.XtraGrid.Columns.FixedStyle.Right;
+            this.gridBand10.MinWidth = 12;
+            this.gridBand10.Name = "gridBand10";
+            this.gridBand10.VisibleIndex = 6;
+            this.gridBand10.Width = 559;
             // 
             // bandedGridColumn18
             // 
@@ -1237,6 +1361,19 @@
             this.bandedGridColumn23.OptionsColumn.AllowEdit = false;
             this.bandedGridColumn23.OptionsFilter.FilterPopupMode = DevExpress.XtraGrid.Columns.FilterPopupMode.CheckedList;
             this.bandedGridColumn23.Visible = true;
+            // 
+            // bandedGridColumn11
+            // 
+            this.bandedGridColumn11.AppearanceCell.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bandedGridColumn11.AppearanceCell.Options.UseFont = true;
+            this.bandedGridColumn11.AppearanceCell.Options.UseTextOptions = true;
+            this.bandedGridColumn11.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.bandedGridColumn11.AppearanceHeader.Options.UseTextOptions = true;
+            this.bandedGridColumn11.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.bandedGridColumn11.Caption = "Mix Balance";
+            this.bandedGridColumn11.FieldName = "MIXBALANCECARAT";
+            this.bandedGridColumn11.Name = "bandedGridColumn11";
+            this.bandedGridColumn11.Visible = true;
             // 
             // bandedGridColumn15
             // 
@@ -1384,144 +1521,39 @@
             this.BtnRejectionTransfer.Name = "BtnRejectionTransfer";
             this.BtnRejectionTransfer.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             // 
-            // bandedGridColumn11
+            // lblDefaultLayout
             // 
-            this.bandedGridColumn11.AppearanceCell.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bandedGridColumn11.AppearanceCell.Options.UseFont = true;
-            this.bandedGridColumn11.AppearanceCell.Options.UseTextOptions = true;
-            this.bandedGridColumn11.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.bandedGridColumn11.AppearanceHeader.Options.UseTextOptions = true;
-            this.bandedGridColumn11.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.bandedGridColumn11.Caption = "Mix Balance";
-            this.bandedGridColumn11.FieldName = "MIXBALANCECARAT";
-            this.bandedGridColumn11.Name = "bandedGridColumn11";
-            this.bandedGridColumn11.Visible = true;
+            this.lblDefaultLayout.AutoSize = true;
+            this.lblDefaultLayout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblDefaultLayout.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDefaultLayout.ForeColor = System.Drawing.Color.Navy;
+            this.lblDefaultLayout.Location = new System.Drawing.Point(946, 24);
+            this.lblDefaultLayout.Name = "lblDefaultLayout";
+            this.lblDefaultLayout.Size = new System.Drawing.Size(97, 13);
+            this.lblDefaultLayout.TabIndex = 151;
+            this.lblDefaultLayout.Text = "Delete Layout";
+            this.lblDefaultLayout.ToolTips = "";
+            this.lblDefaultLayout.Click += new System.EventHandler(this.lblDefaultLayout_Click);
             // 
-            // gridBand9
+            // lblSaveLayout
             // 
-            this.gridBand9.Caption = "Action";
-            this.gridBand9.Columns.Add(this.bandedGridColumn1);
-            this.gridBand9.Columns.Add(this.bandedGridColumn2);
-            this.gridBand9.Columns.Add(this.bandedGridColumn4);
-            this.gridBand9.Columns.Add(this.bandedGridColumn22);
-            this.gridBand9.Columns.Add(this.bandedGridColumn75);
-            this.gridBand9.Columns.Add(this.bandedGridColumn78);
-            this.gridBand9.Columns.Add(this.bandedGridColumn5);
-            this.gridBand9.Columns.Add(this.bandedGridColumn79);
-            this.gridBand9.Columns.Add(this.bandedGridColumn6);
-            this.gridBand9.Columns.Add(this.bandedGridColumn37);
-            this.gridBand9.Columns.Add(this.bandedGridColumn38);
-            this.gridBand9.Columns.Add(this.bandedGridColumn39);
-            this.gridBand9.Fixed = DevExpress.XtraGrid.Columns.FixedStyle.Left;
-            this.gridBand9.MinWidth = 12;
-            this.gridBand9.Name = "gridBand9";
-            this.gridBand9.VisibleIndex = 0;
-            this.gridBand9.Width = 473;
-            // 
-            // gridBand1
-            // 
-            this.gridBand1.Caption = "Invoice";
-            this.gridBand1.Columns.Add(this.bandedGridColumn28);
-            this.gridBand1.Columns.Add(this.bandedGridColumn29);
-            this.gridBand1.Columns.Add(this.bandedGridColumn7);
-            this.gridBand1.Columns.Add(this.bandedGridColumn27);
-            this.gridBand1.Columns.Add(this.bandedGridColumn13);
-            this.gridBand1.Columns.Add(this.bandedGridColumn21);
-            this.gridBand1.Columns.Add(this.bandedGridColumn26);
-            this.gridBand1.Columns.Add(this.bandedGridColumn8);
-            this.gridBand1.Columns.Add(this.bandedGridColumn19);
-            this.gridBand1.Columns.Add(this.bandedGridColumn20);
-            this.gridBand1.Columns.Add(this.bandedGridColumn14);
-            this.gridBand1.MinWidth = 12;
-            this.gridBand1.Name = "gridBand1";
-            this.gridBand1.VisibleIndex = 1;
-            this.gridBand1.Width = 859;
-            // 
-            // gridBand2
-            // 
-            this.gridBand2.Caption = "General";
-            this.gridBand2.Columns.Add(this.bandedGridColumn9);
-            this.gridBand2.Columns.Add(this.bandedGridColumn12);
-            this.gridBand2.MinWidth = 12;
-            this.gridBand2.Name = "gridBand2";
-            this.gridBand2.VisibleIndex = 2;
-            this.gridBand2.Width = 258;
-            // 
-            // gridBand3
-            // 
-            this.gridBand3.Caption = "Other";
-            this.gridBand3.Columns.Add(this.bandedGridColumn10);
-            this.gridBand3.MinWidth = 12;
-            this.gridBand3.Name = "gridBand3";
-            this.gridBand3.VisibleIndex = 3;
-            this.gridBand3.Width = 166;
-            // 
-            // gridBand4
-            // 
-            this.gridBand4.Caption = "Sawing";
-            this.gridBand4.MinWidth = 12;
-            this.gridBand4.Name = "gridBand4";
-            this.gridBand4.Visible = false;
-            this.gridBand4.VisibleIndex = -1;
-            this.gridBand4.Width = 87;
-            // 
-            // gridBand6
-            // 
-            this.gridBand6.Caption = "Lotting";
-            this.gridBand6.MinWidth = 12;
-            this.gridBand6.Name = "gridBand6";
-            this.gridBand6.Visible = false;
-            this.gridBand6.VisibleIndex = -1;
-            this.gridBand6.Width = 87;
-            // 
-            // gridBand7
-            // 
-            this.gridBand7.Caption = "Manufacturing";
-            this.gridBand7.MinWidth = 12;
-            this.gridBand7.Name = "gridBand7";
-            this.gridBand7.Visible = false;
-            this.gridBand7.VisibleIndex = -1;
-            this.gridBand7.Width = 87;
-            // 
-            // gridBand8
-            // 
-            this.gridBand8.Caption = "Rejection";
-            this.gridBand8.Columns.Add(this.bandedGridColumn16);
-            this.gridBand8.MinWidth = 12;
-            this.gridBand8.Name = "gridBand8";
-            this.gridBand8.VisibleIndex = 4;
-            this.gridBand8.Width = 87;
-            // 
-            // gridBand5
-            // 
-            this.gridBand5.Caption = "Loss";
-            this.gridBand5.Columns.Add(this.bandedGridColumn17);
-            this.gridBand5.Columns.Add(this.bandedGridColumn30);
-            this.gridBand5.MinWidth = 12;
-            this.gridBand5.Name = "gridBand5";
-            this.gridBand5.VisibleIndex = 5;
-            this.gridBand5.Width = 188;
-            // 
-            // gridBand10
-            // 
-            this.gridBand10.Caption = "Balance";
-            this.gridBand10.Columns.Add(this.bandedGridColumn18);
-            this.gridBand10.Columns.Add(this.bandedGridColumn55);
-            this.gridBand10.Columns.Add(this.bandedGridColumn25);
-            this.gridBand10.Columns.Add(this.bandedGridColumn23);
-            this.gridBand10.Columns.Add(this.bandedGridColumn11);
-            this.gridBand10.Columns.Add(this.bandedGridColumn15);
-            this.gridBand10.Fixed = DevExpress.XtraGrid.Columns.FixedStyle.Right;
-            this.gridBand10.MinWidth = 12;
-            this.gridBand10.Name = "gridBand10";
-            this.gridBand10.VisibleIndex = 6;
-            this.gridBand10.Width = 559;
+            this.lblSaveLayout.AutoSize = true;
+            this.lblSaveLayout.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblSaveLayout.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSaveLayout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblSaveLayout.Location = new System.Drawing.Point(853, 24);
+            this.lblSaveLayout.Name = "lblSaveLayout";
+            this.lblSaveLayout.Size = new System.Drawing.Size(87, 13);
+            this.lblSaveLayout.TabIndex = 152;
+            this.lblSaveLayout.Text = "Save Layout";
+            this.lblSaveLayout.ToolTips = "";
+            this.lblSaveLayout.Click += new System.EventHandler(this.lblSaveLayout_Click);
             // 
             // FrmSingleKapanDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1054, 473);
+            this.ClientSize = new System.Drawing.Size(1477, 473);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel4);
             this.Name = "FrmSingleKapanDashboard";
@@ -1646,5 +1678,7 @@
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand5;
         private DevExpress.XtraGrid.Views.BandedGrid.GridBand gridBand10;
         private DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn bandedGridColumn11;
+        private AxonContLib.cLabel lblDefaultLayout;
+        private AxonContLib.cLabel lblSaveLayout;
     }
 }
