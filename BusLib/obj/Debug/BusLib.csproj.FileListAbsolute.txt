@@ -56,6 +56,7 @@ D:\Office\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\obj\Debug\BusLib.pdb
 D:\Office\Axone\Rijiya\RijiyaMFGRJ\RijiyaMFG\BusLib\obj\Debug\BusLib.csproj.AssemblyReference.cache
 D:\Git\RijiyaMFG_Winform\BusLib\bin\Debug\BusLib.dll
 D:\Git\RijiyaMFG_Winform\BusLib\bin\Debug\BusLib.pdb
+D:\Git\RijiyaMFG_Winform\BusLib\obj\Debug\BusLib.csproj.AssemblyReference.cache
 D:\Git\RijiyaMFG_Winform\BusLib\obj\Debug\BusLib.csproj.CoreCompileInputs.cache
 D:\Git\RijiyaMFG_Winform\BusLib\obj\Debug\BusLib.csproj.CopyComplete
 D:\Git\RijiyaMFG_Winform\BusLib\obj\Debug\BusLib.dll

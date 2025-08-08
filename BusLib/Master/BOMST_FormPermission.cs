@@ -261,7 +261,7 @@ namespace BusLib.Master
             Property.RAPCHANGEEMPLOYEE = false;
             Property.RAPCHANGEPACKETS = false;
             Property.RAPUPDATEPREDICTION = false;
-            Property.RAPDELETEPREDICTION = false;
+            //Property.RAPDELETEPREDICTION = false;
             Property.MAXPACKETSTOCK = 0;
             Property.USERNAME = string.Empty;
             Property.PASSWORD = string.Empty;
@@ -331,7 +331,7 @@ namespace BusLib.Master
                 Property.RAPCHANGEEMPLOYEE = Val.ToBoolean(DRow["RAPCHANGEEMPLOYEE"]);
                 Property.RAPCHANGEPACKETS = Val.ToBoolean(DRow["RAPCHANGEPACKETS"]);
                 Property.RAPUPDATEPREDICTION = Val.ToBoolean(DRow["RAPUPDATEPREDICTION"]);
-                Property.RAPDELETEPREDICTION = Val.ToBoolean(DRow["RapDeletePrediction"]);
+                //Property.RAPDELETEPREDICTION = Val.ToBoolean(DRow["RapDeletePrediction"]);
                 Property.MAXPACKETSTOCK = Val.ToInt(DRow["MAXPACKETSTOCK"]);
                 Property.USERNAME = Val.ToString(DRow["USERNAME"]);
                 Property.PASSWORD = Val.ToString(DRow["PASSWORD"]);

@@ -85,7 +85,7 @@ namespace AxoneMFGRJ.Polish
                 ObjGridSelection.CheckMarkColumn.VisibleIndex = 0;
             }
 
-            if (MainGridMainPkt.RepositoryItems.Count == 1)
+            if (MainGridMainPkt.RepositoryItems.Count == 0)
             {
                 ObjGridSelectionForKapan = new BODevGridSelection();
                 ObjGridSelectionForKapan.View = GrdDetMainPkt;
@@ -487,10 +487,16 @@ namespace AxoneMFGRJ.Polish
                 StrManager = Val.ToString(TxtManager.Text).Trim().Equals(string.Empty) ? "" : Val.Trim(TxtManager.Tag);
 
                 DTabMainPacketLiveStock = ObjPolish.GetDataForPolishPacketLiveStock("MAINPACKET", StrManager, TxtKapan.Text, pStrDisplayType, pStrEmp_Id, ChkTransaction.Checked, chkIsMerge.Checked);
-                MainGridMainPkt.DataSource = DTabMainPacketLiveStock;
+
+                MainGridMainPkt.DataSource = DTabMainPacketLiveStock;               
                 GrdDetMainPkt.BestFitColumns();
                 MainGridMainPkt.Refresh();
 
+                //ADD AS RAJVI : 07/08/2025
+                MainGrdSummary.DataSource = DTabMainPacketLiveStock;
+                GrdSummary.BestFitColumns();
+                MainGrdSummary.Refresh();
+                //END AS RAJVI
                 this.Cursor = Cursors.Default;
             }
             catch (Exception Ex)

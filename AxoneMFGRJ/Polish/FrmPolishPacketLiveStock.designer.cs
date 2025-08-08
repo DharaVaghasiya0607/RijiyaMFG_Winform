@@ -29,12 +29,18 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions7 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject25 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject26 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject27 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject28 = new DevExpress.Utils.SerializableAppearanceObject();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPolishPacketLiveStock));
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions8 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject29 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject30 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject31 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject32 = new DevExpress.Utils.SerializableAppearanceObject();
+            this.RepBtnProcessIssue = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.PanelHeader = new AxonContLib.cPanel(this.components);
             this.chkIsMerge = new AxonContLib.cCheckBox(this.components);
             this.panel1 = new AxonContLib.cPanel(this.components);
@@ -107,6 +113,8 @@
             this.BtnRejectionTransfer = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage6 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
+            this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.GrpMerge = new DevExpress.XtraEditors.GroupControl();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
@@ -134,7 +142,6 @@
             this.MainGridMainPkt = new DevExpress.XtraGrid.GridControl();
             this.GrdDetMainPkt = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn84 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.RepBtnProcessIssue = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn34 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn35 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -158,6 +165,12 @@
             this.gridColumn29 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn30 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn31 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
+            this.MainGrdSummary = new DevExpress.XtraGrid.GridControl();
+            this.GrdSummary = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn50 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn48 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn49 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panel7 = new AxonContLib.cPanel(this.components);
             this.cLabel14 = new AxonContLib.cLabel(this.components);
             this.txtPrintJangedNo = new AxonContLib.cTextBox(this.components);
@@ -177,6 +190,8 @@
             this.BtnMereg = new DevExpress.XtraEditors.SimpleButton();
             this.BtnMainPacketSearch = new DevExpress.XtraEditors.SimpleButton();
             this.xtraTabControl2 = new DevExpress.XtraTab.XtraTabControl();
+            this.repositoryItemButtonEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
+            ((System.ComponentModel.ISupportInitialize)(this.RepBtnProcessIssue)).BeginInit();
             this.PanelHeader.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -189,6 +204,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.BtnRejectionTransfer)).BeginInit();
             this.xtraTabPage1.SuspendLayout();
             this.xtraTabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
+            this.xtraTabControl1.SuspendLayout();
+            this.xtraTabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GrpMerge)).BeginInit();
             this.GrpMerge.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -199,14 +217,41 @@
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MainGridMainPkt)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GrdDetMainPkt)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.RepBtnProcessIssue)).BeginInit();
+            this.xtraTabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MainGrdSummary)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GrdSummary)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).BeginInit();
             this.xtraTabControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // RepBtnProcessIssue
+            // 
+            this.RepBtnProcessIssue.AutoHeight = false;
+            serializableAppearanceObject25.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject25.ForeColor = System.Drawing.Color.Navy;
+            serializableAppearanceObject25.Options.UseFont = true;
+            serializableAppearanceObject25.Options.UseForeColor = true;
+            serializableAppearanceObject26.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject26.ForeColor = System.Drawing.Color.Navy;
+            serializableAppearanceObject26.Options.UseFont = true;
+            serializableAppearanceObject26.Options.UseForeColor = true;
+            serializableAppearanceObject27.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject27.ForeColor = System.Drawing.Color.Navy;
+            serializableAppearanceObject27.Options.UseFont = true;
+            serializableAppearanceObject27.Options.UseForeColor = true;
+            serializableAppearanceObject28.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject28.ForeColor = System.Drawing.Color.Navy;
+            serializableAppearanceObject28.Options.UseFont = true;
+            serializableAppearanceObject28.Options.UseForeColor = true;
+            this.RepBtnProcessIssue.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Process Issue", -1, true, true, false, editorButtonImageOptions7, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject25, serializableAppearanceObject26, serializableAppearanceObject27, serializableAppearanceObject28, "", null, null)});
+            this.RepBtnProcessIssue.Name = "RepBtnProcessIssue";
+            this.RepBtnProcessIssue.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             // 
             // PanelHeader
             // 
@@ -219,7 +264,7 @@
             this.PanelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelHeader.Location = new System.Drawing.Point(0, 0);
             this.PanelHeader.Name = "PanelHeader";
-            this.PanelHeader.Size = new System.Drawing.Size(1149, 70);
+            this.PanelHeader.Size = new System.Drawing.Size(1570, 70);
             this.PanelHeader.TabIndex = 0;
             // 
             // chkIsMerge
@@ -228,7 +273,7 @@
             this.chkIsMerge.AutoSize = true;
             this.chkIsMerge.Dock = System.Windows.Forms.DockStyle.Right;
             this.chkIsMerge.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkIsMerge.Location = new System.Drawing.Point(643, 0);
+            this.chkIsMerge.Location = new System.Drawing.Point(1064, 0);
             this.chkIsMerge.Name = "chkIsMerge";
             this.chkIsMerge.Size = new System.Drawing.Size(91, 70);
             this.chkIsMerge.TabIndex = 186;
@@ -244,7 +289,7 @@
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.PanelWithSplit);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(734, 0);
+            this.panel1.Location = new System.Drawing.Point(1155, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(415, 70);
             this.panel1.TabIndex = 151;
@@ -447,9 +492,9 @@
             this.panel2.Controls.Add(this.txtTotalCarat);
             this.panel2.Controls.Add(this.txtTotalPcs);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 513);
+            this.panel2.Location = new System.Drawing.Point(0, 632);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1149, 31);
+            this.panel2.Size = new System.Drawing.Size(1570, 31);
             this.panel2.TabIndex = 19;
             // 
             // panel3
@@ -461,7 +506,7 @@
             this.panel3.Controls.Add(this.lblDefaultLayout);
             this.panel3.Controls.Add(this.lblSaveLayout);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(588, 0);
+            this.panel3.Location = new System.Drawing.Point(1009, 0);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(561, 31);
             this.panel3.TabIndex = 155;
@@ -662,7 +707,7 @@
             this.MainGridSubPkt.Location = new System.Drawing.Point(0, 70);
             this.MainGridSubPkt.MainView = this.GrdDetSubPkt;
             this.MainGridSubPkt.Name = "MainGridSubPkt";
-            this.MainGridSubPkt.Size = new System.Drawing.Size(1149, 443);
+            this.MainGridSubPkt.Size = new System.Drawing.Size(1570, 562);
             this.MainGridSubPkt.TabIndex = 19;
             this.MainGridSubPkt.ToolTipController = this.toolTipController1;
             this.MainGridSubPkt.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -1224,20 +1269,58 @@
             this.xtraTabPage1.Controls.Add(this.PanelHeader);
             this.xtraTabPage1.Controls.Add(this.panel2);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(1149, 544);
+            this.xtraTabPage1.Size = new System.Drawing.Size(1570, 663);
             this.xtraTabPage1.Text = "SUB PACKETS";
             // 
             // xtraTabPage6
             // 
             this.xtraTabPage6.Appearance.Header.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold);
             this.xtraTabPage6.Appearance.Header.Options.UseFont = true;
-            this.xtraTabPage6.Controls.Add(this.GrpMerge);
-            this.xtraTabPage6.Controls.Add(this.GrpTransferTo);
-            this.xtraTabPage6.Controls.Add(this.MainGridMainPkt);
+            this.xtraTabPage6.Controls.Add(this.xtraTabControl1);
             this.xtraTabPage6.Controls.Add(this.panel7);
             this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(1149, 544);
+            this.xtraTabPage6.Size = new System.Drawing.Size(1388, 598);
             this.xtraTabPage6.Text = "MAIN PACKETS";
+            // 
+            // xtraTabControl1
+            // 
+            this.xtraTabControl1.Appearance.BackColor = System.Drawing.Color.White;
+            this.xtraTabControl1.Appearance.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xtraTabControl1.Appearance.Options.UseBackColor = true;
+            this.xtraTabControl1.Appearance.Options.UseFont = true;
+            this.xtraTabControl1.AppearancePage.Header.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xtraTabControl1.AppearancePage.Header.Options.UseFont = true;
+            this.xtraTabControl1.AppearancePage.HeaderActive.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold);
+            this.xtraTabControl1.AppearancePage.HeaderActive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.xtraTabControl1.AppearancePage.HeaderActive.Options.UseFont = true;
+            this.xtraTabControl1.AppearancePage.HeaderActive.Options.UseForeColor = true;
+            this.xtraTabControl1.AppearancePage.HeaderDisabled.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold);
+            this.xtraTabControl1.AppearancePage.HeaderDisabled.Options.UseFont = true;
+            this.xtraTabControl1.AppearancePage.HeaderHotTracked.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold);
+            this.xtraTabControl1.AppearancePage.HeaderHotTracked.Options.UseFont = true;
+            this.xtraTabControl1.AppearancePage.PageClient.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold);
+            this.xtraTabControl1.AppearancePage.PageClient.Options.UseFont = true;
+            this.xtraTabControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.xtraTabControl1.Location = new System.Drawing.Point(0, 58);
+            this.xtraTabControl1.Name = "xtraTabControl1";
+            this.xtraTabControl1.SelectedTabPage = this.xtraTabPage2;
+            this.xtraTabControl1.Size = new System.Drawing.Size(1388, 540);
+            this.xtraTabControl1.TabIndex = 153;
+            this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
+            this.xtraTabPage2,
+            this.xtraTabPage3});
+            // 
+            // xtraTabPage2
+            // 
+            this.xtraTabPage2.Appearance.Header.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold);
+            this.xtraTabPage2.Appearance.Header.Options.UseFont = true;
+            this.xtraTabPage2.Controls.Add(this.GrpMerge);
+            this.xtraTabPage2.Controls.Add(this.GrpTransferTo);
+            this.xtraTabPage2.Controls.Add(this.MainGridMainPkt);
+            this.xtraTabPage2.Name = "xtraTabPage2";
+            this.xtraTabPage2.Size = new System.Drawing.Size(1564, 576);
+            this.xtraTabPage2.Text = "KAPAN WISE DETAIL";
             // 
             // GrpMerge
             // 
@@ -1247,7 +1330,7 @@
             this.GrpMerge.AppearanceCaption.Options.UseFont = true;
             this.GrpMerge.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
             this.GrpMerge.Controls.Add(this.panel12);
-            this.GrpMerge.Location = new System.Drawing.Point(279, 334);
+            this.GrpMerge.Location = new System.Drawing.Point(491, 318);
             this.GrpMerge.Name = "GrpMerge";
             this.GrpMerge.Size = new System.Drawing.Size(503, 152);
             this.GrpMerge.TabIndex = 23;
@@ -1433,7 +1516,7 @@
             this.GrpTransferTo.AppearanceCaption.Options.UseFont = true;
             this.GrpTransferTo.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
             this.GrpTransferTo.Controls.Add(this.panel8);
-            this.GrpTransferTo.Location = new System.Drawing.Point(281, 176);
+            this.GrpTransferTo.Location = new System.Drawing.Point(491, 160);
             this.GrpTransferTo.Name = "GrpTransferTo";
             this.GrpTransferTo.Size = new System.Drawing.Size(503, 152);
             this.GrpTransferTo.TabIndex = 22;
@@ -1614,12 +1697,10 @@
             // MainGridMainPkt
             // 
             this.MainGridMainPkt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MainGridMainPkt.Location = new System.Drawing.Point(0, 58);
+            this.MainGridMainPkt.Location = new System.Drawing.Point(0, 0);
             this.MainGridMainPkt.MainView = this.GrdDetMainPkt;
             this.MainGridMainPkt.Name = "MainGridMainPkt";
-            this.MainGridMainPkt.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
-            this.RepBtnProcessIssue});
-            this.MainGridMainPkt.Size = new System.Drawing.Size(1149, 486);
+            this.MainGridMainPkt.Size = new System.Drawing.Size(1564, 576);
             this.MainGridMainPkt.TabIndex = 21;
             this.MainGridMainPkt.ToolTipController = this.toolTipController1;
             this.MainGridMainPkt.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -1698,31 +1779,6 @@
             this.gridColumn84.Visible = true;
             this.gridColumn84.VisibleIndex = 0;
             this.gridColumn84.Width = 103;
-            // 
-            // RepBtnProcessIssue
-            // 
-            this.RepBtnProcessIssue.AutoHeight = false;
-            serializableAppearanceObject1.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject1.ForeColor = System.Drawing.Color.Navy;
-            serializableAppearanceObject1.Options.UseFont = true;
-            serializableAppearanceObject1.Options.UseForeColor = true;
-            serializableAppearanceObject2.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject2.ForeColor = System.Drawing.Color.Navy;
-            serializableAppearanceObject2.Options.UseFont = true;
-            serializableAppearanceObject2.Options.UseForeColor = true;
-            serializableAppearanceObject3.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject3.ForeColor = System.Drawing.Color.Navy;
-            serializableAppearanceObject3.Options.UseFont = true;
-            serializableAppearanceObject3.Options.UseForeColor = true;
-            serializableAppearanceObject4.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject4.ForeColor = System.Drawing.Color.Navy;
-            serializableAppearanceObject4.Options.UseFont = true;
-            serializableAppearanceObject4.Options.UseForeColor = true;
-            this.RepBtnProcessIssue.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Process Issue", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null)});
-            this.RepBtnProcessIssue.Name = "RepBtnProcessIssue";
-            this.RepBtnProcessIssue.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
-            this.RepBtnProcessIssue.Click += new System.EventHandler(this.repBtnProcessIssue_Click);
             // 
             // gridColumn13
             // 
@@ -1995,6 +2051,95 @@
             this.gridColumn31.VisibleIndex = 1;
             this.gridColumn31.Width = 78;
             // 
+            // xtraTabPage3
+            // 
+            this.xtraTabPage3.Appearance.Header.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold);
+            this.xtraTabPage3.Appearance.Header.Options.UseFont = true;
+            this.xtraTabPage3.Controls.Add(this.MainGrdSummary);
+            this.xtraTabPage3.Name = "xtraTabPage3";
+            this.xtraTabPage3.Size = new System.Drawing.Size(1382, 511);
+            this.xtraTabPage3.Text = "KAPAN WISE SUMMARY";
+            // 
+            // MainGrdSummary
+            // 
+            this.MainGrdSummary.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MainGrdSummary.Location = new System.Drawing.Point(0, 0);
+            this.MainGrdSummary.MainView = this.GrdSummary;
+            this.MainGrdSummary.Name = "MainGrdSummary";
+            this.MainGrdSummary.Size = new System.Drawing.Size(1382, 511);
+            this.MainGrdSummary.TabIndex = 22;
+            this.MainGrdSummary.ToolTipController = this.toolTipController1;
+            this.MainGrdSummary.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.GrdSummary});
+            // 
+            // GrdSummary
+            // 
+            this.GrdSummary.Appearance.FocusedCell.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(141)))));
+            this.GrdSummary.Appearance.FocusedCell.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(141)))));
+            this.GrdSummary.Appearance.FocusedCell.Options.UseBackColor = true;
+            this.GrdSummary.Appearance.FooterPanel.Font = new System.Drawing.Font("Verdana", 6F, System.Drawing.FontStyle.Bold);
+            this.GrdSummary.Appearance.FooterPanel.Options.UseFont = true;
+            this.GrdSummary.Appearance.HeaderPanel.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold);
+            this.GrdSummary.Appearance.HeaderPanel.Options.UseFont = true;
+            this.GrdSummary.Appearance.HeaderPanel.Options.UseTextOptions = true;
+            this.GrdSummary.Appearance.HeaderPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.GrdSummary.Appearance.HorzLine.BackColor = System.Drawing.Color.Gray;
+            this.GrdSummary.Appearance.HorzLine.Options.UseBackColor = true;
+            this.GrdSummary.Appearance.Row.Font = new System.Drawing.Font("Verdana", 9F);
+            this.GrdSummary.Appearance.Row.Options.UseFont = true;
+            this.GrdSummary.Appearance.Row.Options.UseTextOptions = true;
+            this.GrdSummary.Appearance.Row.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.GrdSummary.Appearance.VertLine.BackColor = System.Drawing.Color.Gray;
+            this.GrdSummary.Appearance.VertLine.Options.UseBackColor = true;
+            this.GrdSummary.ColumnPanelRowHeight = 25;
+            this.GrdSummary.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn50,
+            this.gridColumn48,
+            this.gridColumn49});
+            this.GrdSummary.GridControl = this.MainGrdSummary;
+            this.GrdSummary.Name = "GrdSummary";
+            this.GrdSummary.OptionsFilter.AllowFilterEditor = false;
+            this.GrdSummary.OptionsPrint.ExpandAllGroups = false;
+            this.GrdSummary.OptionsSelection.EnableAppearanceFocusedRow = false;
+            this.GrdSummary.OptionsView.ColumnAutoWidth = false;
+            this.GrdSummary.OptionsView.GroupFooterShowMode = DevExpress.XtraGrid.Views.Grid.GroupFooterShowMode.VisibleAlways;
+            this.GrdSummary.OptionsView.ShowAutoFilterRow = true;
+            this.GrdSummary.OptionsView.ShowFooter = true;
+            this.GrdSummary.OptionsView.ShowGroupPanel = false;
+            this.GrdSummary.RowHeight = 23;
+            // 
+            // gridColumn50
+            // 
+            this.gridColumn50.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn50.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn50.Caption = "Kapan";
+            this.gridColumn50.FieldName = "KAPANNAME";
+            this.gridColumn50.Name = "gridColumn50";
+            this.gridColumn50.OptionsColumn.AllowEdit = false;
+            this.gridColumn50.OptionsFilter.FilterPopupMode = DevExpress.XtraGrid.Columns.FilterPopupMode.CheckedList;
+            this.gridColumn50.Visible = true;
+            this.gridColumn50.VisibleIndex = 0;
+            this.gridColumn50.Width = 97;
+            // 
+            // gridColumn48
+            // 
+            this.gridColumn48.Caption = "Total Pcs";
+            this.gridColumn48.FieldName = "BALANCEPCS";
+            this.gridColumn48.Name = "gridColumn48";
+            this.gridColumn48.OptionsColumn.AllowEdit = false;
+            this.gridColumn48.Visible = true;
+            this.gridColumn48.VisibleIndex = 1;
+            // 
+            // gridColumn49
+            // 
+            this.gridColumn49.Caption = "Total Carat";
+            this.gridColumn49.FieldName = "BALANCECARAT";
+            this.gridColumn49.Name = "gridColumn49";
+            this.gridColumn49.OptionsColumn.AllowEdit = false;
+            this.gridColumn49.Visible = true;
+            this.gridColumn49.VisibleIndex = 2;
+            this.gridColumn49.Width = 96;
+            // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.LightBlue;
@@ -2010,7 +2155,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1149, 58);
+            this.panel7.Size = new System.Drawing.Size(1388, 58);
             this.panel7.TabIndex = 20;
             // 
             // cLabel14
@@ -2050,7 +2195,7 @@
             this.ChkTransaction.AutoSize = true;
             this.ChkTransaction.Dock = System.Windows.Forms.DockStyle.Right;
             this.ChkTransaction.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChkTransaction.Location = new System.Drawing.Point(507, 0);
+            this.ChkTransaction.Location = new System.Drawing.Point(746, 0);
             this.ChkTransaction.Name = "ChkTransaction";
             this.ChkTransaction.Size = new System.Drawing.Size(103, 58);
             this.ChkTransaction.TabIndex = 185;
@@ -2142,7 +2287,7 @@
             this.panel9.Controls.Add(this.panel4);
             this.panel9.Controls.Add(this.panel11);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel9.Location = new System.Drawing.Point(610, 0);
+            this.panel9.Location = new System.Drawing.Point(849, 0);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(539, 58);
             this.panel9.TabIndex = 151;
@@ -2289,18 +2434,42 @@
             this.xtraTabControl2.Location = new System.Drawing.Point(0, 0);
             this.xtraTabControl2.Name = "xtraTabControl2";
             this.xtraTabControl2.SelectedTabPage = this.xtraTabPage6;
-            this.xtraTabControl2.Size = new System.Drawing.Size(1155, 573);
+            this.xtraTabControl2.Size = new System.Drawing.Size(1394, 627);
             this.xtraTabControl2.TabIndex = 152;
             this.xtraTabControl2.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage6,
             this.xtraTabPage1});
             this.xtraTabControl2.Click += new System.EventHandler(this.xtraTabControl2_Click);
             // 
+            // repositoryItemButtonEdit1
+            // 
+            this.repositoryItemButtonEdit1.AutoHeight = false;
+            serializableAppearanceObject29.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject29.ForeColor = System.Drawing.Color.Navy;
+            serializableAppearanceObject29.Options.UseFont = true;
+            serializableAppearanceObject29.Options.UseForeColor = true;
+            serializableAppearanceObject30.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject30.ForeColor = System.Drawing.Color.Navy;
+            serializableAppearanceObject30.Options.UseFont = true;
+            serializableAppearanceObject30.Options.UseForeColor = true;
+            serializableAppearanceObject31.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject31.ForeColor = System.Drawing.Color.Navy;
+            serializableAppearanceObject31.Options.UseFont = true;
+            serializableAppearanceObject31.Options.UseForeColor = true;
+            serializableAppearanceObject32.Font = new System.Drawing.Font("Verdana", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject32.ForeColor = System.Drawing.Color.Navy;
+            serializableAppearanceObject32.Options.UseFont = true;
+            serializableAppearanceObject32.Options.UseForeColor = true;
+            this.repositoryItemButtonEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "Process Issue", -1, true, true, false, editorButtonImageOptions8, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject29, serializableAppearanceObject30, serializableAppearanceObject31, serializableAppearanceObject32, "", null, null)});
+            this.repositoryItemButtonEdit1.Name = "repositoryItemButtonEdit1";
+            this.repositoryItemButtonEdit1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
+            // 
             // FrmPolishPacketLiveStock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1155, 573);
+            this.ClientSize = new System.Drawing.Size(1394, 627);
             this.Controls.Add(this.xtraTabControl2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.LookAndFeel.SkinName = "Stardust";
@@ -2309,6 +2478,7 @@
             this.Tag = "";
             this.Text = "POLISH PACKET LIVE STOCK";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmKapanDashboard_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.RepBtnProcessIssue)).EndInit();
             this.PanelHeader.ResumeLayout(false);
             this.PanelHeader.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -2325,6 +2495,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.BtnRejectionTransfer)).EndInit();
             this.xtraTabPage1.ResumeLayout(false);
             this.xtraTabPage6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
+            this.xtraTabControl1.ResumeLayout(false);
+            this.xtraTabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.GrpMerge)).EndInit();
             this.GrpMerge.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
@@ -2337,7 +2510,9 @@
             this.panel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.MainGridMainPkt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GrdDetMainPkt)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.RepBtnProcessIssue)).EndInit();
+            this.xtraTabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.MainGrdSummary)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GrdSummary)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel9.ResumeLayout(false);
@@ -2346,6 +2521,7 @@
             this.panel11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).EndInit();
             this.xtraTabControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2408,7 +2584,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn100;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn104;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn105;
-        private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit RepBtnProcessIssue;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn45;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn103;
         private AxonContLib.cPanel panel11;
@@ -2494,5 +2669,15 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn31;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn33;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn32;
+        private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPage3;
+        private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit RepBtnProcessIssue;
+        private DevExpress.XtraGrid.GridControl MainGrdSummary;
+        private DevExpress.XtraGrid.Views.Grid.GridView GrdSummary;
+        private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn50;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn48;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn49;
     }
 }
