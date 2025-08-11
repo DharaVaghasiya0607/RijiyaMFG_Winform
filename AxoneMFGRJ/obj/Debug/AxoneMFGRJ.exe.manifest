@@ -79,14 +79,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxoneMFGRJ.exe" size="17595904">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxoneMFGRJ.exe" size="17597440">
       <assemblyIdentity name="AxoneMFGRJ" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+9NghCEqzWiPv53RpcmTgCVUd7uEkfSyQPS2Zn/UvAg=</dsig:DigestValue>
+        <dsig:DigestValue>biAXcljtRPYnxBkCzsNRFdQ77VxUmyjDkV8nCv32CMc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -115,14 +115,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BusLib.dll" size="912384">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BusLib.dll" size="912896">
       <assemblyIdentity name="BusLib" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>A7awaNGi0IZvPn5jlN5qVdQlGbGFwbUCyvFv8vLzZ/s=</dsig:DigestValue>
+        <dsig:DigestValue>b6AYmcw0bI5qy9EXd/v+Po3ETjIZQa+uqQwGtaY7vow=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

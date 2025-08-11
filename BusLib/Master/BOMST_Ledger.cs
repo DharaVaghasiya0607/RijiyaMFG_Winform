@@ -176,7 +176,16 @@ namespace BusLib.Master
             return pClsProperty;
 
         }
-
+        //Added By Rajvi : 08/08/2025
+        public DataTable GetRemotVersion()
+        {
+            Ope.ClearParams();
+            DataTable DTab = new DataTable();
+            string Str = "SELECT SETTINGVALUE FROM mst_setting WHERE SETTINGKEY = 'ExeVersion'";
+            Ope.FillDTab(Config.ConnectionString, Config.ProviderName, DTab, Str, CommandType.Text);
+            return DTab;
+        }
+        //End As Rajvi
 
         public LedgerMasterProperty SaveLedgerDetailInfo(LedgerMasterProperty pClsProperty, DataTable DtExperience, DataTable DtFamily, DataTable DtReference, DataTable DtAttachment, DataTable DtProcessSetting,DataTable DtItemIssueDetail)
         {

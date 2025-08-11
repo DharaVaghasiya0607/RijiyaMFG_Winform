@@ -147,6 +147,7 @@
             this.panel2 = new AxonContLib.cPanel(this.components);
             this.BtnBestFit = new DevExpress.XtraEditors.SimpleButton();
             this.BtnExport = new DevExpress.XtraEditors.SimpleButton();
+            this.TxtLedgerGroup = new AxonContLib.cTextBox(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.MainGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GrdDet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
@@ -973,6 +974,7 @@
             this.panel1.Controls.Add(this.cLabel8);
             this.panel1.Controls.Add(this.txtLedgerCode);
             this.panel1.Controls.Add(this.cLabel1);
+            this.panel1.Controls.Add(this.TxtLedgerGroup);
             this.panel1.Controls.Add(this.txtLedgerName);
             this.panel1.Controls.Add(this.txtGSTNo);
             this.panel1.Controls.Add(this.cLabel28);
@@ -1589,7 +1591,7 @@
             "LAB",
             "COURIER",
             "LOCATION"});
-            this.CmbLedgerGroup.Location = new System.Drawing.Point(124, 42);
+            this.CmbLedgerGroup.Location = new System.Drawing.Point(509, 475);
             this.CmbLedgerGroup.Name = "CmbLedgerGroup";
             this.CmbLedgerGroup.Size = new System.Drawing.Size(364, 24);
             this.CmbLedgerGroup.TabIndex = 3;
@@ -1951,6 +1953,26 @@
             this.BtnExport.Text = "Export";
             this.BtnExport.Click += new System.EventHandler(this.BtnExport_Click);
             // 
+            // TxtLedgerGroup
+            // 
+            this.TxtLedgerGroup.ActivationColor = true;
+            this.TxtLedgerGroup.ActivationColorCode = System.Drawing.Color.Empty;
+            this.TxtLedgerGroup.AllowTabKeyOnEnter = false;
+            this.TxtLedgerGroup.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtLedgerGroup.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtLedgerGroup.Format = "";
+            this.TxtLedgerGroup.IsComplusory = false;
+            this.TxtLedgerGroup.Location = new System.Drawing.Point(124, 40);
+            this.TxtLedgerGroup.MaxLength = 100;
+            this.TxtLedgerGroup.Name = "TxtLedgerGroup";
+            this.TxtLedgerGroup.SelectAllTextOnFocus = true;
+            this.TxtLedgerGroup.Size = new System.Drawing.Size(364, 24);
+            this.TxtLedgerGroup.TabIndex = 6;
+            this.TxtLedgerGroup.ToolTips = "";
+            this.TxtLedgerGroup.WaterMarkText = null;
+            this.TxtLedgerGroup.Enter += new System.EventHandler(this.ControlEnterForEnglish_Enter);
+            this.TxtLedgerGroup.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtLedgerGroup_KeyPress);
+            // 
             // FrmLedger
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2106,7 +2128,6 @@
 		private DevExpress.XtraGrid.Columns.GridColumn gridColumn33;
         private AxonContLib.cLabel cLabel20;
         private DevExpress.XtraEditors.CheckedComboBoxEdit CmbShape;
-
-
+        private AxonContLib.cTextBox TxtLedgerGroup;
     }
 }

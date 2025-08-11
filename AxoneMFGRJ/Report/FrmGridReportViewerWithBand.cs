@@ -583,8 +583,7 @@ namespace AxoneMFGRJ.Report
                             GrdDet.Columns[StrGroupBy[IntI]].OwnerBand = null;
                         }
                     }    
-                }
-                
+                }               
 
                 if (mStrGroupByTag != "")
                 {

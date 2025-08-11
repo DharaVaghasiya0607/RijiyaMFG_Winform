@@ -5,8 +5,7 @@
     <Databases isList="true" count="1">
       <Connection Ref="2" type="Stimulsoft.Report.Dictionary.StiSqlDatabase" isKey="true">
         <Alias>Connection</Alias>
-        <ConnectionString>Data Source=192.168.0.243;Initial Catalog=AxoneMFGRJ;User ID=sa;password=chEck@25#07rvvv!maDe_;Integrated Security=false;Integrated Security=false;Connection Timeout=3
-</ConnectionString>
+        <ConnectionString>Data Source=103.68.95.166,50119;Initial Catalog=AxoneMFGRJ;User Id=sa;Password=chEck@25#07rvvv!maDe_; Integrated Security=false; Integrated Security=false; Connection Timeout=300</ConnectionString>
         <Name>Connection</Name>
       </Connection>
     </Databases>
@@ -75,6 +74,7 @@
           <Parent isRef="4" />
           <Text>{BarcodeData.MKBLSHAPENAME}</Text>
           <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
         </Text3>
         <Text5 Ref="8" type="Text" isKey="true">
           <Brush>Transparent</Brush>
@@ -87,6 +87,7 @@
           <Parent isRef="4" />
           <Text>{BarcodeData.MKBLCOLORNAME}</Text>
           <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
         </Text5>
         <Text6 Ref="9" type="Text" isKey="true">
           <Brush>Transparent</Brush>
@@ -113,6 +114,7 @@
           <Parent isRef="4" />
           <Text>{BarcodeData.PRINTDATE}</Text>
           <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
         </Text7>
         <Text2 Ref="11" type="Text" isKey="true">
           <Brush>Transparent</Brush>
@@ -149,6 +151,7 @@
           <Parent isRef="4" />
           <Text>{BarcodeData.KAPANNAME}</Text>
           <TextBrush>Black</TextBrush>
+          <Type>DataColumn</Type>
           <VertAlignment>Center</VertAlignment>
         </Text4>
       </Components>
@@ -177,10 +180,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/30/2023 3:57:05 PM</ReportChanged>
+  <ReportChanged>8/8/2025 3:28:24 PM</ReportChanged>
   <ReportCreated>6/28/2023 12:13:56 PM</ReportCreated>
-  <ReportFile>C:\Users\Administrator\OneDrive\Desktop\StimulSoft\TSC_MakableBarcode.mrt</ReportFile>
-  <ReportGuid>00a25f9dc5de4521bffc216a3f3199c9</ReportGuid>
+  <ReportFile>D:\Git\RijiyaMFG_Winform\AxoneMFGRJ\bin\Debug\Barcode\TSC_MakableBarcode.mrt</ReportFile>
+  <ReportGuid>8bd2d145a1e44dbb902d8809b85f17ee</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Millimeters</ReportUnit>
   <ReportVersion>2012.2.1304</ReportVersion>

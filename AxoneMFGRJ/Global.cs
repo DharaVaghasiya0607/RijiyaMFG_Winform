@@ -1119,8 +1119,7 @@ namespace AxoneMFGRJ
             }
         }
 
-
-
+        
 
         public static void BarcodePrintTSCGalaxy(string StrKapanName, string PacketNo, string Tag, string Carat, string MarkerCode, string Group, string Shade, string StrBarcodeNo)
         {
@@ -1551,57 +1550,13 @@ namespace AxoneMFGRJ
                 string StrEmployeeCode = Val.ToString(DRow["EMPLOYEECODE"]);
                 string StrPktNoTag = Val.ToString(DRow["PACKETNO"]) + "" + Val.ToString(DRow["TAG"]);
                 int StrPktSrNo = Val.ToInt(DRow["PKTSERIALNO"]);
+                string StrREMARK = Val.ToString(DRow["REMARK"]);
                 string StrParameterAmt = DRow["COLORNAME"].ToString() + "-" + DRow["CLARITYNAME"].ToString() + "-" + DRow["CUTCODE"].ToString() + "-" + DRow["FLNAME"].ToString() + "-" + DRow["AMOUNT"].ToString();
                 string StrShpBlnCts = DRow["SHAPECODE"].ToString() + "-" + DRow["CARAT"].ToString() + "-" + DRow["BALANCECARAT"].ToString();
                 StreamWriter sw = new StreamWriter(fileLoc);
 
                 using (sw)
                 {
-                    //sw.WriteLine("<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm");
-                    //sw.WriteLine("GAP 2.5 mm, 0 mm");
-                    //sw.WriteLine("DIRECTION 0,0");
-                    //sw.WriteLine("REFERENCE 0,0");
-                    //sw.WriteLine("OFFSET 0 mm");
-                    //sw.WriteLine("SET PEEL OFF");
-                    //sw.WriteLine("SET CUTTER OFF");
-                    //sw.WriteLine("SET PARTIAL_CUTTER OFF");
-                    //sw.WriteLine("<xpml></page></xpml><xpml><page quantity='2' pitch='15.0 mm'></xpml>SET TEAR ON");
-                    //sw.WriteLine("CLS");
-                    //sw.WriteLine("CODEPAGE 1252");
-                    //sw.WriteLine("TEXT 406,75,\"2\",180,1,1,\"" + StrKapanNames + "\"");
-                    //sw.WriteLine("BARCODE 304,73,\"128M\",49,0,180,2,4,\"" + StrBarcode + "\"");
-                    //sw.WriteLine("TEXT 406,13,\"1\",180,1,1,\"" + StrEmployeeCode + "\"");
-                    //sw.WriteLine("TEXT 69,13,\"1\",180,1,1,\"" + StrPktNoTag + "\"");
-                    //sw.WriteLine("TEXT 406,42,\"2\",180,1,1,\"" + StrPktSrNo + "\"");
-                    //sw.WriteLine("TEXT 304,95,\"1\",180,1,1,\"" + StrShpBlnCts + "\"");
-                    //sw.WriteLine("TEXT 69,95,\"1\",180,1,1,\"" + DateTime.Now.ToString("dd-MM") + "\"");
-                    //sw.WriteLine("TEXT 304,13,\"1\",180,1,1,\"" + StrParameterAmt + "\"");
-                    //sw.WriteLine("PRINT 1,2");
-                    //sw.WriteLine("<xpml></page></xpml><xpml><end/></xpml>");
-
-                    //Barocde : 55_15
-                    //sw.WriteLine("<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm");
-                    //sw.WriteLine("GAP 3.9 mm, 0 mm");
-                    //sw.WriteLine("DIRECTION 0,0");
-                    //sw.WriteLine("REFERENCE 0,0");
-                    //sw.WriteLine("OFFSET 0 mm");
-                    //sw.WriteLine("SET PEEL OFF");
-                    //sw.WriteLine("SET CUTTER OFF");
-                    //sw.WriteLine("SET PARTIAL_CUTTER OFF");
-                    //sw.WriteLine("<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>SET TEAR ON");
-                    //sw.WriteLine("CLS");
-                    //sw.WriteLine("CODEPAGE 1252");
-                    //sw.WriteLine("TEXT 406,75,\"2\",180,1,1,\"" + StrKapanNames + "\"");
-                    //sw.WriteLine("BARCODE 304,73,\"128M\",49,0,180,2,4,\"!105" + StrBarcode + "\"");
-                    //sw.WriteLine("TEXT 406,13,\"1\",180,1,1,\"" + StrEmployeeCode + "\"");
-                    //sw.WriteLine("TEXT 69,13,\"1\",180,1,1,\"" + StrPktNoTag + "\"");
-                    //sw.WriteLine("TEXT 406,42,\"2\",180,1,1,\"" + StrPktSrNo + "\"");
-                    //sw.WriteLine("TEXT 304,95,\"1\",180,1,1,\"" + StrShpBlnCts + "\"");
-                    //sw.WriteLine("TEXT 69,95,\"1\",180,1,1,\"" + DateTime.Now.ToString("dd-MM") + "\"");
-                    //sw.WriteLine("TEXT 304,13,\"1\",180,1,1,\"" + StrParameterAmt + "\"");
-                    //sw.WriteLine("PRINT 1,1");
-                    //sw.WriteLine("<xpml></page></xpml><xpml><end/></xpml>");
-
                     //Barocde : 55_15 With font Apperence Changes
                     sw.WriteLine("<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm");
                     sw.WriteLine("GAP 3 mm, 0 mm");
@@ -1688,29 +1643,6 @@ namespace AxoneMFGRJ
 
             try
             {
-                //Barocde : 55_15 
-                //sw.WriteLine("<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm");
-                //sw.WriteLine("GAP 3.9 mm, 0 mm");
-                //sw.WriteLine("DIRECTION 0,0");
-                //sw.WriteLine("REFERENCE 0,0");
-                //sw.WriteLine("OFFSET 0 mm");
-                //sw.WriteLine("SET PEEL OFF");
-                //sw.WriteLine("SET CUTTER OFF");
-                //sw.WriteLine("SET PARTIAL_CUTTER OFF");
-                //sw.WriteLine("<xpml></page></xpml><xpml><page quantity='1' pitch='15.0 mm'></xpml>SET TEAR ON");
-                //sw.WriteLine("CLS");
-                //sw.WriteLine("CODEPAGE 1252");
-                //sw.WriteLine("TEXT 406,75,\"2\",180,1,1,\"" + StrKapanNames + "\"");
-                //sw.WriteLine("BARCODE 304,73,\"128M\",49,0,180,2,4,\"!105" + StrBarcode + "\"");
-                //sw.WriteLine("TEXT 406,13,\"1\",180,1,1,\"" + StrEmployeeCode + "\"");
-                //sw.WriteLine("TEXT 69,13,\"1\",180,1,1,\"" + StrPktNoTag + "\"");
-                //sw.WriteLine("TEXT 406,42,\"2\",180,1,1,\"" + StrPktSrNo + "\"");
-                //sw.WriteLine("TEXT 304,95,\"1\",180,1,1,\"" + StrShpBlnCts + "\"");
-                //sw.WriteLine("TEXT 69,95,\"1\",180,1,1,\"" + DateTime.Now.ToString("dd-MM") + "\"");
-                //sw.WriteLine("TEXT 304,13,\"1\",180,1,1,\"" + StrParameterAmt + "\"");
-                //sw.WriteLine("PRINT 1,1");
-                //sw.WriteLine("<xpml></page></xpml><xpml><end/></xpml>");
-
                 //Barocde : 55_15 With font Apperence Changes
                 sw.WriteLine("<xpml><page quantity='0' pitch='15.0 mm'></xpml>SIZE 52.5 mm, 15 mm");
                 sw.WriteLine("GAP 3 mm, 0 mm");
@@ -1739,8 +1671,6 @@ namespace AxoneMFGRJ
                 Global.Message(ex.Message);
             }
         }
-
-
 
         public static void BarcodePrintTest(string StrKapanName, string PacketNo, string Tag, string Date, string Carat, string MarkerCode, string pStrFileLoc)
         {

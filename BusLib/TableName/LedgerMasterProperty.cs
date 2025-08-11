@@ -14,6 +14,7 @@ namespace BusLib.TableName
         public string LEDGERNAME { get; set; }
         public string LEDGERNAMEGUJARATI { get; set; }
         public string LEDGERGROUP { get; set; }
+        public string LEDGERGROUP1 { get; set; }
         public string CONTACTPERSON { get; set; }
 
         public string SHAPE_ID { get; set; }
