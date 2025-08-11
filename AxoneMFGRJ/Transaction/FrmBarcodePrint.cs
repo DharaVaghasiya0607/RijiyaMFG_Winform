@@ -928,6 +928,7 @@ namespace AxoneMFGRJ.Transaction
                             string StrPktNoTag = Val.ToString(DRow["PACKETNO"]) + "" + Val.ToString(DRow["TAG"]);
                             int StrPktSrNo = Val.ToInt(DRow["PKTSERIALNO"]);
                             string StrParameterAmt = DRow["MKBLCOLORNAME"].ToString() + "-" + DRow["MKBLCLARITYNAME"].ToString() + "-" + DRow["MKBLCUTNAME"].ToString() + "-" + DRow["MKBLFLNAME"].ToString() + "-" + DRow["MKBLPRDAMOUNT"].ToString();
+                            
                             string StrShpBlnCts = DRow["MKBLSHAPENAME"].ToString() + "-" + DRow["MKBLPRDCARAT"].ToString() + "-" + DRow["MKBLBALANCECARAT"].ToString();
                             string StrDate = DateTime.Now.ToString("dd-MM");
                             Global.BarcodeProntMkblCitizen(sw, StrBarcode, StrKapanNames, StrEmployeeCode, StrPktNoTag, StrPktSrNo.ToString(), StrParameterAmt, StrShpBlnCts);
@@ -973,10 +974,10 @@ namespace AxoneMFGRJ.Transaction
                             string StrEmployeeCode = Val.ToString(DRow["MKBLEMPLOYEECODE"]);
                             string StrPktNoTag = Val.ToString(DRow["PACKETNO"]) + "" + Val.ToString(DRow["TAG"]);
                             int StrPktSrNo = Val.ToInt(DRow["PKTSERIALNO"]);
+                            
                             string StrParameterAmt = DRow["MKBLCOLORNAME"].ToString() + "-" + DRow["MKBLCLARITYNAME"].ToString() + "-" + DRow["MKBLCUTNAME"].ToString() + "-" + DRow["MKBLFLNAME"].ToString() + "-" + DRow["MKBLPRDAMOUNT"].ToString();
                             string StrShpBlnCts = DRow["MKBLSHAPENAME"].ToString() + "-" + DRow["MKBLPRDCARAT"].ToString() + "-" + DRow["MKBLBALANCECARAT"].ToString();
                             Global.BarcodeProntMkblTSC(sw, StrBarcode, StrKapanNames, StrEmployeeCode, StrPktNoTag, StrPktSrNo.ToString(), StrParameterAmt, StrShpBlnCts);
-
                         }
                         sw.Close();
                     }
@@ -1097,6 +1098,7 @@ namespace AxoneMFGRJ.Transaction
                             string StrEmployeeCode = Val.ToString(DRow["MKBLEMPLOYEECODE"]);
                             string StrPktNoTag = Val.ToString(DRow["PACKETNO"]) + "" + Val.ToString(DRow["TAG"]);
                             int StrPktSrNo = Val.ToInt(DRow["PKTSERIALNO"]);
+                            string StrREMARK = Val.ToString(DRow["REMARK"]);
                             string StrParameterAmt = DRow["MKBLCOLORNAME"].ToString() + "-" + DRow["MKBLCLARITYNAME"].ToString() + "-" + DRow["MKBLCUTNAME"].ToString() + "-" + DRow["MKBLFLNAME"].ToString() + "-" + DRow["MKBLPRDAMOUNT"].ToString();
                             string StrShpBlnCts = DRow["MKBLSHAPENAME"].ToString() + "-" + DRow["MKBLPRDCARAT"].ToString() + "-" + DRow["MKBLBALANCECARAT"].ToString();
                             string StrDate = DateTime.Now.ToString("dd-MM");
@@ -1117,9 +1119,7 @@ namespace AxoneMFGRJ.Transaction
 
                 }
                 else if (RbtTSC.Checked == true)
-                {
-                    
-
+                {                   
                     string StrBatchFileName = "";string DefaultPrinter = "";
                     StrBatchFileName = Application.StartupPath + "\\TSC_MakableBarcodeNew.txt ";
 
@@ -1130,122 +1130,79 @@ namespace AxoneMFGRJ.Transaction
                     this.Cursor = Cursors.WaitCursor;
                         List<StiReport> rps = new List<StiReport>();
 
-                        int IntCount = 0;
-                        foreach (DataRow DRow in DTab.Rows)
+                    int IntCount = 0;
+                    foreach (DataRow DRow in DTab.Rows)
+                    {
+                        string StrBarcode = Val.ToString(DRow["BARCODE"]);
+                        string StrKapanNames = Val.ToString(DRow["KAPANNAME"]);
+                        string StrEmployeeCode = Val.ToString(DRow["MKBLEMPLOYEECODE"]);
+                        string StrPktNoTag = Val.ToString(DRow["PACKETNO"]) + "" + Val.ToString(DRow["TAG"]);
+                        int StrPktSrNo = Val.ToInt(DRow["PKTSERIALNO"]);
+                        //string StrREMARK = Val.ToString(DRow["REMARK"]);
+                        string StrParameterAmt = DRow["MKBLCOLORNAME"].ToString() + "-" + DRow["MKBLCLARITYNAME"].ToString() + "-" + DRow["MKBLCUTNAME"].ToString() + "-" + DRow["MKBLFLNAME"].ToString() + "-" + DRow["MKBLPRDAMOUNT"].ToString();
+                        string StrShpBlnCts = DRow["MKBLSHAPENAME"].ToString() + "-" + DRow["MKBLPRDCARAT"].ToString() + "-" + DRow["MKBLBALANCECARAT"].ToString();
+                    
+                        IntCount++;
+                    
+                        StiReport report = new StiReport();
+                        string BarcodeName = "TSC_MakableBarcode";
+                        report.Load(Application.StartupPath + "\\Barcode\\" + BarcodeName + ".mrt");
+                        report.Compile();
+                        report.RequestParameters = false;
+                    
+                        foreach (Stimulsoft.Report.Dictionary.StiSqlDatabase item in report.CompiledReport.Dictionary.Databases)
                         {
-                            string StrBarcode = Val.ToString(DRow["BARCODE"]);
-                            string StrKapanNames = Val.ToString(DRow["KAPANNAME"]);
-                            string StrEmployeeCode = Val.ToString(DRow["MKBLEMPLOYEECODE"]);
-                            string StrPktNoTag = Val.ToString(DRow["PACKETNO"]) + "" + Val.ToString(DRow["TAG"]);
-                            int StrPktSrNo = Val.ToInt(DRow["PKTSERIALNO"]);
-                            string StrParameterAmt = DRow["MKBLCOLORNAME"].ToString() + "-" + DRow["MKBLCLARITYNAME"].ToString() + "-" + DRow["MKBLCUTNAME"].ToString() + "-" + DRow["MKBLFLNAME"].ToString() + "-" + DRow["MKBLPRDAMOUNT"].ToString();
-                            string StrShpBlnCts = DRow["MKBLSHAPENAME"].ToString() + "-" + DRow["MKBLPRDCARAT"].ToString() + "-" + DRow["MKBLBALANCECARAT"].ToString();
-
-                            IntCount++;
-
-                            StiReport report = new StiReport();
-                            string BarcodeName = "TSC_MakableBarcode";
-                            report.Load(Application.StartupPath + "\\Barcode\\" + BarcodeName + ".mrt");
-                            report.Compile();
-                            report.RequestParameters = false;
-
-                            foreach (Stimulsoft.Report.Dictionary.StiSqlDatabase item in report.CompiledReport.Dictionary.Databases)
-                            {
-                                item.ConnectionString = BusLib.Configuration.BOConfiguration.ConnectionString;
-                            }
-                            report["BARCODE"] = "'" + StrBarcode + "'";
-                            report["KAPANNAME"] = "'" + StrKapanNames + "'";
-                            report["MKBLEMPLOYEECODE"] = "'" + StrEmployeeCode + "'";
-                            report["PACKETNOTAG"] = "'" + StrPktNoTag + "'";
-                            report["PKTSERIALNO"] = StrPktSrNo;
-                            report["PARAMETERAMT"] = "'" + StrParameterAmt + "'";
-                            report["SHPBLNCTS"] = "'" + StrShpBlnCts + "'";
-
-                            StiSqlDatabase sql = new StiSqlDatabase("Connection", BusLib.Configuration.BOConfiguration.ConnectionString);
-                            sql.Alias = "Connection";
-                            report.CompiledReport.Dictionary.Databases.Clear();
-                            report.CompiledReport.Dictionary.Databases.Add(sql);
-
-                            report.PreviewMode = StiPreviewMode.StandardAndDotMatrix;
-                            report.Render(false);
-
-                            rps.Add(report);
+                            item.ConnectionString = BusLib.Configuration.BOConfiguration.ConnectionString;
                         }
-
-                        StiReport singleFile = new StiReport();
-                        singleFile.NeedsCompiling = false;
-                        singleFile.IsRendered = true;
-
-                        Stimulsoft.Report.Units.StiUnit newUnit = Stimulsoft.Report.Units.StiUnit.GetUnitFromReportUnit(singleFile.ReportUnit);
-                        singleFile.RenderedPages.Clear();
-                        foreach (StiReport rpt in rps)
+                        report["BARCODE"] = "'" + StrBarcode + "'";
+                        report["KAPANNAME"] = "'" + StrKapanNames + "'";
+                        report["MKBLEMPLOYEECODE"] = "'" + StrEmployeeCode + "'";
+                        report["PACKETNOTAG"] = "'" + StrPktNoTag + "'";
+                        report["PKTSERIALNO"] = StrPktSrNo;
+                        //report["REMARK"] = StrREMARK;
+                        report["PARAMETERAMT"] = "'" + StrParameterAmt + "'";
+                        report["SHPBLNCTS"] = "'" + StrShpBlnCts + "'";
+                    
+                        StiSqlDatabase sql = new StiSqlDatabase("Connection", BusLib.Configuration.BOConfiguration.ConnectionString);
+                        sql.Alias = "Connection";
+                        report.CompiledReport.Dictionary.Databases.Clear();
+                        report.CompiledReport.Dictionary.Databases.Add(sql);
+                    
+                        report.PreviewMode = StiPreviewMode.StandardAndDotMatrix;
+                        report.Render(false);
+                    
+                        rps.Add(report);
+                    }
+                    
+                    StiReport singleFile = new StiReport();
+                    singleFile.NeedsCompiling = false;
+                    singleFile.IsRendered = true;
+                    
+                    Stimulsoft.Report.Units.StiUnit newUnit = Stimulsoft.Report.Units.StiUnit.GetUnitFromReportUnit(singleFile.ReportUnit);
+                    singleFile.RenderedPages.Clear();
+                    foreach (StiReport rpt in rps)
+                    {
+                        foreach (Stimulsoft.Report.Components.StiPage page in rpt.CompiledReport.RenderedPages)
                         {
-                            foreach (Stimulsoft.Report.Components.StiPage page in rpt.CompiledReport.RenderedPages)
+                            page.Report = singleFile;
+                            page.NewGuid();
+                            Stimulsoft.Report.Units.StiUnit oldUnit = Stimulsoft.Report.Units.StiUnit.GetUnitFromReportUnit(rpt.ReportUnit);
+                            if (singleFile.ReportUnit != rpt.ReportUnit)
                             {
-                                page.Report = singleFile;
-                                page.NewGuid();
-                                Stimulsoft.Report.Units.StiUnit oldUnit = Stimulsoft.Report.Units.StiUnit.GetUnitFromReportUnit(rpt.ReportUnit);
-                                if (singleFile.ReportUnit != rpt.ReportUnit)
-                                {
-                                    page.Convert(oldUnit, newUnit);
-                                }
-                                singleFile.RenderedPages.Add(page);
+                                page.Convert(oldUnit, newUnit);
                             }
+                            singleFile.RenderedPages.Add(page);
                         }
-
-                        SetDefaultPrinter(lines[0]);
-                        //SetDefaultPrinter(@"\\192.168.0.14\TSC");
-                        singleFile.Print(false);
-                        SetDefaultPrinter(DefaultPrinter);
-                        rps.Clear();
-                        rps = null;
+                    }
+                    
+                    SetDefaultPrinter(lines[0]);
+                    //SetDefaultPrinter(@"\\192.168.0.14\TSC");
+                    singleFile.Print(false);
+                    SetDefaultPrinter(DefaultPrinter);
+                    rps.Clear();
+                    rps = null;
                        
                 }
-
-               
-                //foreach (DataRow DRow in DTab.Rows)7
-                //{
-                //    string StrBarcode = Val.ToString(DRow["BARCODE"]);
-                //    string StrKapanNames = Val.ToString(DRow["KAPANNAME"]);
-                //    string StrEmployeeCode = Val.ToString(DRow["MKBLEMPLOYEECODE"]);
-                //    string StrPktNoTag = Val.ToString(DRow["PACKETNO"]) + "" + Val.ToString(DRow["TAG"]);
-                //    int StrPktSrNo = Val.ToInt(DRow["PKTSERIALNO"]);
-                //    string StrParameterAmt = DRow["MKBLCOLORNAME"].ToString() + "-" + DRow["MKBLCLARITYNAME"].ToString() + "-" + DRow["MKBLCUTNAME"].ToString() + "-" + DRow["MKBLFLNAME"].ToString() + "-" + DRow["MKBLPRDAMOUNT"].ToString();
-                //    string StrShpBlnCts = DRow["MKBLSHAPENAME"].ToString() + "-" + DRow["MKBLPRDCARAT"].ToString() + "-" + DRow["MKBLBALANCECARAT"].ToString();
-
-                //    Stimulsoft.Report.StiReport report = new Stimulsoft.Report.StiReport();
-                //    string BarcodeName = "TSC_MakableBarcode";
-                //    report.Load(Application.StartupPath + "\\Barcode\\" + BarcodeName + ".mrt");
-                //    report.Compile();
-                //    report.RequestParameters = false;
-                //    foreach (StiSqlDatabase item in report.CompiledReport.Dictionary.Databases)
-                //    {
-                //        item.ConnectionString = BusLib.Configuration.BOConfiguration.ConnectionString;
-                //    }
-
-                //    report["BARCODE"] = "'" + StrBarcode + "'";
-                //    report["KAPANNAME"] = "'" + StrKapanNames + "'";
-                //    report["MKBLEMPLOYEECODE"] = "'" + StrEmployeeCode + "'";
-                //    report["PACKETNOTAG"] = "'" + StrPktNoTag + "'";
-                //    report["PKTSERIALNO"] = StrPktSrNo;
-                //    report["PARAMETERAMT"] = "'" + StrParameterAmt + "'";
-                //    report["SHPBLNCTS"] = "'" + StrShpBlnCts + "'";
-
-                //    StiSqlDatabase sql = new StiSqlDatabase("Connection", BusLib.Configuration.BOConfiguration.ConnectionString);
-                //    sql.Alias = "Connection";
-                //    report.CompiledReport.Dictionary.Databases.Clear();
-                //    report.CompiledReport.Dictionary.Databases.Add(sql);
-                //    report.PreviewMode = StiPreviewMode.StandardAndDotMatrix;
-                //    report.Render(false);
-
-                //    //SetDefaultPrinter(@"\\192.168.0.14\TSC");
-                //    SetDefaultPrinter(lines[0]);
-                //    //report.PrinterSettings.PrinterName = "TSC"; //Uncomment When gives update to Client                   
-                //    //report.Print(false);
-                //    //report.PrinterSettings.PrinterName = "Microsoft Print to PDF"; //Comment When gives update to Client
-                //    report.Print(false);
-                //}
-
                 if (ObjGridSelection != null)
                 {
                     ObjGridSelection.ClearSelection();

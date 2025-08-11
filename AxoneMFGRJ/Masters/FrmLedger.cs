@@ -45,6 +45,7 @@ namespace AxoneMFGRJ.Masters
                 this.Text = "COMPANY MASTER";
                 CmbLedgerGroup.SelectedItem = "COMPANY";
                 CmbLedgerGroup.Enabled = false;
+               
 
                 lblAccID.Text = "Comp ID";
                 lblAccGrp.Text = "Comp Grp";
@@ -54,11 +55,14 @@ namespace AxoneMFGRJ.Masters
             {
                 this.Text = "EMPLOYEE MASTER";
                 CmbLedgerGroup.SelectedItem = "EMPLOYEE";
+ 
                 CmbLedgerGroup.Enabled = false;
 
                 groupBox1.Text = "Address";
                 groupBox3.Visible = true;
                 groupBox2.Visible = false;
+
+                CmbLedgerGroup.Enabled = true;
 
                 lblAccID.Text = "Emp ID";
                 lblAccGrp.Text = "Emp Grp";
@@ -71,7 +75,6 @@ namespace AxoneMFGRJ.Masters
                 CmbLedgerGroup.Items.Remove("COMPANAY");
                 CmbLedgerGroup.Items.Remove("EMPLOYEE");
                 CmbLedgerGroup.Items.Remove("LOCATION");
-                CmbLedgerGroup.Enabled = true;
 
                 lblAccID.Text = "Acct ID";
                 lblAccGrp.Text = "Acct Grp";
@@ -96,7 +99,6 @@ namespace AxoneMFGRJ.Masters
             Val.FormGeneralSetting(this);
             AttachFormDefaultEvent();
 
-
             string[] StrTrnType = System.Configuration.ConfigurationManager.AppSettings["TrnType"].ToString().Split(',');
             CmbTrnTypeDebit.Items.Clear();
             CmbTrnTypeCredit.Items.Clear();
@@ -110,7 +112,7 @@ namespace AxoneMFGRJ.Masters
             CmbTrnTypeCredit.SelectedIndex = 0;
             CmbLedgerGroup.Focus();
 
-			try
+            try
 			{
 				foreach (BOCaptureDevice device in BOCaptureDevice.GetDevices())
 				{
@@ -174,8 +176,7 @@ namespace AxoneMFGRJ.Masters
 
             else if (Val.ToString(CmbLedgerGroup.SelectedItem) == "PURCHASE" ||
                 Val.ToString(CmbLedgerGroup.SelectedItem) == "SALE" ||
-                Val.ToString(CmbLedgerGroup.SelectedItem) == "COMPANY"
-                )
+                Val.ToString(CmbLedgerGroup.SelectedItem) == "COMPANY")
             {
 
                 if (txtBState.Text.Trim().Length == 0)
@@ -276,6 +277,7 @@ namespace AxoneMFGRJ.Masters
             CmbTrnTypeCredit.SelectedIndex = 0;
             CmbTrnTypeDebit.SelectedItem = 0;
 
+            TxtLedgerGroup.Text = string.Empty;//ADD AS RAJVI : 08/08/2025
             if (this.Text == "COMPANY MASTER")
             {
                 txtLedgerCode.Focus();
@@ -314,8 +316,9 @@ namespace AxoneMFGRJ.Masters
 			Property.LEDGERCODE = txtLedgerCode.Text;
 			Property.LEDGERNAME = txtLedgerName.Text;
 			Property.LEDGERNAMEGUJARATI = txtLedgerNameGujarati.Text;
-			Property.LEDGERGROUP = Val.ToString(CmbLedgerGroup.SelectedItem);
-			Property.CONTACTPERSON = txtContactPerson.Text;
+            //Property.LEDGERGROUP = Val.ToString(CmbLedgerGroup.SelectedItem);
+            Property.LEDGERGROUP = TxtLedgerGroup.Text;//ADD AS RAJVI : 08/08/2025
+            Property.CONTACTPERSON = txtContactPerson.Text;
 			Property.MOBILENO1 = txtMobileNo1.Text;
 			Property.MOBILENO2 = txtMobileNo2.Text;
 
@@ -361,52 +364,51 @@ namespace AxoneMFGRJ.Masters
 			Property = ObjMast.Save(Property);
 
 			string StrReturnDesc = Property.ReturnMessageDesc;
-
 			
-				if (Property.ReturnMessageType == "SUCCESS")
+			if (Property.ReturnMessageType == "SUCCESS")
+			{
+				//int MaxSrNo = 0;
+				//MaxSrNo = (int)DtabAttachment.Compute("Max(SRNO)", "");
+				DataRow[] dr = DtabAttachment.Select("DOCUMENTTYPE = 'PROFILE'");
+				if (dr.Length > 0)
 				{
-					//int MaxSrNo = 0;
-					//MaxSrNo = (int)DtabAttachment.Compute("Max(SRNO)", "");
-					DataRow[] dr = DtabAttachment.Select("DOCUMENTTYPE = 'PROFILE'");
-					if (dr.Length > 0)
-					{
-						dr[0]["SRNO"] = 0;
-						dr[0]["UPLOADIMAGE"] = Property.EMPPHOTO;
-						dr[0]["DOCUMENTTYPE"] = "PROFILE";
-					}
-					else
-					{
-						string Str = PicEmpPhoto.ImageLocation;
-						DataRow DRA = DtabAttachment.NewRow();
-						DRA["SRNO"] = 0;
-						DRA["DOCUMENTTYPE"] = "PROFILE";
-						DRA["UPLOADIMAGE"] = Property.EMPPHOTO;
-						DRA["UPLOADFILENAME"] = "EmployeeProfileImage";
-						DtabAttachment.Rows.Add(DRA);
-					}
-
-
-					Property.LEDGER_ID = Val.ToInt64(Property.ReturnValue);
-					Property = ObjMast.SaveLedgerDetailInfo(Property, null, null, null, DtabAttachment, null, null);
-				}
-
-				this.Cursor = Cursors.Default;
-				Global.Message(StrReturnDesc);
-
-				if (Property.ReturnMessageType == "SUCCESS")
-				{
-					Fill();
-					BtnAdd_Click(null, null);
-
-					if (GrdDet.RowCount > 1)
-					{
-						GrdDet.FocusedRowHandle = GrdDet.RowCount - 1;
-					}
+					dr[0]["SRNO"] = 0;
+					dr[0]["UPLOADIMAGE"] = Property.EMPPHOTO;
+					dr[0]["DOCUMENTTYPE"] = "PROFILE";
 				}
 				else
 				{
-					txtLedgerName.Focus();
+					string Str = PicEmpPhoto.ImageLocation;
+					DataRow DRA = DtabAttachment.NewRow();
+					DRA["SRNO"] = 0;
+					DRA["DOCUMENTTYPE"] = "PROFILE";
+					DRA["UPLOADIMAGE"] = Property.EMPPHOTO;
+					DRA["UPLOADFILENAME"] = "EmployeeProfileImage";
+					DtabAttachment.Rows.Add(DRA);
 				}
+
+
+				Property.LEDGER_ID = Val.ToInt64(Property.ReturnValue);
+				Property = ObjMast.SaveLedgerDetailInfo(Property, null, null, null, DtabAttachment, null, null);
+			}
+
+			this.Cursor = Cursors.Default;
+			Global.Message(StrReturnDesc);
+
+			if (Property.ReturnMessageType == "SUCCESS")
+			{
+				Fill();
+				BtnAdd_Click(null, null);
+
+				if (GrdDet.RowCount > 1)
+				{
+					GrdDet.FocusedRowHandle = GrdDet.RowCount - 1;
+				}
+			}
+			else
+			{
+				txtLedgerName.Focus();
+			}
 		}
 
         public void Fill()
@@ -537,10 +539,10 @@ namespace AxoneMFGRJ.Masters
             }
         }
 
-
         public void FetchValue(DataRow DR)
         {
-            CmbLedgerGroup.SelectedItem = Val.ToString(DR["LEDGERGROUP"]);
+            //CmbLedgerGroup.SelectedItem = Val.ToString(DR["LEDGERGROUP"]);
+            TxtLedgerGroup.Text = Val.ToString(DR["LEDGERGROUP"]);//ADD AS RAJVI : 08/08/2025
             txtLedgerCode.Text = Val.ToString(DR["LEDGERCODE"]);
             txtLedgerName.Text = Val.ToString(DR["LEDGERNAME"]);
             txtLedgerID.Text = Val.ToString(DR["LEDGER_ID"]);
@@ -994,5 +996,41 @@ namespace AxoneMFGRJ.Masters
 			}
 		}
 
+        //ADD AS RAJVI : 08/08/2025
+        private void TxtLedgerGroup_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Global.OnKeyPressEveToPopup(e))
+                {
+                    this.Cursor = Cursors.WaitCursor;
+                    FrmSearchPopupBoxMultipleSelect FrmSearch = new FrmSearchPopupBoxMultipleSelect();
+                    FrmSearch.mDTab = new BOComboFill().FillCmb(BOComboFill.TABLE.MST_LEDGERGROUP);
+                    FrmSearch.mStrSearchText = e.KeyChar.ToString();
+                    FrmSearch.mStrColumnsToHide = "LEDGERGROUP_ID";
+                    FrmSearch.mStrSearchField = "LEDGERGROUPNAME";
+                    FrmSearch.mStrSearchText = e.KeyChar.ToString();
+                    FrmSearch.ValueMemeter = "LEDGERGROUP_ID";
+                    FrmSearch.DisplayMemeter = "LEDGERGROUPNAME";
+                    this.Cursor = Cursors.Default;
+                    FrmSearch.ShowDialog();
+                    e.Handled = true;
+                    if (FrmSearch.SelectedDisplaymember != "" && FrmSearch.SelectedValuemember != "")
+                    {
+                        TxtLedgerGroup.Text = Val.ToString(FrmSearch.SelectedDisplaymember);
+                        TxtLedgerGroup.Tag = Val.ToString(FrmSearch.SelectedValuemember);
+                    }
+                    FrmSearch.Hide();
+                    FrmSearch.Dispose();
+                    FrmSearch = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                this.Cursor = Cursors.Default;
+                Global.MessageError(ex.Message);
+            }
+        }
+        //END AS RAJVI
     }
 }
