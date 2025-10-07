@@ -42,20 +42,45 @@ namespace AxoneMFGRJ.Transaction
             InitializeComponent();
         }
 
+        //COMMENT BY RAJVI
+        //public void ShowForm()
+        //{
+        //    Val.FormGeneralSetting(this);
+        //    AttachFormDefaultEvent();
+        //    BtnUpDown_Click(null, null);
+        //    BtnVerified.Enabled = false;
+        //    BtnCalculate.Enabled = false;
+
+        //    ObjPer.GetFormPermission(Val.ToString(this.Tag));
+        //    pStrPassword = ObjPer.PASSWORD;
+
+        //    this.Show();
+        //    Clear();
+        //}
+
+        //ADD AS RAJVI : 01/10/2025
         public void ShowForm()
         {
             Val.FormGeneralSetting(this);
             AttachFormDefaultEvent();
             BtnUpDown_Click(null, null);
+
             BtnVerified.Enabled = false;
             BtnCalculate.Enabled = false;
 
             ObjPer.GetFormPermission(Val.ToString(this.Tag));
             pStrPassword = ObjPer.PASSWORD;
 
+            if (ObjPer.ISDELETE == true)
+                BtnDelete.Enabled = true;
+            else
+                BtnDelete.Enabled = false;
+
             this.Show();
             Clear();
         }
+        //END AS RAJVI
+
         public void AttachFormDefaultEvent()
         {
            ObjFormEvent.mForm = this;
@@ -542,21 +567,70 @@ namespace AxoneMFGRJ.Transaction
             Fill();
         }
 
+        //COMMENT BY RAJVI
+        //private void BtnDelete_Click(object sender, EventArgs e)
+        //{
+        //    try
+        //    {
+        //        if (Val.ToString(DTPEntryDate.Tag).Trim().Equals(string.Empty))
+        //        {
+        //            Global.Message("Please Select Records From The List That you Want to Delete");
+        //            return;
+        //        }
+
+        //        TrnPenaltyIncentiveProperty Property = new TrnPenaltyIncentiveProperty();
+
+        //        Property.PENALTY_ID = Val.ToInt64(DTPEntryDate.Tag);
+        //        Property = ObjPenalty.DeletePanulty(Property);
+        //        if (Property.ReturnMessageType == "SUCCESS")
+        //        {
+        //            Global.Message("ENTRY DELETED SUCCESSFULLY");
+        //            Clear();
+        //        }
+        //        else
+        //        {
+        //            Global.Message("ERROR IN DELETE ENTRY");
+        //        }
+
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Global.Message(ex.Message.ToString());
+        //    }
+        //}
+
+        //ADD AS RAJVI : 07/10/2025
         private void BtnDelete_Click(object sender, EventArgs e)
         {
             try
             {
-
                 if (Val.ToString(DTPEntryDate.Tag).Trim().Equals(string.Empty))
                 {
                     Global.Message("Please Select Records From The List That you Want to Delete");
                     return;
                 }
 
-                TrnPenaltyIncentiveProperty Property = new TrnPenaltyIncentiveProperty();
+                FrmPassword frmPassword = new FrmPassword();
+                if (frmPassword.ShowDialog() != DialogResult.OK);
+                    //return;
+                string enteredPassword = Val.ToString(frmPassword.EnteredPassword);
 
+                if (string.IsNullOrEmpty(enteredPassword))
+                {
+                    Global.Message("Password cannot be empty!");
+                    return;
+                }
+
+                if (enteredPassword != Val.ToString(pStrPassword))
+                {
+                    Global.Message("Invalid password! You are not authorized to delete this record.");
+                    return;
+                }
+
+                TrnPenaltyIncentiveProperty Property = new TrnPenaltyIncentiveProperty();
                 Property.PENALTY_ID = Val.ToInt64(DTPEntryDate.Tag);
                 Property = ObjPenalty.DeletePanulty(Property);
+
                 if (Property.ReturnMessageType == "SUCCESS")
                 {
                     Global.Message("ENTRY DELETED SUCCESSFULLY");
@@ -566,13 +640,13 @@ namespace AxoneMFGRJ.Transaction
                 {
                     Global.Message("ERROR IN DELETE ENTRY");
                 }
-
             }
             catch (Exception ex)
             {
                 Global.Message(ex.Message.ToString());
             }
         }
+        //END AS RAJVI
 
         private void txtSearchEmployee_KeyPress(object sender, KeyPressEventArgs e)
         {

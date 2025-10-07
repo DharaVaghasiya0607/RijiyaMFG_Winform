@@ -22,7 +22,7 @@ namespace BusLib.Configuration
         public bool ISUPDATE = false;
         public bool ISDELETE = false;
         public string PASSWORD = string.Empty;
-        
+
         public void GetFormPermission(string pStrFormName)
         {
             AxonDataLib.BOSQLHelper Ope = new AxonDataLib.BOSQLHelper();

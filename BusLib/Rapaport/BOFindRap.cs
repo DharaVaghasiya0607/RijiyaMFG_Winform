@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
@@ -74,6 +74,11 @@ namespace BusLib.Rapaport
             return DTab;
         }
 
+        public DataTable GetPreditctionType(object bREAKINGTYPE_ID)
+        {
+            throw new NotImplementedException();
+        }
+
         public DataTable GetAllParameterTable()
         {
             DataTable DTab = new DataTable();
@@ -92,6 +97,22 @@ namespace BusLib.Rapaport
             return DTab;
         }
 
+        public DataTable GetBreakingType(string pStrBreakingType)
+        {
+            DataTable DTab = new DataTable();
+            Ope.ClearParams();
+
+            if (string.IsNullOrWhiteSpace(pStrBreakingType))
+                return DTab;
+
+            string Str = "SELECT * FROM MST_ParaBreakingType WITH(NOLOCK) " +
+                         "WHERE ISActive = 1 AND Para_ID IN (" + pStrBreakingType + ") " +
+                         "ORDER BY SequenceNo";
+
+            Ope.FillDTab(Config.ConnectionString, Config.ProviderName, DTab, Str, CommandType.Text);
+            return DTab;
+        }
+
         public DataRow GetPacketDataRow(string pStrKapanName, int pIntPacketNo, string pStrTag, string pStrBarcodeNo = "",string pStrSrNoKapanName = "", int pIntPktSerialNo = 0)
         {
             //string Str = "SELECT * From Trn_SinglePacketMaster With(Nolock) WHERE (KapanName = '" + pStrKapanName + "' And PacketNo = " + pIntPacketNo + " And Tag = '" + pStrTag + "') Or Barcode = '" + pStrBarcodeNo + "' Or (KapanName = '" + pStrSrNoKapanName + "' And PktSerialNo = " + pIntPktSerialNo + ")";
@@ -101,7 +122,6 @@ namespace BusLib.Rapaport
             Str = Str + " WHERE (KapanName = '" + pStrKapanName + "' And PacketNo = " + pIntPacketNo + " And Tag = '" + pStrTag + "' And PktSerialNo <> 0) Or Barcode = '" + pStrBarcodeNo + "' Or (KapanName = '" + pStrSrNoKapanName + "' And PktSerialNo = '" + pIntPktSerialNo + "') OR (KapanName = '" + pStrKapanName + "' And PacketNo = " + pIntPacketNo + " And Tag = '" + pStrTag + "' And PktSerialNo = 0)";
             return Ope.GetDataRow(Config.ConnectionString, Config.ProviderName, Str, CommandType.Text);
         }
-
 
         public DataTable GetKapan()
         {
@@ -114,8 +134,6 @@ namespace BusLib.Rapaport
             Ope.FillDTab(Config.ConnectionString, Config.ProviderName, DTab, "Trn_SinglePrdGetOSKapanPacketTag", CommandType.StoredProcedure);
             return DTab;
         }
-
-
 
         public DataTable GetPacketNo(string pStrKapanName)
         {

@@ -628,6 +628,7 @@
             this.BtnDelete.Appearance.ForeColor = System.Drawing.Color.Black;
             this.BtnDelete.Appearance.Options.UseFont = true;
             this.BtnDelete.Appearance.Options.UseForeColor = true;
+            this.BtnDelete.Enabled = false;
             this.BtnDelete.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("BtnDelete.ImageOptions.SvgImage")));
             this.BtnDelete.ImageOptions.SvgImageSize = new System.Drawing.Size(20, 20);
             this.BtnDelete.Location = new System.Drawing.Point(716, 158);

@@ -43,7 +43,6 @@ namespace BusLib.Master
 
             try
             {
-
                 Ope.ClearParams();
                 string Str = "DELETE FROM MST_FORMPERMISSION With(RowLock) Where Employee_ID = '" + pIntEmployeeID + "' ; ";
                 Str = Str + " DELETE FROM MST_EmployeeAccessRights With(RowLock) Where Employee_ID = '" + pIntEmployeeID + "' ; ";
@@ -136,6 +135,7 @@ namespace BusLib.Master
 
                 Ope.AddParams("EMPLOYEE_ID", pClsProperty.EMPLOYEE_ID, DbType.Int64, ParameterDirection.Input);
                 Ope.AddParams("PRDTYPE_ID", pClsProperty.PRDTYPE_ID, DbType.String, ParameterDirection.Input);
+                Ope.AddParams("BREKINGTYPE_ID", pClsProperty.BREAKINGTYPE_ID, DbType.String, ParameterDirection.Input);
                 Ope.AddParams("ISFULLSTOCK", pClsProperty.ISFULLSTOCK, DbType.Boolean, ParameterDirection.Input);
                 Ope.AddParams("ISDEPTSTOCK", pClsProperty.ISDEPTSTOCK, DbType.Boolean, ParameterDirection.Input);
                 Ope.AddParams("ISMYSTOCK", pClsProperty.ISMYSTOCK, DbType.Boolean, ParameterDirection.Input);
@@ -229,6 +229,7 @@ namespace BusLib.Master
             EmployeeActionRightsProperty Property = new EmployeeActionRightsProperty();
             Property.EMPLOYEE_ID = pIntEmployeeID;
             Property.PRDTYPE_ID = "";
+            Property.BREAKINGTYPE_ID = "";
             Property.ISFULLSTOCK = false;
             Property.ISDEPTSTOCK = false;
             Property.ISMYSTOCK = false;
@@ -298,6 +299,7 @@ namespace BusLib.Master
             if (DRow != null)
             {
                 Property.PRDTYPE_ID = Val.ToString(DRow["PRDTYPE_ID"]);
+                Property.BREAKINGTYPE_ID = Val.ToString(DRow["BREKINGTYPE_ID"]);
                 Property.ISFULLSTOCK = Val.ToBoolean(DRow["ISFULLSTOCK"]);
                 Property.ISDEPTSTOCK = Val.ToBoolean(DRow["ISDEPTSTOCK"]);
                 Property.ISMYSTOCK = Val.ToBoolean(DRow["ISMYSTOCK"]);

@@ -50,14 +50,14 @@ namespace AxoneMFGRJ.Masters
             ObjPer.GetFormPermission(Val.ToString(this.Tag));
             BtnSave.Enabled = ObjPer.ISINSERT;
 
-            string pStrPassword = ObjPer.PASSWORD;
+            //string pStrPassword = ObjPer.PASSWORD;
 
-            FrmPassword FrmPassword = new FrmPassword();
-            if (FrmPassword.ShowForm(pStrPassword) == System.Windows.Forms.DialogResult.No)
-            {
-                this.Close();
-                return;
-            }
+            //FrmPassword FrmPassword = new FrmPassword();
+            //if (FrmPassword.ShowForm(pStrPassword) == System.Windows.Forms.DialogResult.No)
+            //{
+            //    this.Close();
+            //    return;
+            //}
 
             this.Show();
             txtEmployee.Focus();
@@ -67,6 +67,10 @@ namespace AxoneMFGRJ.Masters
             CmbPrdType.Properties.DisplayMember = "PRDTYPENAME";
             CmbPrdType.Properties.ValueMember = "PRDTYPE_ID";
 
+            DataTable DTabBreakingType = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_BREAKINGTYPE);
+            CmbBrekingType.Properties.DataSource = DTabBreakingType;
+            CmbBrekingType.Properties.DisplayMember = "BREAKINGTYPENAME";
+            CmbBrekingType.Properties.ValueMember = "BREAKINGTYPE_ID";
         }
 
         public void AttachFormDefaultEvent()
@@ -187,6 +191,7 @@ namespace AxoneMFGRJ.Masters
 
             EmployeeActionRightsProperty Property = ObjMast.EmployeeActionRightsGetDataByPK(pIntEmployeeID);
             CmbPrdType.SetEditValue(Property.PRDTYPE_ID);
+            CmbBrekingType.SetEditValue(Property.BREAKINGTYPE_ID);
             ChkFullStock.Checked = Property.ISFULLSTOCK;
             ChkDeptStock.Checked = Property.ISDEPTSTOCK;
             ChkMyStock.Checked = Property.ISMYSTOCK;
@@ -248,7 +253,6 @@ namespace AxoneMFGRJ.Masters
             Property = null;
 
             this.Cursor = Cursors.Default;
-
         }
 
         private void BtnSave_Click(object sender, EventArgs e)
@@ -273,6 +277,7 @@ namespace AxoneMFGRJ.Masters
                 EmployeeActionRightsProperty Property = new EmployeeActionRightsProperty();
                 Property.EMPLOYEE_ID = Val.ToInt64(txtEmployee.Tag);
                 Property.PRDTYPE_ID = Val.Trim(CmbPrdType.Properties.GetCheckedItems());
+                Property.BREAKINGTYPE_ID = Val.Trim(CmbBrekingType.Properties.GetCheckedItems());
                 Property.ISFULLSTOCK = ChkFullStock.Checked;
                 Property.ISDEPTSTOCK = ChkDeptStock.Checked;
                 Property.ISMYSTOCK = ChkMyStock.Checked;
@@ -429,6 +434,7 @@ namespace AxoneMFGRJ.Masters
             txtEmployee.Tag = "";
 
             CmbPrdType.SetEditValue(-1);
+            CmbBrekingType.SetEditValue(-1);
             ChkFullStock.Checked = false;
             ChkDeptStock.Checked = false;
             ChkMyStock.Checked = false;

@@ -84,7 +84,7 @@ namespace BusLib.TableName
         public string FILETRANSFERDOWNLOADPATH { get; set; }
         public string FILETRANSFERUPLOADPATH { get; set; }
         public bool ISFILETRANSFER { get; set; }
-
+        public string BREAKINGTYPE_ID { get; set; }
     }
 }
 
