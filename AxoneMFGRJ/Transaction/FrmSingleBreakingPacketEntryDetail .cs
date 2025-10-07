@@ -30,12 +30,15 @@ namespace AxoneMFGRJ.Transaction
         AxonDataLib.BOConversion Val = new AxonDataLib.BOConversion();
         BOFormPer ObjPer = new BOFormPer();
         DataSet DSetBreaking = new DataSet();
+        BOMST_FormPermission ObjMast = new BOMST_FormPermission();
 
         DataTable DTabBeforeData = new DataTable();
         DataTable DTabAfterData = new DataTable();
         DataTable DTabParameter = new DataTable();
         DataTable DTabRapDate = new DataTable();
         DataTable DtabBreakingType = new DataTable();
+
+        EmployeeActionRightsProperty EmployeeRightsProperty = new EmployeeActionRightsProperty();
 
         BOFindRap ObjRap = new BOFindRap();
 
@@ -71,7 +74,6 @@ namespace AxoneMFGRJ.Transaction
         }
         public void ShowForm(string pStrPacket_ID, string pIntBrkType, Int64 pIntEmployee_ID,string pStrKapanName ,string pStrPacketNo,string pStrTag)
         {
-
             Val.FormGeneralSetting(this);
             AttachFormDefaultEvent();
 
@@ -82,8 +84,9 @@ namespace AxoneMFGRJ.Transaction
             txtPassForDisplayBack_TextChanged(null, null);
             BtnDelete.Enabled = ObjPer.ISDELETE;
 
+            
             this.Show();
-           
+
             FillControl();
             Clear();
 
@@ -95,7 +98,7 @@ namespace AxoneMFGRJ.Transaction
             txtEmployee.Tag = Val.ToString(pIntEmployee_ID);
             BtnShow.PerformClick();
             CmbBreakingType.Focus();
-        }
+        } 
 
         public void AttachFormDefaultEvent()
         {
@@ -109,9 +112,7 @@ namespace AxoneMFGRJ.Transaction
             ObjFormEvent.ObjToDisposeList.Add(Val);
             ObjFormEvent.ObjToDisposeList.Add(ObjPer);
         }
-
         #endregion
-
 
         public void FillControl()
         {
@@ -157,12 +158,27 @@ namespace AxoneMFGRJ.Transaction
                 MainGrdAfter.DataSource = DTabAfterData;
                 MainGrdAfter.Refresh();
 
-                DtabBreakingType = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_BREAKINGTYPE);
+                EmployeeRightsProperty = new BOMST_FormPermission().EmployeeActionRightsGetDataByPK(BusLib.Configuration.BOConfiguration.gEmployeeProperty.LEDGER_ID);
+
+                DtabBreakingType = ObjRap.GetBreakingType(EmployeeRightsProperty.BREAKINGTYPE_ID);
+                CmbBreakingType.Items.Clear();
                 foreach (DataRow DRow in DtabBreakingType.Rows)
                 {
-                    CmbBreakingType.Items.Add(Val.ToString(DRow["BREAKINGTYPECODE"]));
+                    if (Val.ToInt(DRow["PARA_ID"]) == 8 || Val.ToInt(DRow["PARA_ID"]) == 9 || Val.ToInt(DRow["PARA_ID"]) == 11
+                        || Val.ToInt(DRow["PARA_ID"]) == 14 || Val.ToInt(DRow["PARA_ID"]) == 15 || Val.ToInt(DRow["PARA_ID"]) == 16
+                        || Val.ToInt(DRow["PARA_ID"]) == 17 || Val.ToInt(DRow["PARA_ID"]) == 18)
+                        continue;
+
+                    CmbBreakingType.Items.Add(Val.ToString(DRow["PARANAME"]));
                 }
                 CmbBreakingType.SelectedIndex = 0;
+
+                //DtabBreakingType = new BusLib.BOComboFill().FillCmb(BusLib.BOComboFill.TABLE.MST_BREAKINGTYPE);
+                //foreach (DataRow DRow in DtabBreakingType.Rows)
+                //{
+                //    CmbBreakingType.Items.Add(Val.ToString(DRow["BREAKINGTYPECODE"]));
+                //}
+                //CmbBreakingType.SelectedIndex = 0;
 
             }
             catch (Exception ex)
@@ -1436,12 +1452,12 @@ namespace AxoneMFGRJ.Transaction
             {
 
                 string Name = Val.ToString(CmbBreakingType.SelectedItem);
-                DataRow[] D = DtabBreakingType.Select("BREAKINGTYPECODE ='" + Name + "' ");
+                DataRow[] D = DtabBreakingType.Select("PARACODE ='" + Name + "' ");
 
                 if (D.Length != 0)
                 {
                     DataRow DRow = D[0];
-                    CmbBreakingType.Tag = Val.ToString(DRow["BREAKINGTYPE_ID"]);
+                    CmbBreakingType.Tag = Val.ToString(DRow["PARA_ID"]);
                     DRow = null;
                 }
                 //D = null;

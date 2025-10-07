@@ -165,6 +165,7 @@
             this.CmbBPrintType = new AxonContLib.cComboBox(this.components);
             this.cLabel8 = new AxonContLib.cLabel(this.components);
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.ChkIsAllowDeletePrediction = new AxonContLib.cCheckBox(this.components);
             this.cLabel4 = new AxonContLib.cLabel(this.components);
             this.txtPassForDispDisc = new AxonContLib.cTextBox(this.components);
             this.ChkAllowForUpdtePrediction = new AxonContLib.cCheckBox(this.components);
@@ -198,7 +199,9 @@
             this.repositoryItemCheckEdit8 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemCheckEdit9 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemCheckEdit10 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.ChkIsAllowDeletePrediction = new AxonContLib.cCheckBox(this.components);
+            this.cLabel27 = new AxonContLib.cLabel(this.components);
+            this.CmbBrekingType = new DevExpress.XtraEditors.CheckedComboBoxEdit();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.MainGridForm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GrdDetForm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
@@ -263,6 +266,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CmbBrekingType.Properties)).BeginInit();
+            this.groupBox12.SuspendLayout();
             this.SuspendLayout();
             // 
             // MainGridForm
@@ -1261,7 +1266,7 @@
             this.panel1.Controls.Add(this.txtCopyFrom);
             this.panel1.Controls.Add(this.cLabel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 546);
+            this.panel1.Location = new System.Drawing.Point(0, 601);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1227, 43);
             this.panel1.TabIndex = 0;
@@ -1325,7 +1330,7 @@
             this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1227, 503);
+            this.tabControl1.Size = new System.Drawing.Size(1227, 558);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -1343,6 +1348,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.groupBox12);
             this.tabPage2.Controls.Add(this.ChkIsDollarLock);
             this.tabPage2.Controls.Add(this.groupBox11);
             this.tabPage2.Controls.Add(this.groupBox10);
@@ -1362,7 +1368,7 @@
             this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage2.Size = new System.Drawing.Size(1219, 476);
+            this.tabPage2.Size = new System.Drawing.Size(1219, 531);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "   OTHER PERMISSION   ";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -2277,6 +2283,19 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Rap Calc Rights";
             // 
+            // ChkIsAllowDeletePrediction
+            // 
+            this.ChkIsAllowDeletePrediction.AllowTabKeyOnEnter = false;
+            this.ChkIsAllowDeletePrediction.AutoSize = true;
+            this.ChkIsAllowDeletePrediction.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChkIsAllowDeletePrediction.Location = new System.Drawing.Point(8, 185);
+            this.ChkIsAllowDeletePrediction.Name = "ChkIsAllowDeletePrediction";
+            this.ChkIsAllowDeletePrediction.Size = new System.Drawing.Size(203, 17);
+            this.ChkIsAllowDeletePrediction.TabIndex = 7;
+            this.ChkIsAllowDeletePrediction.Text = "Allow For Delete Prediction";
+            this.ChkIsAllowDeletePrediction.ToolTips = "";
+            this.ChkIsAllowDeletePrediction.UseVisualStyleBackColor = true;
+            // 
             // cLabel4
             // 
             this.cLabel4.AutoSize = true;
@@ -2750,24 +2769,47 @@
             this.repositoryItemCheckEdit10.PictureChecked = global::AxoneMFGRJ.Properties.Resources.Checked;
             this.repositoryItemCheckEdit10.PictureUnchecked = global::AxoneMFGRJ.Properties.Resources.Unchecked;
             // 
-            // ChkIsAllowDeletePrediction
+            // cLabel27
             // 
-            this.ChkIsAllowDeletePrediction.AllowTabKeyOnEnter = false;
-            this.ChkIsAllowDeletePrediction.AutoSize = true;
-            this.ChkIsAllowDeletePrediction.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChkIsAllowDeletePrediction.Location = new System.Drawing.Point(8, 185);
-            this.ChkIsAllowDeletePrediction.Name = "ChkIsAllowDeletePrediction";
-            this.ChkIsAllowDeletePrediction.Size = new System.Drawing.Size(203, 17);
-            this.ChkIsAllowDeletePrediction.TabIndex = 7;
-            this.ChkIsAllowDeletePrediction.Text = "Allow For Delete Prediction";
-            this.ChkIsAllowDeletePrediction.ToolTips = "";
-            this.ChkIsAllowDeletePrediction.UseVisualStyleBackColor = true;
+            this.cLabel27.AutoSize = true;
+            this.cLabel27.Font = new System.Drawing.Font("Verdana", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cLabel27.ForeColor = System.Drawing.Color.Black;
+            this.cLabel27.Location = new System.Drawing.Point(5, 20);
+            this.cLabel27.Name = "cLabel27";
+            this.cLabel27.Size = new System.Drawing.Size(82, 13);
+            this.cLabel27.TabIndex = 0;
+            this.cLabel27.Text = "Breking Type";
+            this.cLabel27.ToolTips = "";
+            // 
+            // CmbBrekingType
+            // 
+            this.CmbBrekingType.Location = new System.Drawing.Point(8, 38);
+            this.CmbBrekingType.Name = "CmbBrekingType";
+            this.CmbBrekingType.Properties.Appearance.Font = new System.Drawing.Font("Verdana", 10F);
+            this.CmbBrekingType.Properties.Appearance.Options.UseFont = true;
+            this.CmbBrekingType.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.CmbBrekingType.Properties.DropDownRows = 20;
+            this.CmbBrekingType.Size = new System.Drawing.Size(338, 22);
+            this.CmbBrekingType.TabIndex = 1;
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.CmbBrekingType);
+            this.groupBox12.Controls.Add(this.cLabel27);
+            this.groupBox12.Font = new System.Drawing.Font("Verdana", 8.25F);
+            this.groupBox12.Location = new System.Drawing.Point(6, 433);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(351, 72);
+            this.groupBox12.TabIndex = 0;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Breking Packet Detail Rights";
             // 
             // FrmEmployeeRights
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1227, 589);
+            this.ClientSize = new System.Drawing.Size(1227, 644);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -2854,6 +2896,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CmbBrekingType.Properties)).EndInit();
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -3029,5 +3074,8 @@
         private AxonContLib.cCheckBox ChkIsUpload;
         private AxonContLib.cCheckBox ChkDelete;
         private AxonContLib.cCheckBox ChkIsAllowDeletePrediction;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private DevExpress.XtraEditors.CheckedComboBoxEdit CmbBrekingType;
+        private AxonContLib.cLabel cLabel27;
     }
 }

@@ -48,6 +48,11 @@ namespace AxoneMFGRJ.Utility
             ObjFormEvent.ObjToDisposeList.Add(Val);
         }
 
+        public string EnteredPassword
+        {
+            get { return txtPassword.Text.Trim(); }
+        }
+
         private void BtnLogin_Click(object sender, EventArgs e)
         {
             //(Val.Trim(txtPassword.Text) != "" && txtPassword.Tag != "" && txtPassword.Text.ToUpper() == txtPassword.Tag.ToUpper())
